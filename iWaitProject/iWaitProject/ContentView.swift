@@ -24,33 +24,47 @@ struct ContentView: View {
         }
     var body: some View {
         /*NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
+         List {
+         ForEach(items) { item in
+         NavigationLink {
+         Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+         } label: {
+         Text(item.timestamp!, formatter: itemFormatter)
+         }
+         }
+         .onDelete(perform: deleteItems)
+         }
+         .toolbar {
+         ToolbarItem(placement: .navigationBarTrailing) {
+         EditButton()
+         }
+         ToolbarItem {
+         Button(action: addItem) {
+         Label("Add Item", systemImage: "plus")
+         }
+         }
+         }
+         Text("Select an item")
+         }*/
+        List{
+            LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
+                VStack{
+                    SpriteView(scene: self.scene)
+                        .frame(width: 192, height: 192)
+                        .ignoresSafeArea()
+                    SpriteView(scene: self.scene)
+                        .frame(width: 192, height: 192)
+                        .ignoresSafeArea()
+                    SpriteView(scene: self.scene)
+                        .frame(width: 192, height: 192)
+                        .ignoresSafeArea()
                 }
-                .onDelete(perform: deleteItems)
+                
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
-        }*/
-        SpriteView(scene: self.scene)
-                    .frame(width: 256, height: 256)
-                    .ignoresSafeArea()
-    }
-
+            
+        }
+        
+  }
     private func addItem() {
         withAnimation {
             let newItem = Item(context: viewContext)
