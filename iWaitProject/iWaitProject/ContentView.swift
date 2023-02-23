@@ -38,30 +38,6 @@ struct ContentView: View {
             return scene2
         }
     var body: some View {
-        /*NavigationView {
-         List {
-         ForEach(items) { item in
-         NavigationLink {
-         Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-         } label: {
-         Text(item.timestamp!, formatter: itemFormatter)
-         }
-         }
-         .onDelete(perform: deleteItems)
-         }
-         .toolbar {
-         ToolbarItem(placement: .navigationBarTrailing) {
-         EditButton()
-         }
-         ToolbarItem {
-         Button(action: addItem) {
-         Label("Add Item", systemImage: "plus")
-         }
-         }
-         }
-         Text("Select an item")
-         }*/
-        
         NavigationView {
             ZStack{
                 ScrollView{
@@ -73,7 +49,6 @@ struct ContentView: View {
                                         .frame(width: 198, height: 198)
                                         .ignoresSafeArea()
                                 }
-                                
                             NavigationLink(destination: Text("Module2")){
                                 SpriteView(scene: self.scene1)
                                     .frame(width: 198, height: 198)
@@ -87,8 +62,6 @@ struct ContentView: View {
                         }
                         
                     }
-                    
-                    
                 }
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 VStack{
@@ -130,7 +103,6 @@ struct ContentView: View {
             }
         }
     }
-
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             offsets.map { items[$0] }.forEach(viewContext.delete)
@@ -146,7 +118,6 @@ struct ContentView: View {
         }
     }
 }
-
 private let itemFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateStyle = .short
