@@ -44,17 +44,17 @@ struct ContentView: View {
                     LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
                         VStack{
                             Spacer(minLength: 60)
-                                NavigationLink(destination: Text("Module1")){
+                                NavigationLink(destination: Buttons()){
                                     SpriteView(scene: self.scene)
                                         .frame(width: 198, height: 198)
                                         .ignoresSafeArea()
                                 }
-                            NavigationLink(destination: Text("Module2")){
+                            NavigationLink(destination: Buttons()){
                                 SpriteView(scene: self.scene1)
                                     .frame(width: 198, height: 198)
                                     .ignoresSafeArea()
                             }
-                            NavigationLink(destination: Text("Model3")){
+                            NavigationLink(destination: Buttons()){
                                 SpriteView(scene: self.scene2)
                                     .frame(width: 198, height: 198)
                                     .ignoresSafeArea()

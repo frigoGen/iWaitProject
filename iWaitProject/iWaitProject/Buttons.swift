@@ -9,9 +9,7 @@ import SwiftUI
 
 struct Buttons: View {
     var body: some View {
-            
-                
-                
+ 
                 
         NavigationView{VStack{
            // Spacer()
