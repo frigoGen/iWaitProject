@@ -15,6 +15,10 @@
 		6E373EE229A5FFA300F18525 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EE129A5FFA300F18525 /* Persistence.swift */; };
 		6E373EE529A5FFA300F18525 /* iWaitProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EE329A5FFA300F18525 /* iWaitProject.xcdatamodeld */; };
 		6E373EEC29A6020700F18525 /* GameScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EEB29A6020700F18525 /* GameScene1.swift */; };
+		6ED71FEB29A7F0A500180474 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED71FE829A7F0A500180474 /* CardView.swift */; };
+		6ED71FEC29A7F0A500180474 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED71FE929A7F0A500180474 /* CardModel.swift */; };
+		6ED71FED29A7F0A500180474 /* TheoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED71FEA29A7F0A500180474 /* TheoryCardView.swift */; };
+		6ED71FEF29A7F0BA00180474 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED71FEE29A7F0BA00180474 /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		6E373EE129A5FFA300F18525 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6E373EE429A5FFA300F18525 /* iWaitProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iWaitProject.xcdatamodel; sourceTree = "<group>"; };
 		6E373EEB29A6020700F18525 /* GameScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene1.swift; sourceTree = "<group>"; };
+		6ED71FE829A7F0A500180474 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6ED71FE929A7F0A500180474 /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		6ED71FEA29A7F0A500180474 /* TheoryCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheoryCardView.swift; sourceTree = "<group>"; };
+		6ED71FEE29A7F0BA00180474 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Buttons.swift; path = ../../../../../Desktop/Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				6E373ED829A5FFA100F18525 /* iWaitProjectApp.swift */,
+				6ED71FE729A7F0A500180474 /* ViewCardTeoria  */,
 				6E373EDA29A5FFA100F18525 /* ContentView.swift */,
+				6ED71FEE29A7F0BA00180474 /* Buttons.swift */,
 				0A234DB229A62DA2009B9A13 /* ProfileView.swift */,
 				6E373EEB29A6020700F18525 /* GameScene1.swift */,
 				6E373EDC29A5FFA300F18525 /* Assets.xcassets */,
@@ -77,6 +87,16 @@
 				6E373EDF29A5FFA300F18525 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6ED71FE729A7F0A500180474 /* ViewCardTeoria  */ = {
+			isa = PBXGroup;
+			children = (
+				6ED71FE829A7F0A500180474 /* CardView.swift */,
+				6ED71FE929A7F0A500180474 /* CardModel.swift */,
+				6ED71FEA29A7F0A500180474 /* TheoryCardView.swift */,
+			);
+			path = "ViewCardTeoria ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED71FEB29A7F0A500180474 /* CardView.swift in Sources */,
 				6E373EE229A5FFA300F18525 /* Persistence.swift in Sources */,
 				6E373EDB29A5FFA100F18525 /* ContentView.swift in Sources */,
+				6ED71FED29A7F0A500180474 /* TheoryCardView.swift in Sources */,
 				6E373EE529A5FFA300F18525 /* iWaitProject.xcdatamodeld in Sources */,
+				6ED71FEF29A7F0BA00180474 /* Buttons.swift in Sources */,
 				6E373ED929A5FFA100F18525 /* iWaitProjectApp.swift in Sources */,
+				6ED71FEC29A7F0A500180474 /* CardModel.swift in Sources */,
 				0A234DB329A62DA2009B9A13 /* ProfileView.swift in Sources */,
 				6E373EEC29A6020700F18525 /* GameScene1.swift in Sources */,
 			);

@@ -67,7 +67,7 @@ struct ContentView: View {
                 VStack{
                     Spacer(minLength: 60)
                     
-                        NavigationLink(destination: Text("Account")){
+                        NavigationLink(destination: ProfileView()){
                             ZStack{
                             Image("bollapic")
                             Image("account")
