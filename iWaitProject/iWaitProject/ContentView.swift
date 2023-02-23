@@ -62,44 +62,59 @@ struct ContentView: View {
          Text("Select an item")
          }*/
         
+        NavigationView {
             ZStack{
                 ScrollView{
                     LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
                         VStack{
                             Spacer(minLength: 60)
-                            ZStack{
-                                SpriteView(scene: self.scene)
+                                NavigationLink(destination: Text("Module1")){
+                                    SpriteView(scene: self.scene)
+                                        .frame(width: 198, height: 198)
+                                        .ignoresSafeArea()
+                                }
+                                
+                            NavigationLink(destination: Text("Module2")){
+                                SpriteView(scene: self.scene1)
                                     .frame(width: 198, height: 198)
                                     .ignoresSafeArea()
                             }
-                            SpriteView(scene: self.scene1)
-                                .frame(width: 198, height: 198)
-                                .ignoresSafeArea()
-                            SpriteView(scene: self.scene2)
-                                .frame(width: 198, height: 198)
-                                .ignoresSafeArea()
+                            NavigationLink(destination: Text("Model3")){
+                                SpriteView(scene: self.scene2)
+                                    .frame(width: 198, height: 198)
+                                    .ignoresSafeArea()
+                            }
                         }
                         
                     }
                     
-                
+                    
                 }
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 VStack{
                     Spacer(minLength: 60)
-                    ZStack{
-                        Image("bollapic")
-                        Image("account")
+                    
+                        NavigationLink(destination: Text("Account")){
+                            ZStack{
+                            Image("bollapic")
+                            Image("account")
+                        }
+                        
                     }
-                    Image("bollapic")
+                    NavigationLink(destination: Text("Toggle Music")){
+                        Image("bollapic")
+                        
+                    }
                 }
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        .frame(width: 100.0, height: 100.0)
-                        .position(x:340,y: 40)
-    }
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .frame(width: 100.0, height: 100.0)
+                .position(x:340,y: 40)
+            }
             .background(Color(UIColor(red: 0.83, green: 0.93, blue: 0.95, alpha: 1.00)
-))
-  }
+                             ))
+        }
+        
+    }
     private func addItem() {
         withAnimation {
             let newItem = Item(context: viewContext)
