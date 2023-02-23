@@ -17,40 +17,104 @@ struct ContentView: View {
         animation: .default)
     private var items: FetchedResults<Item>
     var scene: SKScene {
-            let scene = GameScene()
-            scene.size = CGSize(width: 216, height: 216)
+        let scene = GameScene()
+        scene.tex = 0
+            scene.size = CGSize(width: 192, height: 192)
             scene.scaleMode = .fill
             return scene
         }
+    var scene1: SKScene {
+        let scene1 = GameScene()
+        scene1.tex = 1
+            scene1.size = CGSize(width: 192, height: 192)
+            scene1.scaleMode = .fill
+            return scene1
+        }
+    var scene2: SKScene {
+        let scene2 = GameScene()
+        scene2.tex = 2
+            scene2.size = CGSize(width: 192, height: 192)
+            scene2.scaleMode = .fill
+            return scene2
+        }
     var body: some View {
         /*NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+         List {
+         ForEach(items) { item in
+         NavigationLink {
+         Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+         } label: {
+         Text(item.timestamp!, formatter: itemFormatter)
+         }
+         }
+         .onDelete(perform: deleteItems)
+         }
+         .toolbar {
+         ToolbarItem(placement: .navigationBarTrailing) {
+         EditButton()
+         }
+         ToolbarItem {
+         Button(action: addItem) {
+         Label("Add Item", systemImage: "plus")
+         }
+         }
+         }
+         Text("Select an item")
+         }*/
+        
+        NavigationView {
+            ZStack{
+                ScrollView{
+                    LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
+                        VStack{
+                            Spacer(minLength: 60)
+                                NavigationLink(destination: Text("Module1")){
+                                    SpriteView(scene: self.scene)
+                                        .frame(width: 198, height: 198)
+                                        .ignoresSafeArea()
+                                }
+                                
+                            NavigationLink(destination: Text("Module2")){
+                                SpriteView(scene: self.scene1)
+                                    .frame(width: 198, height: 198)
+                                    .ignoresSafeArea()
+                            }
+                            NavigationLink(destination: Text("Model3")){
+                                SpriteView(scene: self.scene2)
+                                    .frame(width: 198, height: 198)
+                                    .ignoresSafeArea()
+                            }
+                        }
+                        
+                    }
+                    
+                    
+                }
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                VStack{
+                    Spacer(minLength: 60)
+                    
+                        NavigationLink(destination: Text("Account")){
+                            ZStack{
+                            Image("bollapic")
+                            Image("account")
+                        }
+                        
+                    }
+                    NavigationLink(destination: Text("Toggle Music")){
+                        Image("bollapic")
+                        
                     }
                 }
-                .onDelete(perform: deleteItems)
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .frame(width: 100.0, height: 100.0)
+                .position(x:340,y: 40)
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
-        }*/
-        SpriteView(scene: self.scene)
-                    .frame(width: 256, height: 256)
-                    .ignoresSafeArea()
+            .background(Color(UIColor(red: 0.83, green: 0.93, blue: 0.95, alpha: 1.00)
+                             ))
+        }
+        
     }
-
     private func addItem() {
         withAnimation {
             let newItem = Item(context: viewContext)
