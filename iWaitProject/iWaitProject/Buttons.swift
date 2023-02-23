@@ -9,12 +9,23 @@ import SwiftUI
 
 struct Buttons: View {
     var body: some View {
-        Text("Bottoni")
-    }
-}
+        VStack{
+            
+            Image("Group1")
+            Divider()
+                .padding(.top)
+                Image("Group2")
+            Image("Group2")
+            Image("Group2")
+            Image("Group2")
 
-struct Buttons_Previews: PreviewProvider {
-    static var previews: some View {
-        Buttons()
+          
+        }
+    }
+    
+    struct Buttons_Previews: PreviewProvider {
+        static var previews: some View {
+            Buttons()
+        }
     }
 }
