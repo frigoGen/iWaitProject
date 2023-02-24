@@ -10,20 +10,21 @@ import SwiftUI
 var quiz: [Quiz] = load("quizData")
 var quest:Int = 0
 
+
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
-
+    
     guard let file = Bundle.main.url(forResource: filename, withExtension: "json")
     else {
         fatalError("Couldn't find \(filename) in main bundle.")
     }
-
+    
     do {
         data = try Data(contentsOf: file)
     } catch {
         fatalError("Couldn't load \(filename) from main bundle:\n(error)")
     }
-
+    
     do {
         let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)
@@ -33,29 +34,35 @@ func load<T: Decodable>(_ filename: String) -> T {
 }
 
 struct QuizView: View {
+    var tex: Int
+   // @State var refresh: Bool = false
     //let decoder = JSONDecoder()
     var body: some View {
         VStack{
-            Text(quiz[0].questions[quest].question)
             //Spacer()
             HStack{
+                
                 Button("indietro"){
-                    print(quest)
+                    print("\(quest)")
                     if(quest != 0) {quest -= 1}
-                    else {quest = quiz[0].module.questions}
+                    else {quest = (quiz[0].module.questions - 1)}
                 }
                 Button("avanti"){
-                    quest += 1
+                    print("\(quest)")
+                    if(quest < (quiz[0].module.questions - 1)){quest += 1}
+                    else {quest = 0}
                 }
             }
+            Text("\(quiz[tex].questions[quest].question)")
         }
-            
+        
     }
 
 }
+
 //
 struct QuizView_Previews: PreviewProvider {
-   static var previews: some View {
-       QuizView()
+    static var previews: some View {
+        QuizView(tex: 0)
     }
 }

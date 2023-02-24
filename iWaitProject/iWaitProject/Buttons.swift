@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Buttons: View {
+    var tex: Int
     var body: some View {
  
                 
@@ -26,7 +27,7 @@ struct Buttons: View {
                                 Image("Group2")
                         }
             NavigationLink {
-                QuizView()  }
+                QuizView(tex: tex)  }
                         label: {
                             Image("Group 3")
                         }
@@ -56,7 +57,7 @@ struct Buttons: View {
     
     struct Buttons_Previews: PreviewProvider {
         static var previews: some View {
-            Buttons()
+            Buttons(tex: 0)
         }
     }
 

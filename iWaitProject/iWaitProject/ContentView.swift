@@ -30,7 +30,7 @@ struct ContentView: View {
             scene1.scaleMode = .fill
             return scene1
         }
-    var scene2: SKScene {
+   var scene2: SKScene {
         let scene2 = GameScene()
         scene2.tex = 2
             scene2.size = CGSize(width: 192, height: 192)
@@ -44,19 +44,19 @@ struct ContentView: View {
                     LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
                         VStack{
                             Spacer(minLength: 60)
-                                NavigationLink(destination: Buttons()){
+                            NavigationLink(destination: Buttons(tex: 0)){
                                     SpriteView(scene: self.scene)
                                         .frame(width: 198, height: 198)
                                         .ignoresSafeArea()
 
                                 }
-                            NavigationLink(destination: Buttons()){
+                            NavigationLink(destination: Buttons(tex: 1)){
                                 SpriteView(scene: self.scene1)
                                     .frame(width: 198, height: 198)
                                     .ignoresSafeArea()
 
                             }
-                            NavigationLink(destination: Buttons()){
+                            NavigationLink(destination: Buttons(tex: 2)){
                                 SpriteView(scene: self.scene2)
                                     .frame(width: 198, height: 198)
                                     .ignoresSafeArea()
