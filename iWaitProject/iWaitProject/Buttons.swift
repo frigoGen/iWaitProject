@@ -22,7 +22,7 @@ struct Buttons: View {
                                 Image("Group2")
                         }
             NavigationLink {
-                Text("Quiz")  }
+                QuizView()  }
                         label: {
                             Image("Group 3")
                         }
