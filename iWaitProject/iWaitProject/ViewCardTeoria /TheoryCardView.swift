@@ -23,26 +23,44 @@ struct TheoryCardView: View {
     ]
     
     var body: some View {
-
             
 //LA TABVIEW MI SMINCHIA TUTTO !!!!!! HELP!!!! NON LA SOPPORTO !!!! -.- "
-        
+        ZStack{
                 ZStack{
-             
-                   ForEach(cards, id: \.self){ card in
-                       CardView(card: card)
-                      //  for (index, item) in cards.reversed().enumerated() {
-                    //CardView(card: CardModel(id: 0))
                     
-                      //  }
+                    ForEach(cards, id: \.self ) { card in
                         
-                        
+                        CardView(card: card)
                     }
-            }
+                    
+                    
+                }
+            
+        
+            
+           /* ZStack{
+                Button {
+                    //TheoryCardView.goBack()
+                } label: {
+                    Image(systemName: "chevron.left")
+                    
+                }.padding(.top, 500.0)
+                Spacer()
+            }*/
+                
+          
+        }
+        .padding()
+        
        
     }//body
     
+   // func goBack () -> CardModel{
+        
+    //}
 }//view
+
+
 
 
 
