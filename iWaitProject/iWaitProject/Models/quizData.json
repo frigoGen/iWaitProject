@@ -363,17 +363,16 @@
 },
      {
       "number": 8,
-      "question": "La mise en place deve comprendere sempre(segnare le risposte corrette)",
+      "question": "La mise en place non deve comprendere : ",
       "answers": [
         "coprimacchia",
         "bicchiere per acqua e per vino",
         "posate",
         "clip",
-        "piatto piccolo da dessert",
         "piattino per il pane"
        
       ],
-      "correct_answer": 1
+      "correct_answer": 4
     },
      {
       "number": 9,

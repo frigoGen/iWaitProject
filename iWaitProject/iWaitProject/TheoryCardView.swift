@@ -5,11 +5,12 @@
 //  Created by Antonia Ambrosio on 22/02/23.
 //
 
-import SwiftUI
+// Theory card view con .gesture
 
+/*
 struct TheoryCardView: View {
     
-    private var cards:[CardModel] = [
+    private var cards:[ CardModel ] = [
         CardModel(id:0, testo: "COMMIS DE RANG \n Prende ordini dallo chef de rang. Ritira le portate della cucina e le depone sul tavolo di servizio, si occupa della mise en place, sistema il materiale nell’office, libera i tavoli e mantiene pulite attrezzature e aree di lavoro.\n \n COMMIS D’ETAGE (commis ai piani ) \n Collabora con i maitre ai piani nella preparazione dei carrelli e dei vassoi da servire. Cura l’ordine e al pulizia dell’office ai piani."),
         CardModel(id: 1, testo: "CHEF DE RANG \n Cura l’adattamento del servizio del proprio rango e partecipa sia alla mise en place nella sala da pranzo sia alle pulizie del proprio reparto. Se necessario deve anche provvedere al servizio delle pietanze e a prendere le ordinazioni. Lavora con il commis, guidandolo nella distribuzione e nella consegna delle commandes."),
         CardModel(id: 2, testo: "HOSTESS DI SALA \n Svolge il compito per l’accoglienza della clientela. Riceve le prenotazioni e le comunicazioni telefoniche. Collabora al servizio di guardaroba ed aiuta il maitre accompagnando i clienti ai tavoli se necessario."),
@@ -71,3 +72,5 @@ struct TheoryCardView_Previews: PreviewProvider {
         TheoryCardView().padding()
     }
 }
+*/
+

@@ -12,15 +12,15 @@ struct Buttons: View {
     var body: some View {
  
                 
-        NavigationView{
+      //  NavigationView{
             VStack{
            // Spacer()
             Image("Group 0")
                 .padding(.top, 100.0)
             Spacer()
                     NavigationLink {
-                        TheoryCardView()
-                            .navigationBarBackButtonHidden(true)
+                        ChapterOneCardView()
+                         //   .navigationBarBackButtonHidden(true)
 
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/) }
                             label: {
@@ -42,7 +42,7 @@ struct Buttons: View {
                             Image("Group 5")
                         }
             
- }
+ //}
 
             
                 }

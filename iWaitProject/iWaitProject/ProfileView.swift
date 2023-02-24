@@ -17,8 +17,8 @@ struct ProfileView: View {
     var body: some View {
         let multiplier = width/100
         VStack{
-            Image("back")
-                .padding(.leading, -150.0)
+         //   Image("back")
+               // .padding(.leading, -150.0)
             
             Image("Badge")
                 .padding()
