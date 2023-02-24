@@ -8,22 +8,22 @@
 import Foundation
 
 // MARK: - Quiz
-struct Quiz: Codable {
+struct Quiz: Decodable {
     let module: Module
     let questions: [Question]
 }
 
 // MARK: - Module
-struct Module: Codable {
+struct Module: Decodable {
     let number: Int
     let name: String
     let questions: Int
 }
 
 // MARK: - Question
-struct Question: Codable {
+struct Question: Decodable {
     let number: Int
     let question: String
     let answers: [String]
-    let correctAnswer: Int
+    let correct_answer: Int
 }

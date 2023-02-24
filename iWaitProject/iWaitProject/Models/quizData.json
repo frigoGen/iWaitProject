@@ -1,0 +1,425 @@
+[
+{
+  "module": {
+    "number": 1,
+    "name": "Divisa e Brigata",
+    "questions": 12
+  },
+  "questions": [
+    {
+      "number": 1,
+      "question": "cosa si indossa sotto il gilet?",
+      "answers": [
+        "Una camicia bianca",
+        "una camicia qualsiasi anche nera",
+        "una maglia bianca anche una t-shirt",
+        "un lupetto bianco"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 2,
+      "question": "L’hostess di sala di cosa di occupa:",
+      "answers": [
+        "accoglie i clienti se è necessario",
+        "si occupa della mise en place",
+        "cura l’ordine e la pulizia della sala ",
+        "predispone il buffet"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 3,
+      "question": "Il commis ai piani si occupa:",
+      "answers": [
+        "di predisporre la mise en place",
+        "di liberare i tavoli",
+        "di prendere ordini dallo chef de rang",
+        " evade le comande dei clienti che lo contattano direttamente"
+      ],
+      "correct_answer": 4
+    },
+    {
+      "number": 4,
+      "question": "Lo chef de rang si occupa : ",
+      "answers": [
+        "di versare il vino",
+        "di prendere gli ordini ai tavoli",
+        "fare accoglienza si clienti",
+        "curare il proprio rango "
+      ],
+      "correct_answer": 4
+    },
+    {
+      "number": 5,
+      "question": "Il sommelier ha la responsabilità di : ",
+      "answers": [
+        "abbinare il tipo di vino ai pasti",
+        "di versare il vino",
+        "scegliere sempre un solo vino adatto per l’evento",
+        "caricare i frigoriferi"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 6,
+      "question": "Quando parliamo di Brigata di sala, che cosa si intende?",
+      "answers": [
+        "organigramma alberghiero",
+        "tutti coloro che lavorano presso il reparto sala ristorante",
+        "tutti coloro che lavorano presso il reparto sala, bar, eventi"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "number": 7,
+      "question": "Responsabile dei servizi della ristorazione alberghiera",
+      "answers": [
+        "Food and Beverage Manager",
+        "Restaurant Manager",
+        "Direttore di sala",
+        "Chef de partite"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 8,
+      "question": "Chi è a capo della brigata?",
+      "answers": [
+        "commis",
+        "maitre",
+        "direttore di ristorante",
+        "chef de range"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "number": 9,
+      "question": "il secondo maitre non si occupa di:",
+      "answers": [
+        "cpulizia della sala",
+        "dei turni di lavoro e di riposo del personale ",
+        "di prendere le ordinazioni",
+        "di collaborare con il food and beverage manager"
+      ],
+      "correct_answer": 4
+    },
+    {
+      "number": 10,
+      "question": "il maitre ai piani non si occupa di:",
+      "answers": [
+        "essere in contatto telefonico con la clientela",
+        "servire i pasti alla camere",
+        "collaborare con il direttore del ristorante",
+        "curare l’ordine a la pulizia dell’ordine dell’office dei piani"
+      ],
+      "correct_answer": 4
+    },
+    {
+      "number": 11,
+      "question": "cosa indossa un cameriere una cravatta o un papillon?",
+      "answers": [
+        "cravatta",
+        "papillon",
+        "entrambe",
+        "nessuna"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "number": 12,
+      "question": "quali sono le scarpe di un cameriere?",
+      "answers": [
+        "sportive",
+        "eleganti e nere",
+        "non è importante",
+        "solo eleganti"
+      ],
+      "correct_answer": 2
+    }
+  ]
+},
+{
+  "module": {
+    "number": 2,
+    "name": "Igiene, pronto soccorso e haccp",
+    "questions": 12
+  },
+  "questions": [
+    {
+      "number": 1,
+      "question": "A cosa equivale l’acronimo HACCP",
+      "answers": [
+        "hazard analysis critical control points",
+        "Hard analysis critical controls",
+        "hazard analysis critical control",
+        "Hard analysis control critical"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 2,
+      "question": "Quanti sono i principi dell’HACCP",
+      "answers": [
+        "5",
+        "7",
+        "2",
+        "8"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "number": 3,
+      "question": "quale non è una regola per migliorare la cura della persona:",
+      "answers": [
+        "praticare ginnastica",
+        "scegliere con attenzione le scarpe",
+        "i capelli devono essere puliti e ben pettinati",
+        "le donne devono essere truccate"
+      ],
+      "correct_answer": 4
+    },
+    {
+      "number": 4,
+      "question": "Si consiglia di:",
+      "answers": [
+        "portare bracciali o anelli",
+        "portare orologi da polso",
+        "non tossire sul cibo",
+        "nessuna delle precedenti"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "number": 5,
+      "question": "cosa fare in caso di infortunio",
+      "answers": [
+        "spostare l’infortunato",
+        "dare medicinali all’infortunato",
+        "correre rischi personali",
+        "allentare abiti stretti in caso di emorragia"
+      ],
+      "correct_answer": 4
+    },
+    {
+      "number": 6,
+      "question": "Cosa non fare in caso di infortunio",
+      "answers": [
+        "allentare gli abiti stretti in caso di emorragia",
+        "chiamare il 118",
+        "comprimere a monte l’emorragia",
+        "agire senza il consenso dell’infortunato"
+      ],
+      "correct_answer": 4
+    },
+    {
+      "number": 7,
+      "question": "Un cameriere deve fare attenzione alla propria salute perchè:",
+      "answers": [
+        "cammina molto",
+        "perchè potrebbe perdere l’autocontrollo",
+        "così ha un aspetto migliore",
+        "nessuna delle precedenti"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 8,
+      "question": "Il cameriere deve scegliere con attenzione le scarpe perchè:",
+      "answers": [
+        "cammina molto",
+        "devono essere abbinate all’outfit",
+        "non è importante",
+        "nessuna delle precedenti"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 9,
+      "question": "cosa non bisogna fare per migliorare la cura personale:",
+      "answers": [
+        "lavare spesso i piedi",
+        "avere i capelli corti",
+        "usare lo smalto sulle unghie",
+        "praticare ginnastica"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "number": 10,
+      "question": "quanti tipi di pericoli ci sono secondo l’HACCP:",
+      "answers": [
+        "fisici chimici e biologici",
+        "fisici e chimici",
+        "solo chimici",
+        "nessuna delle precedenti"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "number": 11,
+      "question": "Quale affermazione è sbagliata: ",
+      "answers": [
+        "il cameriere deve passare molto tempo in piedi ",
+        "il cameriere deve passare da ambienti caldi ad ambienti freddi ",
+        "non è importante l’immagine del cameriere, l’importante è la sua salute fisica ",
+        "nessuna delle precedenti "
+      ],
+      "correct_answer": 3
+    },
+    {
+      "number": 12,
+      "question": "Quale non è una regola per la cura e l’igiene personale ? ",
+      "answers": [
+        "identificazione dei pericoli e ricerca delle misure preventive ",
+        "Dedicare al riposo e alla cura del corpo tutto il tempo necessario",
+        "Controllo dei risultati e dell’efficacia delle azioni correttive",
+        "Rivisita del manuale HACC "
+      ],
+      "correct_answer": 2
+    }
+  ]
+    
+},
+{
+  "module": {
+    "number": 3,
+    "name": "mise en place",
+    "questions": 12
+      },
+  "questions": [
+    {
+      "number": 1,
+      "question": "Dove Viene disposto il tovagliolo?:",
+      "answers": [
+        "a sinistra della forchetta",
+        "a destra del coltello",
+        "al centro"
+    ],
+      "correct_answer": 1
+    },
+    {
+      "number": 2,
+      "question": "Quale bicchiere è il primo ad essere messo a 45° vicino all punta del coltello nella mise en place?:",
+      "answers": [
+        "bicchiere per l’acqua",
+        "bicchiere per il vino rosso ",
+        "bicchiere per il vino bianco"
+        ],
+      "correct_answer": 1
+    },
+     {
+      "number": 3,
+      "question": "MISE EN PLACE SIGNIFICA?",
+      "answers": [
+        "Preparazione della sala",
+        "riassetto della sala",
+        "servizio di sala",
+        "pulizia dei tavoli"
+      ],
+      "correct_answer": 1
+    },
+     {
+      "number": 4,
+      "question": "Dove va posto il piatto del pane?",
+      "answers": [
+        "in alto in corrispondenza delle posate da dessert",
+        "in alto in corrispondenza delle forchette",
+        "sopra il piatto antipasto",
+        "viene posto alla destra del tovagliolo"
+      ],
+      "correct_answer": 2
+    },
+     {
+      "number": 5,
+      "question": "Dove vanno poste le posate per il dessert?",
+      "answers": [
+        "vanno poste solo all’occorrenza",
+        "al di sopra del sottopiatto",
+        "vano poste al di sopra dei bicchieri",
+        "vanno poste di fianco alle forchette"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "number": 6,
+      "question": "La successione delle portate determina quella delle posate?",
+      "answers": [
+        "vero",
+        "falso"
+      ],
+      "correct_answer": 1
+  
+},
+    {
+      "number": 7,
+      "question": "Il coltello deve essere disposto con il filo della lama rivolto verso il piatto?",
+      "answers": [
+        "vero",
+        "falso"
+      ],
+      "correct_answer": 1
+  
+},
+     {
+      "number": 8,
+      "question": "La mise en place deve comprendere sempre(segnare le risposte corrette)",
+      "answers": [
+        "coprimacchia",
+        "bicchiere per acqua e per vino",
+        "posate",
+        "clip",
+        "piatto piccolo da dessert",
+        "piattino per il pane"
+       
+      ],
+      "correct_answer": 1
+    },
+     {
+      "number": 9,
+      "question": "Quanti bicchieri posso disporre nella mise en place?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 4
+    },
+     {
+      "number": 10,
+      "question": "I  coltelli e i cucchiai dove vanno messi nella mise en place?",
+      "answers": [
+        "sopra i bicchieri",
+        "vicino al piatto del pane",
+        "a destra del tovagliolo o sottopiatto"
+    
+      ],
+      "correct_answer": 3
+    },
+     {
+      "number": 11,
+      "question": "Il menù è:",
+      "answers": [
+        "a destra del tovagliolo o sottopiatto",
+        "si divede per tipolegie (aperitivi, bevande, ecc..)",
+        "deve essere adeguato alla stagione e contenere prodotti tipici del paese",
+        "nessuna delle precedenti"
+      ],
+      "correct_answer": 3
+    },
+     {
+      "number": 12,
+      "question": "quale è l’ordine dei pasti all’interno del menù?:",
+      "answers": [
+        "antipasti,primi,secondi,dessert",
+        "antipasti,primi,pesce,carne,contorni,dessert",
+        "primi,secondi,contorni e dessert",
+        "antipasti,pesce,carne,contorni,dessert"
+      ],
+      "correct_answer": 2
+    }
+  ]
+}
+]
+
