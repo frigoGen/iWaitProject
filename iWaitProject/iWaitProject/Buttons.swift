@@ -11,13 +11,17 @@ struct Buttons: View {
     var body: some View {
  
                 
-        NavigationView{VStack{
+        NavigationView{
+            VStack{
            // Spacer()
             Image("Group 0")
                 .padding(.top, 100.0)
             Spacer()
                     NavigationLink {
-                        Text("Ciao") }
+                        TheoryCardView()
+                            .navigationBarBackButtonHidden(true)
+
+                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/) }
                             label: {
                                 Image("Group2")
                         }
