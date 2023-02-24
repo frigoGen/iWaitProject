@@ -48,16 +48,19 @@ struct ContentView: View {
                                     SpriteView(scene: self.scene)
                                         .frame(width: 198, height: 198)
                                         .ignoresSafeArea()
+
                                 }
                             NavigationLink(destination: Buttons()){
                                 SpriteView(scene: self.scene1)
                                     .frame(width: 198, height: 198)
                                     .ignoresSafeArea()
+
                             }
                             NavigationLink(destination: Buttons()){
                                 SpriteView(scene: self.scene2)
                                     .frame(width: 198, height: 198)
                                     .ignoresSafeArea()
+
                             }
                         }
                         
@@ -86,6 +89,7 @@ struct ContentView: View {
             .background(Color(UIColor(red: 0.83, green: 0.93, blue: 0.95, alpha: 1.00)
                              ))
         }
+
         
     }
     private func addItem() {
