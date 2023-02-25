@@ -6,3 +6,424 @@
 //
 
 import Foundation
+"module": {
+  "number": 1,
+  "name": "uniforme e brigada",
+  "questions": 12
+},
+"questions": [
+  {
+    "number": 1,
+    "question": "o que você usa sob seu colete?",
+    "answers": [
+      "uma camisa branca",
+      "qualquer camisa também preta",
+      "uma camiseta branca também uma camiseta",
+      "um pescoço de pólo branco"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 2,
+    "question": "O que faz a anfitriã:",
+    "answers": [
+      "recebe os hóspedes, se necessário",
+      "cuida do mise en place",
+      "cuida da ordem e limpeza do quarto",
+      "prepara o buffet"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 3,
+    "question": "funcionário de chão é responsável por::",
+    "answers": [
+      "preparar o mise en place",
+      "limpar mesas",
+      "receber ordens do chef de rang",
+      " processar ordens de clientes que entram em contato direto com ele"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "number": 4,
+    "question": "O chef de rang é responsável por: ",
+    "answers": [
+      "servir o vinho",
+      "receber os pedidos nas mesas",
+      "receber os clientes",
+      "cuidar de sua posição"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "number": 5,
+    "question": "O sommelier é responsável por: ",
+    "answers": [
+      "combinar o tipo de vinho com a refeição",
+      "servir o vinho",
+      "escolher sempre apenas um vinho adequado para o evento",
+      "carregar os frigoríficos"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 6,
+    "question": "Quando falamos sobre a brigada da sala de jantar, o que queremos dizer?",
+    "answers": [
+      "organograma do hotel",
+      "todos aqueles que trabalham no departamento de refeitório",
+      "todos aqueles que trabalham no salão, bar, departamento de eventos"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "number": 7,
+    "question": "Gerente de serviços de hotelaria",
+    "answers": [
+      "Gerente de Alimentos e Bebidas",
+      "Gerente de restaurante",
+      "DGerente de restaurante",
+      "Chef de partite"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 8,
+    "question": "Quem está a cargo da brigada?",
+    "answers": [
+      "commis",
+      "maitre",
+      "gerente de restaurante",
+      "chef de range"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "number": 9,
+    "question": "o segundo maitre não é responsável por::",
+    "answers": [
+      "limpeza da sala",
+      "trabalho do pessoal e turnos de descanso",
+      "atendimento de pedidos ",
+      "colaboração com o gerente de alimentos e bebidas"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "number": 10,
+    "question": "o maître d'hôtel não lida com:",
+    "answers": [
+      "estar em contato telefônico com os clientes",
+      "servir refeições aos quartos",
+      "ccolaborar com o gerente do restaurante",
+      "cuidar do pedido e da limpeza do escritório do andar"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "number": 11,
+    "question": "O que usa um garçom: uma gravata ou um laço?",
+    "answers": [
+      "gravata",
+      "gravata-borboleta",
+      "ambas",
+      "nenhuma"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "number": 12,
+    "question": "Que sapatos usa um garçom?",
+    "answers": [
+      "esportivo",
+      "elegante e preto",
+      "não importante",
+      "apenas elegante"
+    ],
+    "correct_answer": 2
+  }
+]
+},
+{
+"module": {
+  "number": 2,
+  "name": "Higiene, primeiros socorros e haccp",
+  "questions": 12
+},
+"questions": [
+  {
+    "number": 1,
+    "question": "O que significa a sigla HACCP?",
+    "answers": [
+      "hazard analysis critical control points",
+      "Hard analysis critical controls",
+      "hazard analysis critical control",
+      "Hard analysis control critical"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 2,
+    "question": "Quantos são os princípios do HACCP?",
+    "answers": [
+      "5",
+      "7",
+      "2",
+      "8"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "number": 3,
+    "question": "o que não é uma regra para melhorar os cuidados pessoais:",
+    "answers": [
+      "exercitar",
+      "escolha os sapatos com cuidado",
+      "o cabelo deve estar limpo e bem penteado",
+      "as mulheres devem usar maquiagem"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "number": 4,
+    "question": "Recomenda-se a:",
+    "answers": [
+      "usar braceletes ou anéis",
+      "usar relógios de pulso",
+      "não tossir sobre os alimentos",
+      "nenhum dos itens acima"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "number": 5,
+    "question": "O que fazer em caso de ferimentos",
+    "answers": [
+      "mover a vítima",
+      "dar medicação para a vítima",
+      "assumir riscos pessoais",
+      "solte a roupa apertada em caso de sangramento"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "number": 6,
+    "question": "O que não fazer em caso de acidente",
+    "answers": [
+      "solte a roupa apertada em caso de sangramento",
+      "ligue para 118",
+      "comprimir o sangramento a montante",
+      "gir sem o consentimento da pessoa ferida"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "number": 7,
+    "question": "Um garçom deve cuidar de sua saúde porque:",
+    "answers": [
+      "ele caminha muito",
+      "porque ele pode perder o autocontrole",
+      "para que ele tenha melhor aparência",
+      "nenhum dos itens acima"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 8,
+    "question": "Um garçom deve escolher cuidadosamente seus sapatos porque:",
+    "answers": [
+      "ele caminha muito",
+      "eles têm que combinar o equipamento",
+      " não é importante",
+      "nenhum dos itens acima"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 9,
+    "question": "o que não fazer para melhorar os cuidados pessoais:",
+    "answers": [
+      "lave seus pés com freqüência",
+      "ter cabelos curtos",
+      "usar verniz de unhas nos pregos",
+      "exercício"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "number": 10,
+    "question": "como muitos tipos de perigos existem de acordo com o HACCP:",
+    "answers": [
+      "físico-químicos e biológicos",
+      "físico e químico",
+      "somente produtos químicos",
+      "nenhum dos itens acima"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "number": 11,
+    "question": "Qual é a afirmação errada: ",
+    "answers": [
+      "o garçom tem que passar muito tempo de pé",
+      "o garçom tem que passar de ambientes quentes para ambientes frios",
+      " a imagem do garçom não é importante, o importante é sua saúde física ",
+      "nenhum dos itens acima"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "number": 12,
+    "question": "O que não é uma regra para cuidados pessoais e higiene? ",
+    "answers": [
+      "Identificação de perigos e busca de medidas preventivas",
+      "Dedicar o tempo necessário para descansar e cuidar do corpo",
+      "Verificação dos resultados e da eficácia das ações corretivas",
+      "Revisão do manual HACCP"
+    ],
+    "correct_answer": 2
+  }
+]
+  
+},
+{
+"module": {
+  "number": 3,
+  "name": "mise en place",
+  "questions": 12
+    },
+"questions": [
+  {
+    "number": 1,
+    "question": "Onde é colocado o guardanapo?:",
+    "answers": [
+      "à esquerda do garfo",
+      "à direita da faca",
+      "no centro"
+  ],
+    "correct_answer": 1
+  },
+  {
+    "number": 2,
+    "question": "Qual vidro é o primeiro a ser colocado a 45° perto da ponta da faca na mise en place?",
+    "answers": [
+      "copo para água",
+      "copo para vinho tinto",
+      "copo para vinho branco"
+      ],
+    "correct_answer": 1
+  },
+   {
+    "number": 3,
+    "question": "mise en place significa?",
+    "answers": [
+      "Preparação da sala",
+      "Rearranjo da sala",
+      "Serviço de quarto",
+      "Limpeza de mesa"
+    ],
+    "correct_answer": 1
+  },
+   {
+    "number": 4,
+    "question": "Onde deve ser colocado o prato de pão?",
+    "answers": [
+      "em cima no talher de sobremesa",
+      "em cima nos garfos",
+      "acima da placa de partida",
+      "colocado à direita do guardanapo"
+    ],
+    "correct_answer": 2
+  },
+   {
+    "number": 5,
+    "question": "Onde devem ser colocados os talheres de sobremesa",
+    "answers": [
+      "devem ser colocados somente quando necessário",
+      "acima da chapa inferior",
+      "colocado acima dos copos",
+      "colocado ao lado dos garfos"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "number": 6,
+    "question": "A seqüência de cursos determina a seqüência de talheres",
+    "answers": [
+      "verdadeiro",
+      "falso"
+    ],
+    "correct_answer": 1
+
+},
+  {
+    "number": 7,
+    "question": "A faca deve ser colocada com a borda da lâmina voltada para a placa?",
+    "answers": [
+      "verdadeiro",
+      "falso"
+    ],
+    "correct_answer": 1
+
+},
+   {
+    "number": 8,
+    "question": "O mise en place deve sempre incluir (marque as respostas corretas):",
+    "answers": [
+      "capa de tabela",
+      "talheres",
+      "copos de água e vinho",
+      "clip",
+      "prato pequeno com pão"
+     
+    ],
+    "correct_answer": 4
+  },
+   {
+    "number": 9,
+    "question": "Quantos copos posso arranjar no lugar do mise en place?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": 4
+  },
+   {
+    "number": 10,
+    "question": "Onde as facas e colheres devem ser colocadas no lugar?",
+    "answers": [
+      "acima dos copos",
+      "ao lado do prato de pão",
+      "à direita do guardanapo ou da chapa inferior"
+  
+    ],
+    "correct_answer": 3
+  },
+   {
+    "number": 11,
+    "question": "O menù è:",
+    "answers": [
+      "ma seleção de pratos com um preço atribuído",
+      "é dividida por tipo (aperitivos, bebidas, etc.)",
+      "deve ser apropriada à estação e conter produtos típicos locais",
+      "nenhum dos itens acima"
+    ],
+    "correct_answer": 3
+  },
+   {
+    "number": 12,
+    "question": "Qual é a ordem das refeições dentro do menu?:",
+    "answers": [
+      "entradas, pratos principais, sobremesas",
+      "entradas, pratos principais, peixe, carne, acompanhamentos, sobremesas",
+      "entradas, pratos principais, acompanhamentos e sobremesas",
+      "entradas, peixe, carne, acompanhamentos, sobremesa"
+    ],
+    "correct_answer": 2
+  }
+]
+}
+]

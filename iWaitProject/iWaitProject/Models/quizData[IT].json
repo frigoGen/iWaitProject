@@ -363,7 +363,7 @@
 },
      {
       "number": 8,
-      "question": "La mise en place non deve comprendere : ",
+      "question": "La mise en place non deve comprendere: ",
       "answers": [
         "coprimacchia",
         "bicchiere per acqua e per vino",
@@ -401,7 +401,7 @@
       "question": "Il menù è:",
       "answers": [
         "a destra del tovagliolo o sottopiatto",
-        "si divede per tipolegie (aperitivi, bevande, ecc..)",
+        "si divide per tipologie (aperitivi, bevande, ecc..)",
         "deve essere adeguato alla stagione e contenere prodotti tipici del paese",
         "nessuna delle precedenti"
       ],

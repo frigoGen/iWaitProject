@@ -20,7 +20,7 @@
 		6E373EE529A5FFA300F18525 /* iWaitProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EE329A5FFA300F18525 /* iWaitProject.xcdatamodeld */; };
 		6E373EEC29A6020700F18525 /* GameScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EEB29A6020700F18525 /* GameScene1.swift */; };
 		6ED71FEF29A7F0BA00180474 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED71FEE29A7F0BA00180474 /* Buttons.swift */; };
-		6ED71FF729A8DB6B00180474 /* quizData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ED71FF629A8DB6B00180474 /* quizData.json */; };
+		6ED71FF729A8DB6B00180474 /* quizData[IT].json in Resources */ = {isa = PBXBuildFile; fileRef = 6ED71FF629A8DB6B00180474 /* quizData[IT].json */; };
 		F77D6B6029A9263C002278F8 /* TheoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D6B5F29A9263C002278F8 /* TheoryCardView.swift */; };
 		F77D6B6229A9263F002278F8 /* ChapterTwoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D6B6129A9263F002278F8 /* ChapterTwoCardView.swift */; };
 		F77D6B6429A92642002278F8 /* ChapterThreeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D6B6329A92642002278F8 /* ChapterThreeCardView.swift */; };
@@ -44,7 +44,7 @@
 		6E373EE429A5FFA300F18525 /* iWaitProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iWaitProject.xcdatamodel; sourceTree = "<group>"; };
 		6E373EEB29A6020700F18525 /* GameScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene1.swift; sourceTree = "<group>"; };
 		6ED71FEE29A7F0BA00180474 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
-		6ED71FF629A8DB6B00180474 /* quizData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quizData.json; sourceTree = "<group>"; };
+		6ED71FF629A8DB6B00180474 /* quizData[IT].json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "quizData[IT].json"; sourceTree = "<group>"; };
 		F77D6B5F29A9263C002278F8 /* TheoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryCardView.swift; sourceTree = "<group>"; };
 		F77D6B6129A9263F002278F8 /* ChapterTwoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTwoCardView.swift; sourceTree = "<group>"; };
 		F77D6B6329A92642002278F8 /* ChapterThreeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterThreeCardView.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		13504C3729A8BAD100E33021 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6ED71FF629A8DB6B00180474 /* quizData.json */,
+				6ED71FF629A8DB6B00180474 /* quizData[IT].json */,
 				0AD8330B29A93FFF00D15480 /* QuizData[EN].json */,
 				0AD8330D29A9402600D15480 /* QuizData[PT].json */,
 				13504C3929A8BAF900E33021 /* QuestionModel.swift */,
@@ -181,7 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED71FF729A8DB6B00180474 /* quizData.json in Resources */,
+				6ED71FF729A8DB6B00180474 /* quizData[IT].json in Resources */,
 				6E373EE029A5FFA300F18525 /* Preview Assets.xcassets in Resources */,
 				6E373EDD29A5FFA300F18525 /* Assets.xcassets in Resources */,
 			);
