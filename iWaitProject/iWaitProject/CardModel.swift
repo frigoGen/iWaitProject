@@ -11,6 +11,6 @@ import Foundation
 
 struct CardModel: Hashable {
     var id: Int 
-    
+    //var foto: String
     var testo: String = " "
 }

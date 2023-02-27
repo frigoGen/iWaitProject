@@ -1,148 +1,143 @@
-//
-//  QuizData[PT].swift
-//  iWaitProject
-//
-//  Created by Giuseppe Iodice on 24/02/23.
-//
 
-import Foundation
+[
+{
 "module": {
-  "number": 1,
-  "name": "uniforme e brigada",
-  "questions": 12
+"number": 1,
+"name": "uniforme e brigada",
+"questions": 12
 },
 "questions": [
-  {
-    "number": 1,
-    "question": "o que você usa sob seu colete?",
-    "answers": [
-      "uma camisa branca",
-      "qualquer camisa também preta",
-      "uma camiseta branca também uma camiseta",
-      "um pescoço de pólo branco"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "number": 2,
-    "question": "O que faz a anfitriã:",
-    "answers": [
-      "recebe os hóspedes, se necessário",
-      "cuida do mise en place",
-      "cuida da ordem e limpeza do quarto",
-      "prepara o buffet"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "number": 3,
-    "question": "funcionário de chão é responsável por::",
-    "answers": [
-      "preparar o mise en place",
-      "limpar mesas",
-      "receber ordens do chef de rang",
-      " processar ordens de clientes que entram em contato direto com ele"
-    ],
-    "correct_answer": 4
-  },
-  {
-    "number": 4,
-    "question": "O chef de rang é responsável por: ",
-    "answers": [
-      "servir o vinho",
-      "receber os pedidos nas mesas",
-      "receber os clientes",
-      "cuidar de sua posição"
-    ],
-    "correct_answer": 4
-  },
-  {
-    "number": 5,
-    "question": "O sommelier é responsável por: ",
-    "answers": [
-      "combinar o tipo de vinho com a refeição",
-      "servir o vinho",
-      "escolher sempre apenas um vinho adequado para o evento",
-      "carregar os frigoríficos"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "number": 6,
-    "question": "Quando falamos sobre a brigada da sala de jantar, o que queremos dizer?",
-    "answers": [
-      "organograma do hotel",
-      "todos aqueles que trabalham no departamento de refeitório",
-      "todos aqueles que trabalham no salão, bar, departamento de eventos"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "number": 7,
-    "question": "Gerente de serviços de hotelaria",
-    "answers": [
-      "Gerente de Alimentos e Bebidas",
-      "Gerente de restaurante",
-      "DGerente de restaurante",
-      "Chef de partite"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "number": 8,
-    "question": "Quem está a cargo da brigada?",
-    "answers": [
-      "commis",
-      "maitre",
-      "gerente de restaurante",
-      "chef de range"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "number": 9,
-    "question": "o segundo maitre não é responsável por::",
-    "answers": [
-      "limpeza da sala",
-      "trabalho do pessoal e turnos de descanso",
-      "atendimento de pedidos ",
-      "colaboração com o gerente de alimentos e bebidas"
-    ],
-    "correct_answer": 4
-  },
-  {
-    "number": 10,
-    "question": "o maître d'hôtel não lida com:",
-    "answers": [
-      "estar em contato telefônico com os clientes",
-      "servir refeições aos quartos",
-      "ccolaborar com o gerente do restaurante",
-      "cuidar do pedido e da limpeza do escritório do andar"
-    ],
-    "correct_answer": 4
-  },
-  {
-    "number": 11,
-    "question": "O que usa um garçom: uma gravata ou um laço?",
-    "answers": [
-      "gravata",
-      "gravata-borboleta",
-      "ambas",
-      "nenhuma"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "number": 12,
-    "question": "Que sapatos usa um garçom?",
-    "answers": [
-      "esportivo",
-      "elegante e preto",
-      "não importante",
-      "apenas elegante"
-    ],
-    "correct_answer": 2
-  }
+{
+"number": 1,
+"question": "o que você usa sob seu colete?",
+"answers": [
+    "uma camisa branca",
+    "qualquer camisa também preta",
+    "uma camiseta branca também uma camiseta",
+    "um pescoço de pólo branco"
+],
+"correct_answer": 1
+},
+{
+"number": 2,
+"question": "O que faz a anfitriã:",
+"answers": [
+    "recebe os hóspedes, se necessário",
+    "cuida do mise en place",
+    "cuida da ordem e limpeza do quarto",
+    "prepara o buffet"
+],
+"correct_answer": 1
+},
+{
+"number": 3,
+"question": "funcionário de chão é responsável por::",
+"answers": [
+    "preparar o mise en place",
+    "limpar mesas",
+    "receber ordens do chef de rang",
+    " processar ordens de clientes que entram em contato direto com ele"
+],
+"correct_answer": 4
+},
+{
+"number": 4,
+"question": "O chef de rang é responsável por: ",
+"answers": [
+    "servir o vinho",
+    "receber os pedidos nas mesas",
+    "receber os clientes",
+    "cuidar de sua posição"
+],
+"correct_answer": 4
+},
+{
+"number": 5,
+"question": "O sommelier é responsável por: ",
+"answers": [
+    "combinar o tipo de vinho com a refeição",
+    "servir o vinho",
+    "escolher sempre apenas um vinho adequado para o evento",
+    "carregar os frigoríficos"
+],
+"correct_answer": 1
+},
+{
+"number": 6,
+"question": "Quando falamos sobre a brigada da sala de jantar, o que queremos dizer?",
+"answers": [
+    "organograma do hotel",
+    "todos aqueles que trabalham no departamento de refeitório",
+    "todos aqueles que trabalham no salão, bar, departamento de eventos"
+],
+"correct_answer": 2
+},
+{
+"number": 7,
+"question": "Gerente de serviços de hotelaria",
+"answers": [
+    "Gerente de Alimentos e Bebidas",
+    "Gerente de restaurante",
+    "DGerente de restaurante",
+    "Chef de partite"
+],
+"correct_answer": 1
+},
+{
+"number": 8,
+"question": "Quem está a cargo da brigada?",
+"answers": [
+    "commis",
+    "maitre",
+    "gerente de restaurante",
+    "chef de range"
+],
+"correct_answer": 2
+},
+{
+"number": 9,
+"question": "o segundo maitre não é responsável por::",
+"answers": [
+    "limpeza da sala",
+    "trabalho do pessoal e turnos de descanso",
+    "atendimento de pedidos ",
+    "colaboração com o gerente de alimentos e bebidas"
+],
+"correct_answer": 4
+},
+{
+"number": 10,
+"question": "o maître d'hôtel não lida com:",
+"answers": [
+    "estar em contato telefônico com os clientes",
+    "servir refeições aos quartos",
+    "ccolaborar com o gerente do restaurante",
+    "cuidar do pedido e da limpeza do escritório do andar"
+],
+"correct_answer": 4
+},
+{
+"number": 11,
+"question": "O que usa um garçom: uma gravata ou um laço?",
+"answers": [
+    "gravata",
+    "gravata-borboleta",
+    "ambas",
+    "nenhuma"
+],
+"correct_answer": 3
+},
+{
+"number": 12,
+"question": "Que sapatos usa um garçom?",
+"answers": [
+    "esportivo",
+    "elegante e preto",
+    "não importante",
+    "apenas elegante"
+],
+"correct_answer": 2
+}
 ]
 },
 {
@@ -427,3 +422,4 @@ import Foundation
 ]
 }
 ]
+

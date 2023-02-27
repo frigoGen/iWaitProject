@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-var quiz: [Quiz] = load("quizData")
+var quiz: [Quiz] = load("QuizData[EN]")
 var quest:Int = 0
 
 
