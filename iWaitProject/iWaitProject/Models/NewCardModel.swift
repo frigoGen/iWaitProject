@@ -11,7 +11,7 @@ struct CardModelUp: Decodable {
     let module: module
     let Card: [Card]
 }
-struct Card: Decodable{
+struct Card: Decodable, Hashable, Identifiable{
     let id: Int
     let Text: String
     let Image: String

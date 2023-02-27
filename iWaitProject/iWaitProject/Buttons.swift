@@ -21,7 +21,7 @@ struct Buttons: View {
                 //Spacer()
                 NavigationLink {
                     //ChapterOneCardView()
-                    NewCardView()
+                    NewCardView(tex: tex)
                     }
             label: {
                 Image("Group")
@@ -40,7 +40,9 @@ struct Buttons: View {
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
             }
                 NavigationLink {
-                    Text("Collega le parole") }
+                    if(isUnlocked[1]){
+                        Text("Collega le parole") }
+                }
             label: {
                 if(isUnlocked[1]){
                     Image("Group")
@@ -50,7 +52,8 @@ struct Buttons: View {
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
             }
                 NavigationLink {
-                    Text("Mini-Game")}
+                    if(isUnlocked[0]){Text("Mini-Game")}
+                }
             label: {
                 if(isUnlocked[2]){
                     Image("Group")

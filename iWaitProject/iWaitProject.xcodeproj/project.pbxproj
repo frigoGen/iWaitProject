@@ -84,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				6ED43D1929AD215E005CEE42 /* NewCardModel.swift */,
+				6ED43D2029AD2AE2005CEE42 /* Teoria[ITA].json */,
+				6ED43D1D29AD2514005CEE42 /* Teoria[ENG].json */,
+				6ED43D2229AD2E9A005CEE42 /* Teoria[PTG].json */,
 				6ED71FF829ACA54500180474 /* QuizData[PT].json */,
 				6ED71FF629A8DB6B00180474 /* QuizData[IT].json */,
 				137B939929ACAFA200CB5282 /* QuizData[EN].json */,
@@ -118,10 +121,7 @@
 				6E373EEB29A6020700F18525 /* GameScene1.swift */,
 				13504C3D29A8BD6400E33021 /* Quiz.swift */,
 				6ED43D1B29AD23AD005CEE42 /* NewCardView.swift */,
-				6ED43D2029AD2AE2005CEE42 /* Teoria[ITA].json */,
 				6ED43D1F29AD2A45005CEE42 /* PossiblyDeprecated */,
-				6ED43D1D29AD2514005CEE42 /* Teoria[ENG].json */,
-				6ED43D2229AD2E9A005CEE42 /* Teoria[PTG].json */,
 				137B939B29ACCCFB00CB5282 /* Assets.xcassets */,
 				13504C3729A8BAD100E33021 /* Models */,
 				6E373EE129A5FFA300F18525 /* Persistence.swift */,
