@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-var quiz: [Quiz] = load("QuizData[EN]")
+var quiz: [Quiz] = load("QuizData[PT]")
 var quest:Int = 0
 
 
@@ -36,31 +36,90 @@ func load<T: Decodable>(_ filename: String) -> T {
 struct QuizView: View {
     var tex: Int
    // @State var refresh: Bool = false
-    //let decoder = JSONDecoder()
-    var body: some View {
-        VStack{
-            //Spacer()
-            HStack{
+        //number of question
+        @State var i : Int = 0
+        //var for the score
+        @State var score = 0
+        var body: some View {
+            VStack(alignment: .center, spacing: 20){
                 
-                Button("indietro"){
-                    print("\(quest)")
-                    if(quest != 0) {quest -= 1}
-                    else {quest = (quiz[0].module.questions - 1)}
+                //if i < of questions --> play question
+                if(self.i < quiz[tex].module.number){
+                    
+                    //image of the question
+                    Image(systemName: "card1")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(.horizontal)
+                    
+                    //text of the question
+                    Text(quiz[tex].questions[i].question)
+                    
+                    
+                    //answer 0
+                    Button(action:{
+                        self.buttonAction(n: 0)
+                    },label: {
+                        Text(quiz[tex].questions[i].answers[0])
+                    })
+                    
+                    
+                    //answer 1
+                    Button(action:{
+                        self.buttonAction(n: 1)
+                    },label: {
+                        Text(quiz[tex].questions[i].answers[1])
+                    })
+                    
+                    if(quiz[tex].questions[i].answers[2] != nil){
+                        //answer 2
+                        Button(action:{
+                            self.buttonAction(n: 2)
+                        },label: {
+                            Text(quiz[tex].questions[i].answers[2])
+                        })
+                    }
+                    if(quiz[tex].questions[i].answers[3] != nil){
+                        //answer 3
+                        Button(action:{
+                            self.buttonAction(n: 3)
+                        },label: {
+                            ZStack{
+                                Image("Question")
+                                Text(quiz[tex].questions[i].answers[3])
+                                    .font(.body)
+                                    .foregroundColor(Color.black)
+                                
+                            }
+                        })
+                    }
                 }
-                Button("avanti"){
-                    print("\(quest)")
-                    if(quest < (quiz[0].module.questions - 1)){quest += 1}
-                    else {quest = 0}
+                    
+                else{
+                    //FinalView(score : self.score)
+                    //NUOVA VIEW con resoconto
+                    
                 }
+                
+                
             }
-            Text("\(quiz[tex].questions[quest].question)")
         }
+        
+        
+        //action of the buttons
+        //n = answer [0,1,2,3]
+        func buttonAction( n : Int){
+            //if answer is correct increment score
+            if(quiz[tex].questions[i].correct_answer == n){
+                self.score = self.score + 1
+            }
+            //GO TO NEXT QUESTION
+            self.i = self.i + 1
+        }
+        
         
     }
 
-}
-
-//
 struct QuizView_Previews: PreviewProvider {
     static var previews: some View {
         QuizView(tex: 0)
