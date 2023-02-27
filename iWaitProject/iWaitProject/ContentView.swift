@@ -42,6 +42,7 @@ struct ContentView: View {
          
               
                 ZStack{
+                    Color.black.edgesIgnoringSafeArea(.all)
                     Image("sfondo1")
                         .resizable()
                         .padding(.bottom)

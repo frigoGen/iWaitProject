@@ -17,6 +17,7 @@ struct NewCardView: View {
                             ForEach(card[tex].Card) { cards in
                                 VStack{
                                     ZStack{
+                                        Color(.systemOrange)
                                         Text(cards.Text)
                                             .font(.body)
                                             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -24,7 +25,9 @@ struct NewCardView: View {
                                 }
                                         }
                         }
-                        .tabViewStyle(PageTabViewStyle())
+                        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+                        //.tabViewStyle(DefaultTabViewStyle())
+                        
                     }
         }
 
