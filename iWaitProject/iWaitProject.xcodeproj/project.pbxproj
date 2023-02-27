@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0A234DB329A62DA2009B9A13 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A234DB229A62DA2009B9A13 /* ProfileView.swift */; };
-		0A507BCC29ACD00C00099480 /* Teoria[EN].json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507BC929ACD00C00099480 /* Teoria[EN].json */; };
-		0A507BCD29ACD00C00099480 /* Teoria[IT].json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507BCA29ACD00C00099480 /* Teoria[IT].json */; };
-		0A507BCE29ACD00C00099480 /* Teoria[PT].json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507BCB29ACD00C00099480 /* Teoria[PT].json */; };
+		133971FD29ACD25C00855407 /* Teoria[EN].json in Resources */ = {isa = PBXBuildFile; fileRef = 133971FA29ACD25C00855407 /* Teoria[EN].json */; };
+		133971FE29ACD25C00855407 /* Teoria[IT].json in Resources */ = {isa = PBXBuildFile; fileRef = 133971FB29ACD25C00855407 /* Teoria[IT].json */; };
+		133971FF29ACD25C00855407 /* Teoria[PT].json in Resources */ = {isa = PBXBuildFile; fileRef = 133971FC29ACD25C00855407 /* Teoria[PT].json */; };
 		13504C3A29A8BAF900E33021 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13504C3929A8BAF900E33021 /* QuestionModel.swift */; };
 		13504C3E29A8BD6400E33021 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13504C3D29A8BD6400E33021 /* Quiz.swift */; };
 		137B939A29ACAFA200CB5282 /* QuizData[EN].json in Resources */ = {isa = PBXBuildFile; fileRef = 137B939929ACAFA200CB5282 /* QuizData[EN].json */; };
@@ -34,9 +34,9 @@
 
 /* Begin PBXFileReference section */
 		0A234DB229A62DA2009B9A13 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		0A507BC929ACD00C00099480 /* Teoria[EN].json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Teoria[EN].json"; sourceTree = "<group>"; };
-		0A507BCA29ACD00C00099480 /* Teoria[IT].json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Teoria[IT].json"; sourceTree = "<group>"; };
-		0A507BCB29ACD00C00099480 /* Teoria[PT].json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Teoria[PT].json"; sourceTree = "<group>"; };
+		133971FA29ACD25C00855407 /* Teoria[EN].json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Teoria[EN].json"; sourceTree = "<group>"; };
+		133971FB29ACD25C00855407 /* Teoria[IT].json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Teoria[IT].json"; sourceTree = "<group>"; };
+		133971FC29ACD25C00855407 /* Teoria[PT].json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Teoria[PT].json"; sourceTree = "<group>"; };
 		13504C3929A8BAF900E33021 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		13504C3D29A8BD6400E33021 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		137B939929ACAFA200CB5282 /* QuizData[EN].json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "QuizData[EN].json"; sourceTree = "<group>"; };
@@ -73,11 +73,11 @@
 		13504C3729A8BAD100E33021 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				133971FA29ACD25C00855407 /* Teoria[EN].json */,
+				133971FB29ACD25C00855407 /* Teoria[IT].json */,
+				133971FC29ACD25C00855407 /* Teoria[PT].json */,
 				6ED71FF829ACA54500180474 /* QuizData[PT].json */,
 				6ED71FF629A8DB6B00180474 /* QuizData[IT].json */,
-				0A507BC929ACD00C00099480 /* Teoria[EN].json */,
-				0A507BCA29ACD00C00099480 /* Teoria[IT].json */,
-				0A507BCB29ACD00C00099480 /* Teoria[PT].json */,
 				137B939929ACAFA200CB5282 /* QuizData[EN].json */,
 				13504C3929A8BAF900E33021 /* QuestionModel.swift */,
 			);
@@ -192,15 +192,12 @@
 			files = (
 				6ED71FF929ACA54500180474 /* QuizData[PT].json in Resources */,
 				6ED71FF729A8DB6B00180474 /* QuizData[IT].json in Resources */,
-				0A507BCC29ACD00C00099480 /* Teoria[EN].json in Resources */,
-				0A507BCD29ACD00C00099480 /* Teoria[IT].json in Resources */,
+				133971FD29ACD25C00855407 /* Teoria[EN].json in Resources */,
+				133971FE29ACD25C00855407 /* Teoria[IT].json in Resources */,
 				6E373EE029A5FFA300F18525 /* Preview Assets.xcassets in Resources */,
 				137B939A29ACAFA200CB5282 /* QuizData[EN].json in Resources */,
-<<<<<<< Updated upstream
-				0A507BCE29ACD00C00099480 /* Teoria[PT].json in Resources */,
-=======
 				137B939C29ACCCFC00CB5282 /* Assets.xcassets in Resources */,
->>>>>>> Stashed changes
+				133971FF29ACD25C00855407 /* Teoria[PT].json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
