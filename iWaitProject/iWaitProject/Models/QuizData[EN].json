@@ -1,154 +1,156 @@
+
 [
 {
   "module": {
     "number": 1,
-    "name": "Divisa e Brigata",
+    "name": "Uniform and brigade",
     "questions": 12
   },
   "questions": [
     {
       "number": 1,
-      "question": "cosa si indossa sotto il gilet?",
+      "question": "what do you wear under your waistcoat?",
       "answers": [
-        "Una camicia bianca",
-        "una camicia qualsiasi anche nera",
-        "una maglia bianca anche una t-shirt",
-        "un lupetto bianco"
+        "a white shirt",
+        "any shirt also black",
+        "a white t-shirt also a t-shirt",
+        "a white polo neck"
       ],
       "correct_answer": 1
     },
     {
       "number": 2,
-      "question": "L’hostess di sala di cosa di occupa:",
+      "question": "What does the hostess do:",
       "answers": [
-        "accoglie i clienti se è necessario",
-        "si occupa della mise en place",
-        "cura l’ordine e la pulizia della sala ",
-        "predispone il buffet"
+        "welcomes guests if necessary",
+        "takes care of the mise en place",
+        "akes care of the order and cleanliness of the room",
+        "prepares the buffet"
       ],
       "correct_answer": 1
     },
     {
       "number": 3,
-      "question": "Il commis ai piani si occupa:",
+      "question": "The floor clerk is responsible for:",
       "answers": [
-        "di predisporre la mise en place",
-        "di liberare i tavoli",
-        "di prendere ordini dallo chef de rang",
-        " evade le comande dei clienti che lo contattano direttamente"
+        "preparing the mise en place",
+        "clearing tables",
+        "taking orders from the chef de rang",
+        "processing orders from customers who contact him/her directly"
       ],
       "correct_answer": 4
     },
     {
       "number": 4,
-      "question": "Lo chef de rang si occupa : ",
+      "question": "he chef de rang is responsible for :",
       "answers": [
-        "di versare il vino",
-        "di prendere gli ordini ai tavoli",
-        "fare accoglienza si clienti",
-        "curare il proprio rango "
+        "pouring the wine",
+        "taking orders at the tables",
+        "welcoming customers",
+        "ooking after his rank"
       ],
       "correct_answer": 4
     },
     {
       "number": 5,
-      "question": "Il sommelier ha la responsabilità di : ",
+      "question": "The sommelier is responsible for : ",
       "answers": [
-        "abbinare il tipo di vino ai pasti",
-        "di versare il vino",
-        "scegliere sempre un solo vino adatto per l’evento",
-        "caricare i frigoriferi"
+        "matching the type of wine to the meal",
+        "pouring the wine",
+        "always choosing only one wine suitable for the event",
+        "loading the fridges"
       ],
       "correct_answer": 1
     },
     {
       "number": 6,
-      "question": "Quando parliamo di Brigata di sala, che cosa si intende?",
+      "question": "When we talk about the dining room brigade, what do we mean?",
       "answers": [
-        "organigramma alberghiero",
-        "tutti coloro che lavorano presso il reparto sala ristorante",
-        "tutti coloro che lavorano presso il reparto sala, bar, eventi"
+        "hotel organisation chart",
+        "all those working at the restaurant hall department",
+        "all those working in the lounge, bar, events department"
       ],
       "correct_answer": 2
     },
     {
       "number": 7,
-      "question": "Responsabile dei servizi della ristorazione alberghiera",
+      "question": "Hotel catering services manager",
       "answers": [
         "Food and Beverage Manager",
         "Restaurant Manager",
-        "Direttore di sala",
+        "Restaurant Manager",
         "Chef de partite"
       ],
       "correct_answer": 1
     },
     {
       "number": 8,
-      "question": "Chi è a capo della brigata?",
+      "question": "Who is in charge of the brigade?",
       "answers": [
         "commis",
         "maitre",
-        "direttore di ristorante",
+        "restaurant manager ",
         "chef de range"
       ],
       "correct_answer": 2
     },
     {
       "number": 9,
-      "question": "il secondo maitre non si occupa di:",
+      "question": "The second maitre is not responsible for:",
       "answers": [
-        "cpulizia della sala",
-        "dei turni di lavoro e di riposo del personale ",
-        "di prendere le ordinazioni",
-        "di collaborare con il food and beverage manager"
+        "cleaning the room",
+        "staff work and rest shifts",
+        "taking orders",
+        "collaborating with the food and beverage manager"
       ],
       "correct_answer": 4
     },
     {
       "number": 10,
-      "question": "il maitre ai piani non si occupa di:",
+      "question": "The maître d'hôtel does not deal with:",
       "answers": [
-        "essere in contatto telefonico con la clientela",
-        "servire i pasti alla camere",
-        "collaborare con il direttore del ristorante",
-        "curare l’ordine a la pulizia dell’ordine dell’office dei piani"
+        "being in telephone contact with customers",
+        "serving meals to the rooms",
+        "collaborating with the restaurant manager",
+        "taking care of the order and cleanliness of the floor office"
       ],
       "correct_answer": 4
     },
     {
       "number": 11,
-      "question": "cosa indossa un cameriere una cravatta o un papillon?",
+      "question": "what does a waiter wear: a tie or a bow tie?",
       "answers": [
-        "cravatta",
-        "papillon",
-        "entrambe",
-        "nessuna"
+        "tie",
+        "bow tie",
+        "both",
+        "none"
       ],
       "correct_answer": 3
     },
     {
       "number": 12,
-      "question": "quali sono le scarpe di un cameriere?",
+      "question": "What shoes does a waiter wear?",
       "answers": [
-        "sportive",
-        "eleganti e nere",
-        "non è importante",
-        "solo eleganti"
+        "sporty",
+        "elegant and black",
+        "not important",
+        "just elegant"
       ],
+
       "correct_answer": 2
     }
   ]
 },
 {
-  "module": {
+"module": {
     "number": 2,
-    "name": "Igiene, pronto soccorso e haccp",
+    "name": "Hygiene, first aid and haccp",
     "questions": 12
   },
   "questions": [
     {
       "number": 1,
-      "question": "A cosa equivale l’acronimo HACCP",
+      "question": "What does the acronym HACCP stand for",
       "answers": [
         "hazard analysis critical control points",
         "Hard analysis critical controls",
@@ -159,7 +161,7 @@
     },
     {
       "number": 2,
-      "question": "Quanti sono i principi dell’HACCP",
+      "question": "How many are the principles of HACCP",
       "answers": [
         "5",
         "7",
@@ -170,111 +172,111 @@
     },
     {
       "number": 3,
-      "question": "quale non è una regola per migliorare la cura della persona:",
+      "question": "what is not a rule to improve personal care:",
       "answers": [
-        "praticare ginnastica",
-        "scegliere con attenzione le scarpe",
-        "i capelli devono essere puliti e ben pettinati",
-        "le donne devono essere truccate"
+        "exercise",
+        "choose shoes carefully",
+        "hair should be clean and well combed",
+        "women should wear make-up"
       ],
       "correct_answer": 4
     },
     {
       "number": 4,
-      "question": "Si consiglia di:",
+      "question": "It is recommended to:",
       "answers": [
-        "portare bracciali o anelli",
-        "portare orologi da polso",
-        "non tossire sul cibo",
-        "nessuna delle precedenti"
+        "wear bracelets or rings",
+        "wear wristwatches",
+        "do not cough on food",
+        "none of the above"
       ],
       "correct_answer": 3
     },
     {
       "number": 5,
-      "question": "cosa fare in caso di infortunio",
+      "question": "what to do in case of injury*",
       "answers": [
-        "spostare l’infortunato",
-        "dare medicinali all’infortunato",
-        "correre rischi personali",
-        "allentare abiti stretti in caso di emorragia"
+        "move the casualty",
+        "give medication to the casualty",
+        "take personal risks",
+        "loosen tight clothing in case of bleeding"
       ],
       "correct_answer": 4
     },
     {
       "number": 6,
-      "question": "Cosa non fare in caso di infortunio",
+      "question": "What not to do in case of an accident",
       "answers": [
-        "allentare gli abiti stretti in caso di emorragia",
-        "chiamare il 118",
-        "comprimere a monte l’emorragia",
-        "agire senza il consenso dell’infortunato"
+        "loosen tight clothing in case of bleeding",
+        "call 118",
+        "compress upstream bleeding",
+        "act without the consent of the injured person"
       ],
       "correct_answer": 4
     },
     {
       "number": 7,
-      "question": "Un cameriere deve fare attenzione alla propria salute perchè:",
+      "question": "A waiter must take care of his health because:",
       "answers": [
-        "cammina molto",
-        "perchè potrebbe perdere l’autocontrollo",
-        "così ha un aspetto migliore",
-        "nessuna delle precedenti"
+        "he walks a lot",
+        "because he may lose self-control",
+        "so he looks better",
+        "none of the above"
       ],
       "correct_answer": 1
     },
     {
       "number": 8,
-      "question": "Il cameriere deve scegliere con attenzione le scarpe perchè:",
+      "question": "A waiter must choose his shoes carefully because",
       "answers": [
-        "cammina molto",
-        "devono essere abbinate all’outfit",
-        "non è importante",
-        "nessuna delle precedenti"
+        "he walks a lot",
+        "they have to match the outfit",
+        "it is not important",
+        "one of the above"
       ],
       "correct_answer": 1
     },
     {
       "number": 9,
-      "question": "cosa non bisogna fare per migliorare la cura personale:",
+      "question": "what not to do to improve personal care:",
       "answers": [
-        "lavare spesso i piedi",
-        "avere i capelli corti",
-        "usare lo smalto sulle unghie",
-        "praticare ginnastica"
+        "wash your feet often",
+        "have short hair",
+        "use nail varnish on nails",
+        "exercise"
       ],
       "correct_answer": 3
     },
     {
       "number": 10,
-      "question": "quanti tipi di pericoli ci sono secondo l’HACCP:",
+      "question": "how many types of hazards are there according to HACCP:",
       "answers": [
-        "fisici chimici e biologici",
-        "fisici e chimici",
-        "solo chimici",
-        "nessuna delle precedenti"
+        "physical chemical and biological",
+        "physical and chemical",
+        "only chemical",
+        "none of the above"
       ],
       "correct_answer": 1
     },
     {
       "number": 11,
-      "question": "Quale affermazione è sbagliata: ",
+      "question": "Which statement is wrong: ",
       "answers": [
-        "il cameriere deve passare molto tempo in piedi ",
-        "il cameriere deve passare da ambienti caldi ad ambienti freddi ",
-        "non è importante l’immagine del cameriere, l’importante è la sua salute fisica ",
-        "nessuna delle precedenti "
+        "the waiter has to spend a lot of time standing",
+        "the waiter has to move from hot to cold environments",
+        "the image of the waiter is not important, the important thing is his physical health",
+        "none of the above"
       ],
       "correct_answer": 3
     },
     {
       "number": 12,
-      "question": "Quale non è una regola per la cura e l’igiene personale ? ",
+      "question": "What is not a rule for personal care and hygiene? ",
       "answers": [
-        "identificazione dei pericoli e ricerca delle misure preventive ",
-        "Dedicare al riposo e alla cura del corpo tutto il tempo necessario",
-        "Controllo dei risultati e dell’efficacia delle azioni correttive",
-        "Rivisita del manuale HACC "
+        "identifying dangers and seeking preventive measures",
+        "Dedicate as much time as necessary to rest and care for the body",
+        "Checking the results and effectiveness of corrective actions",
+        "Review of the HACC manual"
       ],
       "correct_answer": 2
     }
@@ -284,99 +286,97 @@
 {
   "module": {
     "number": 3,
-    "name": "mise en place",
+    "name": "Mise en place",
     "questions": 12
       },
-  "questions": [
+   "questions": [
     {
-      "number": 1,
-      "question": "Dove Viene disposto il tovagliolo?:",
-      "answers": [
-        "a sinistra della forchetta",
-        "a destra del coltello",
-        "al centro"
+       "number": 1,
+      "question": "Where is the napkin placed?:",
+       "answers": [
+        "to the left of the fork",
+        "to the right of the knife",
+        "in the middle"
     ],
       "correct_answer": 1
     },
     {
       "number": 2,
-      "question": "Quale bicchiere è il primo ad essere messo a 45° vicino all punta del coltello nella mise en place?:",
+      "question": "Which glass is the first to be placed at 45° near the tip of the knife in the mise en place?",
       "answers": [
-        "bicchiere per l’acqua",
-        "bicchiere per il vino rosso ",
-        "bicchiere per il vino bianco"
+        "water glass",
+        "glass for red wine",
+        "glass for white wine"
         ],
       "correct_answer": 1
     },
      {
-      "number": 3,
-      "question": "MISE EN PLACE SIGNIFICA?",
-      "answers": [
-        "Preparazione della sala",
-        "riassetto della sala",
-        "servizio di sala",
-        "pulizia dei tavoli"
+       "number": 3,
+      "question": "MISE EN PLACE MEANS?",
+        "answers": [
+        "preparing the room",
+        "tidying up the room",
+        "room service",
+        "cleaning tables"
       ],
       "correct_answer": 1
     },
      {
       "number": 4,
-      "question": "Dove va posto il piatto del pane?",
+      "question": "Where should the bread plate be placed?",
       "answers": [
-        "in alto in corrispondenza delle posate da dessert",
-        "in alto in corrispondenza delle forchette",
-        "sopra il piatto antipasto",
-        "viene posto alla destra del tovagliolo"
+        "on top at the dessert cutlery",
+        "on top at the forks",
+        "above the starter plate",
+        "is placed to the right of the napkin"
       ],
       "correct_answer": 2
     },
      {
       "number": 5,
-      "question": "Dove vanno poste le posate per il dessert?",
+      "question": "Where should the dessert cutlery be placed?",
       "answers": [
-        "vanno poste solo all’occorrenza",
-        "al di sopra del sottopiatto",
-        "vano poste al di sopra dei bicchieri",
-        "vanno poste di fianco alle forchette"
+        "should be placed only when necessary",
+        "above the underplate",
+        "should be placed above the glasses",
+        "should be placed next to the forks"
       ],
       "correct_answer": 2
     },
     {
       "number": 6,
-      "question": "La successione delle portate determina quella delle posate?",
+      "question": "Does the succession of courses determine the succession of cutlery?",
       "answers": [
-        "vero",
-        "falso"
+        "true",
+        "false"
       ],
       "correct_answer": 1
   
 },
     {
       "number": 7,
-      "question": "Il coltello deve essere disposto con il filo della lama rivolto verso il piatto?",
-      "answers": [
-        "vero",
-        "falso"
+      "question": "Should the knife be placed with the edge of the blade facing the plate?",
+       "answers": [
+        "true",
+        "false"
       ],
       "correct_answer": 1
   
 },
      {
       "number": 8,
-      "question": "La mise en place non deve comprendere : ",
-      "answers": [
-        "coprimacchia",
-        "bicchiere per acqua e per vino",
-        "posate",
+      "question": "The mise en place must not include : ",
+       "answers": [
+         "cover",
+        "water and wine glass",
+        "cutlery",
         "clip",
-        "piattino per il pane"
-       
-      ],
-      "correct_answer": 4
+        "bread plate" ],
+       "correct_answer": 4
     },
      {
-      "number": 9,
-      "question": "Quanti bicchieri posso disporre nella mise en place?",
+       "number": 9,
+      "question": "How many glasses can I place in the mise en place?",
       "answers": [
         "1",
         "2",
@@ -386,35 +386,35 @@
       "correct_answer": 4
     },
      {
-      "number": 10,
-      "question": "I  coltelli e i cucchiai dove vanno messi nella mise en place?",
+       "number": 10,
+      "question": "Where should knives and spoons be placed in the mise en place?",
       "answers": [
-        "sopra i bicchieri",
-        "vicino al piatto del pane",
-        "a destra del tovagliolo o sottopiatto"
+        "above the glasses",
+        "next to the bread plate",
+        "to the right of the napkin or underplate"
     
       ],
       "correct_answer": 3
     },
      {
       "number": 11,
-      "question": "Il menù è:",
+      "question": "The menu is:",
       "answers": [
-        "a destra del tovagliolo o sottopiatto",
-        "si divede per tipolegie (aperitivi, bevande, ecc..)",
-        "deve essere adeguato alla stagione e contenere prodotti tipici del paese",
-        "nessuna delle precedenti"
+        "to the right of the napkin or underplate",
+        "is divided into types (aperitifs, drinks, etc.)",
+        "must be appropriate to the season and contain typical products of the country",
+        "none of the above"
       ],
       "correct_answer": 3
     },
      {
       "number": 12,
-      "question": "quale è l’ordine dei pasti all’interno del menù?:",
+      "question": "what is the order of the meals within the menu?",
       "answers": [
-        "antipasti,primi,secondi,dessert",
-        "antipasti,primi,pesce,carne,contorni,dessert",
-        "primi,secondi,contorni e dessert",
-        "antipasti,pesce,carne,contorni,dessert"
+        "starters,main courses,desserts",
+        "starters,main courses,fish,meat,side dishes,dessert",
+        "starters,main courses,side dishes,dessert",
+        "starters,fish,meat,side dishes,dessert"
       ],
       "correct_answer": 2
     }
