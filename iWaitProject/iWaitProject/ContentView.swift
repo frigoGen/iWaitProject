@@ -39,56 +39,65 @@ struct ContentView: View {
         }
     var body: some View {
         NavigationView {
-            ZStack{
-                ScrollView{
-                    LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
-                        VStack{
-                            Spacer(minLength: 60)
-                            NavigationLink(destination: Buttons(tex: 0)){
-                                    SpriteView(scene: self.scene)
-                                        .frame(width: 198, height: 198)
+         
+              
+                ZStack{
+                    Image("sfondo1")
+                        .padding(.bottom, 13.0)
+                      
+                    ScrollView{
+                        LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
+                            VStack{
+                                Spacer(minLength: 235)
+                                NavigationLink(destination: Buttons(tex: 0)){
+                                    SpriteView(scene: self.scene, options: [.allowsTransparency])
+                                        .frame(width: 300, height: 110)
                                         .ignoresSafeArea()
-
+                                    
                                 }
-                            NavigationLink(destination: Buttons(tex: 1)){
-                                SpriteView(scene: self.scene1)
-                                    .frame(width: 198, height: 198)
-                                    .ignoresSafeArea()
-
+                                NavigationLink(destination: Buttons(tex: 1)){
+                                    SpriteView(scene: self.scene1, options: [.allowsTransparency])
+                                        .frame(width: 300, height: 110)
+                                        .ignoresSafeArea()
+                                    
+                                }
+                                NavigationLink(destination: Buttons(tex: 2)){
+                                    SpriteView(scene: self.scene2, options: [.allowsTransparency])
+                                        .frame(width: 300, height: 110)
+                                        .ignoresSafeArea()
+                                    
+                                }
                             }
-                            NavigationLink(destination: Buttons(tex: 2)){
-                                SpriteView(scene: self.scene2)
-                                    .frame(width: 198, height: 198)
-                                    .ignoresSafeArea()
-
-                            }
+                            
                         }
-                        
                     }
-                }
-                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                VStack{
-                    Spacer(minLength: 60)
-                    
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    VStack{
+                        Spacer(minLength: 60)
+                        
                         NavigationLink(destination: ProfileView()){
                             ZStack{
-                            Image("bollapic")
-                            Image("account")
+                                Image("bollapic")
+                                Image("id")
+                            }
+                            
                         }
-                        
+                       // NavigationLink(destination: Text("Toggle Music")){
+                         //   Image("bollapic")
+                            
+                      //  }
                     }
-                    NavigationLink(destination: Text("Toggle Music")){
-                        Image("bollapic")
-                        
-                    }
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    .frame(width: 100.0, height: 100.0)
+                    .position(x:340,y: 40)
+                    
                 }
-                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                .frame(width: 100.0, height: 100.0)
-                .position(x:340,y: 40)
-            }
-            .background(Color(UIColor(red: 0.83, green: 0.93, blue: 0.95, alpha: 1.00)
-                             ))
+            
+           // .background(Color(UIColor(red: 0.44, green: 0.09, blue: 0.13, alpha: 1.00)
+                           //  ))
+      
         }
+   
 
         
     }

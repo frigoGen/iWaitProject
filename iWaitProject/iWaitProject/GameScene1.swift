@@ -16,13 +16,15 @@ class GameScene: SKScene {
         /*let mod1 = SKTexture(imageNamed:"MOD1")
         let mod2 = SKTexture(imageNamed:"MOD2")
         let mod3 = SKTexture(imageNamed:"MOD3")*/
-        let modTex: [SKTexture] = [SKTexture(imageNamed:"MOD1"), SKTexture(imageNamed:"MOD2"), SKTexture(imageNamed:"MOD3")]
+        let modTex: [SKTexture] = [SKTexture(imageNamed:"Group"), SKTexture(imageNamed:"Group"), SKTexture(imageNamed:"Group")]
         pis.size = CGSize(width: 190, height: 190)
         pis.name = "pis"
         pis.isUserInteractionEnabled = false
         pis.texture = modTex[tex ?? 0]
         pis.position = CGPoint(x: frame.width/2, y: frame.width/2)
-        self.backgroundColor = UIColor(red: 0.83, green: 0.93, blue: 0.95, alpha: 1.00)
+       //self.backgroundColor = UIColor(red: 0.83, green: 0.93, blue: 0.95, alpha: 1.00)
+        self.backgroundColor = .clear
+        
         addChild(pis)
             physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         }

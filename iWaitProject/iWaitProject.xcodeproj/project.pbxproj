@@ -14,9 +14,9 @@
 		13504C3A29A8BAF900E33021 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13504C3929A8BAF900E33021 /* QuestionModel.swift */; };
 		13504C3E29A8BD6400E33021 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13504C3D29A8BD6400E33021 /* Quiz.swift */; };
 		137B939A29ACAFA200CB5282 /* QuizData[EN].json in Resources */ = {isa = PBXBuildFile; fileRef = 137B939929ACAFA200CB5282 /* QuizData[EN].json */; };
+		137B939C29ACCCFC00CB5282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137B939B29ACCCFB00CB5282 /* Assets.xcassets */; };
 		6E373ED929A5FFA100F18525 /* iWaitProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373ED829A5FFA100F18525 /* iWaitProjectApp.swift */; };
 		6E373EDB29A5FFA100F18525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EDA29A5FFA100F18525 /* ContentView.swift */; };
-		6E373EDD29A5FFA300F18525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E373EDC29A5FFA300F18525 /* Assets.xcassets */; };
 		6E373EE029A5FFA300F18525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E373EDF29A5FFA300F18525 /* Preview Assets.xcassets */; };
 		6E373EE229A5FFA300F18525 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EE129A5FFA300F18525 /* Persistence.swift */; };
 		6E373EE529A5FFA300F18525 /* iWaitProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EE329A5FFA300F18525 /* iWaitProject.xcdatamodeld */; };
@@ -40,10 +40,10 @@
 		13504C3929A8BAF900E33021 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		13504C3D29A8BD6400E33021 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		137B939929ACAFA200CB5282 /* QuizData[EN].json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "QuizData[EN].json"; sourceTree = "<group>"; };
+		137B939B29ACCCFB00CB5282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E373ED529A5FFA100F18525 /* iWaitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWaitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E373ED829A5FFA100F18525 /* iWaitProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWaitProjectApp.swift; sourceTree = "<group>"; };
 		6E373EDA29A5FFA100F18525 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6E373EDC29A5FFA300F18525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E373EDF29A5FFA300F18525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E373EE129A5FFA300F18525 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6E373EE429A5FFA300F18525 /* iWaitProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iWaitProject.xcdatamodel; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				F77D6B6529A92645002278F8 /* ChapterOneCardView.swift */,
 				F77D6B6729A9266D002278F8 /* CardView.swift */,
 				F77D6B6929A92670002278F8 /* CardModel.swift */,
-				6E373EDC29A5FFA300F18525 /* Assets.xcassets */,
+				137B939B29ACCCFB00CB5282 /* Assets.xcassets */,
 				13504C3729A8BAD100E33021 /* Models */,
 				6E373EE129A5FFA300F18525 /* Persistence.swift */,
 				6E373EE329A5FFA300F18525 /* iWaitProject.xcdatamodeld */,
@@ -195,9 +195,12 @@
 				0A507BCC29ACD00C00099480 /* Teoria[EN].json in Resources */,
 				0A507BCD29ACD00C00099480 /* Teoria[IT].json in Resources */,
 				6E373EE029A5FFA300F18525 /* Preview Assets.xcassets in Resources */,
-				6E373EDD29A5FFA300F18525 /* Assets.xcassets in Resources */,
 				137B939A29ACAFA200CB5282 /* QuizData[EN].json in Resources */,
+<<<<<<< Updated upstream
 				0A507BCE29ACD00C00099480 /* Teoria[PT].json in Resources */,
+=======
+				137B939C29ACCCFC00CB5282 /* Assets.xcassets in Resources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
