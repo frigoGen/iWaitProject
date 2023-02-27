@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-var quiz: [Quiz] = load("QuizData[PT]")
+
 var quest:Int = 0
 
 
@@ -34,6 +34,7 @@ func load<T: Decodable>(_ filename: String) -> T {
 }
 
 struct QuizView: View {
+    @State var quiz: [Quiz] = load("QuizData[PT]")
     var tex: Int
    // @State var refresh: Bool = false
         //number of question

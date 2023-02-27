@@ -1,14 +1,13 @@
-
 [
     {
         "module": {
-            "Number":1,
+            "Number": 1,
             "Text": "Uniform and Brigade"
         },
         "Card": [
             {
                 "id": 1,
-                "Text": ""
+                "Text": "",
                 "Image": ""
             },
             {
@@ -52,13 +51,13 @@
         },
     {
         "module": {
-            "Number":2,
+            "Number": 2,
             "Text": "Mise en place and menù"
         },
         "Card": [
             {
                 "id": 1,
-                "Text": "Taking care of the tables by laying and arranging them, and making the place clean by cleaning it, are just two of the activities needed to carry out the service in the hall. All this work is called mise en place.In a restaurant, two types of mise en place are possible: mise en place à la carte and mise en place"
+                "Text": "Taking care of the tables by laying and arranging them, and making the place clean by cleaning it, are just two of the activities needed to carry out the service in the hall. All this work is called mise en place.In a restaurant, two types of mise en place are possible: mise en place à la carte and mise en place",
                 "Image": ""
             },
             {
@@ -102,13 +101,13 @@
         },
     {
         "module": {
-            "Number":3,
+            "Number": 3,
             "Text": "Hygiene and Safety and HACCP"
         },
         "Card": [
             {
                 "id": 1,
-                "Text": "T**Hygiene** For the waiter, personal hygiene and grooming are important:The waiter must have a pleasant, fresh and well-groomed appearance and must inspire admiration and esteem both in the clientele and in the management of colleagues"
+                "Text": "T**Hygiene** For the waiter, personal hygiene and grooming are important:The waiter must have a pleasant, fresh and well-groomed appearance and must inspire admiration and esteem both in the clientele and in the management of colleagues",
                 "Image": ""
             },
             {
