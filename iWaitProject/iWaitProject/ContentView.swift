@@ -43,7 +43,9 @@ struct ContentView: View {
               
                 ZStack{
                     Image("sfondo1")
-                        .padding(.bottom, 13.0)
+                        .resizable()
+                        .padding(.bottom)
+                        .scaledToFill()
                       
                     ScrollView{
                         LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {

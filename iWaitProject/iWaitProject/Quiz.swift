@@ -44,23 +44,40 @@ struct QuizView: View {
             VStack(alignment: .center, spacing: 20){
                 
                 //if i < of questions --> play question
-                if(self.i < quiz[tex].module.number){
-                    
+                if(self.i < quiz[tex].module.questions){
+                    Text("\(i+1)/\(quiz[tex].module.questions)")
+                        .font(.body)
+                        .bold()
+                        .foregroundColor(Color.black)
                     //image of the question
-                    Image(systemName: "card1")
-                        .resizable()
-                        .scaledToFit()
-                        .padding(.horizontal)
-                    
+                    ZStack{
+                        HStack{
+                            Spacer()
+                            Text("\(self.score)")
+                                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        }
+                        Image("card1")
+                            .resizable()
+                           // .scaledToFit()
+                            .padding(.all)
+                    }
                     //text of the question
                     Text(quiz[tex].questions[i].question)
-                    
+                        .font(.body)
+                        .bold()
+                        .foregroundColor(Color.black)
                     
                     //answer 0
                     Button(action:{
                         self.buttonAction(n: 0)
                     },label: {
-                        Text(quiz[tex].questions[i].answers[0])
+                        ZStack{
+                            Image("Question")
+                            Text(quiz[tex].questions[i].answers[0])
+                                .font(.body)
+                                .bold()
+                                .foregroundColor(Color.black)
+                        }
                     })
                     
                     
@@ -68,18 +85,30 @@ struct QuizView: View {
                     Button(action:{
                         self.buttonAction(n: 1)
                     },label: {
-                        Text(quiz[tex].questions[i].answers[1])
+                        ZStack{
+                            Image("Question")
+                            Text(quiz[tex].questions[i].answers[1])
+                                .font(.body)
+                                .bold()
+                                .foregroundColor(Color.black)
+                        }
                     })
                     
-                    if(quiz[tex].questions[i].answers[2] != nil){
+                    if(quiz[tex].questions[i].answers.count <= 4){
                         //answer 2
                         Button(action:{
                             self.buttonAction(n: 2)
                         },label: {
-                            Text(quiz[tex].questions[i].answers[2])
-                        })
+                            ZStack{
+                                Image("Question")
+                                Text(quiz[tex].questions[i].answers[2])
+                                    .font(.body)
+                                    .bold()
+                                    .foregroundColor(Color.black)
+                            }
+                            })
                     }
-                    if(quiz[tex].questions[i].answers[3] != nil){
+                    if(quiz[tex].questions[i].answers.count == 4 ){
                         //answer 3
                         Button(action:{
                             self.buttonAction(n: 3)
@@ -88,6 +117,7 @@ struct QuizView: View {
                                 Image("Question")
                                 Text(quiz[tex].questions[i].answers[3])
                                     .font(.body)
+                                    .bold()
                                     .foregroundColor(Color.black)
                                 
                             }
@@ -98,6 +128,7 @@ struct QuizView: View {
                 else{
                     //FinalView(score : self.score)
                     //NUOVA VIEW con resoconto
+                    ContentView()
                     
                 }
                 
@@ -115,6 +146,7 @@ struct QuizView: View {
             }
             //GO TO NEXT QUESTION
             self.i = self.i + 1
+            print("\(i)")
         }
         
         
