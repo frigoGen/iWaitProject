@@ -1,0 +1,153 @@
+
+[
+    {
+        "Module": {
+            "Number":1,
+            "Text": "Uniforme e brigata"
+        },
+        "Card": [
+            {
+                "id": 1,
+                "Text": ""
+                "Image": ""
+            },
+            {
+                "id": 2,
+                "Text": " La brigata in generale può essere schematizzata gerarchicamente. In primo luogo abbiamo il Maitre d'hotel, dopodiché ci sono lo chef de rang e lo chef ai vini, e infine il commis de rang.",
+                "Image": ""
+            },
+            {"id": 3,
+                "Text": "DIRETTORE DI RISTORANTE \n Si occupa dell'organizzazione e dell'amministrazione del servizio di ristorazione. Coadiuvato dal maître d'hotel, stabilisce anche i turni di servizio e i periodi di riposo del personale. Inoltre, è responsabile del food and beverage manager.\n \n DIRETTORE BANQUET \n Gestisce il servizio banchetti e sovrintende a tutti gli aspetti organizzativi: prepara il buffet, ne cura l'estetica, si occupa del menu e della scelta delle bevande)",
+                "Image": ""
+            },
+            {"id": 4,
+                "Text": "PRIMO MAITRE D'HOTEL \n Gestisce il servizio in camera e determina l'organico. Definisce i turni del personale in collaborazione con il direttore. Prende le comande, mantiene i rapporti con gli ospiti. È responsabile delle attrezzature e si occupa dell'inventario",
+                "Image": ""
+            },
+            {"id": 5,
+                "Text": "SECONDO MAITRE D'HOTEL \n Assiste il primo maître d'hotel. Coordina e supervisiona il servizio, gli orari del personale e la pulizia della sala e delle attrezzature. Riceve gli ospiti, prende le ordinazioni; in mancanza di personale, prepara anche i piatti alla lampada",
+                "Image": ""
+            },
+            {"id": 6,
+                "Text": "MAITRE AI BANCHETTI \n Si occupa dell'organizzazione e del servizio dei banchetti secondo le direttive del banquet manager.\n MAITRE AI PIANI \n È responsabile del servizio dei pasti nelle camere. La sua postazione di lavoro si trova vicino all'ufficio ai piani, a diretto contatto telefonico con gli ospiti. Risponde al direttore dell'albergo o al maître d'hôtel",
+                "Image": ""
+            },
+            {"id": 7,
+                "Text": "SOMMELIER (chef del vino) \n Si occupa di scegliere i vini, di servirli, di selezionarli e di abbinarli al cibo. \n COMMIS SOMMELIER \n Lavora a stretto contatto con il sommelier",
+                "Image": ""
+            },
+            {"id": 8,
+                "Text": "SALON HOSTESS Svolge mansioni di accoglienza clienti. Riceve le prenotazioni e le comunicazioni telefoniche. Contribuisce al servizio di guardaroba e aiuta il maitre accompagnando gli ospiti ai loro tavoli, se necessario.",
+                "Image": ""
+            },
+            {"id": 9,
+                "Text": "CHEF DE RANG Si occupa dell'adattamento del servizio del suo rango e partecipa sia alla mise en place della sala da pranzo che alla pulizia del suo reparto. Se necessario, serve anche i piatti e prende le ordinazioni. Collabora con il commis, guidandolo nella distribuzione e nella consegna delle comande",
+                "Image": ""
+            },
+            {"id": 10,
+                "Text": "COMMIS DE RANG \n Prende gli ordini dallo chef de rang. Raccoglie i piatti dalla cucina e li dispone sul tavolo di servizio, si occupa della mise en place, dispone il materiale in ufficio, pulisce i tavoli e mantiene pulite le attrezzature e le aree di lavoro.\n \n COMMIS D'ETAGE (commis ai piani) \n Collabora con il maître ai piani nella preparazione dei carrelli e dei vassoi di servizio. Si occupa dell'ordine e della pulizia dell'ufficio ai piani",
+                "Image": ""
+            }
+        ]
+        },
+    {
+        "Module": {
+            "Number":2,
+            "Text": "Mise en place e menù"
+        },
+        "Card": [
+            {
+                "id": 1,
+                "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place.In un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place"
+                "Image": ""
+            },
+            {
+                "id": 2,
+                "Text": "Nel primo caso, il cliente sceglie i suoi piatti al momento e quindi il menu non è noto; il personale provvede a sistemare i coperti man mano. Nel secondo caso, invece, il menu è noto in anticipo e tutte le posate necessarie per il servizio vengono preparate prima. In entrambi i casi, comunque, è necessario essere in grado di disporre correttamente il materiale su un tavolo.",
+                "Image": ""
+            },
+            {"id": 3,
+                "Text": "**Pannolino** a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
+                "Image": ""
+            },
+            {"id": 4,
+                "Text": "Bicchieri il bicchiere per il vino rosso va posto sopra la punta del coltello, a circa 1 cm di distanza il bicchiere per l'acqua va posto in diagonale, un po' più in alto di quello per il vino rossoil bicchiere per il vino bianco va posto in diagonale, un po' più in basso di quello per il vino rosso Se oltre a questi bicchieri è necessario anche il flûte, va posto in diagonale sopra il bicchiere per l'acqua.",
+                "Image": ""
+            },
+            {"id": 5,
+                            "Text": "Piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
+                            "Image": ""
+                        },
+                        {"id": 6,
+                            "Text": "**Il coperto prenotato** Se il cliente ha prenotato e ordinato il menu, il coperto dipende dal Number e dal tipo di portate. **Tuttavia, non dovrebbero essere servite più di quattro paia di posate** (comprese quelle da dessert) **e tre bicchieri alla volta**. Le altre posate o i bicchieri necessari devono essere sistemati separatamente durante il servizio. **La sequenza delle portate determina quella delle posate**",
+                            "Image": ""
+                        },
+                        {"id": 7,
+                            "Text": "**cucchiaio** a destra, all'esterno o in mezzo ai coltelli, a seconda della successione delle pietanze.**posate da dessert** se nel menu c'è un dolce, si dispongono sopra il sottopiatto, parallele al bordo del tavolo.**MENUITS****Menu e carta (teoria )** ",
+                            "Image": ""
+                        },
+                        {"id": 8,
+                            "Text": "Il menu è un insieme di preparazioni culinarie che rappresentano i piatti dall'antipasto al dolce che si possono avere. Viene presentato con prezzo fisso al cliente.Ogni dipendente deve conoscere il menu e gli ingredienti dei piatti.I piatti sono divisi in categorie: gli antipasti, i primi, il pesce, la carne, i contorni e il dessert",
+                            "Image": ""
+                        },
+                        {"id": 9,
+                            "Text": "In un menù è necessario inserire tutte le componenti nutrizionali: lipidi, glucosio ecc.Deve essere adeguato alla stagione con le giuste dosi di nutrienti.Contenere I prodotti tipici del paese Un budget adeguato alla preparazione",
+                            "Image": ""
+                        },
+                        {"id": 10,
+                            "Text": "La carta presenta una selezione di piatti ciascuno con un prezzo assegnato. La carta comprende: antipasti, pasti (primo, secondo, dessert), vini e bevande. Possono esserci diversi tipi di carte: la carta degli aperitivi, la carta dei pasti, dei vini e delle bevande, della caffetteria, dei dessert e dei digestivi.",
+                            "Image": ""
+                        }
+                    ]
+                    },
+    {
+        "Module": {
+            "Number":3,
+            "Text": "Igiene e Sicurezza e HACCP"
+        },
+        "Card": [
+            {
+                "id": 1,
+                "Text": "T**Igiene** Per il cameriere sono importanti l'igiene personale e la cura del corpo:Il cameriere deve avere un aspetto gradevole, fresco e curato e deve suscitare ammirazione e stima sia nella clientela che nella direzione dei colleghi."
+                "Image": ""
+            },
+            {
+                "id": 2,
+                "Text": "Il cameriere deve stare in piedi per molte ore e deve spostarsi continuamente da ambienti caldi come la cucina ad ambienti freschi come la sala. Inoltre, il suo lavoro comporta fatica e stress, quindi deve anche prendersi cura della sua salute fisica e mentale...",
+                "Image": ""
+            },
+            {"id": 3,
+                "Text": "Il cameriere è a contatto con le attrezzature di chi mangia e quindi deve curare il più possibile la propria pulizia",
+                "Image": ""
+            },
+            {"id": 4,
+                "Text": "Infatti gli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
+                "Image": ""
+            },
+            {"id": 5,
+                "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo2)fare esercizio fisico regolarmente e fare attenzione ai movimenti3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
+                "Image": ""
+            },
+            {"id": 6,
+                "Text": "Altre regole per la cura della persona sono:6)la pulizia quotidiana del corpo è la prima regola da seguire7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale9)le mani devono essere ben curate e avere unghie corte e pulite10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
+                "Image": ""
+            },
+            {"id": 7,
+                "Text": "**N.B.** Si raccomanda inoltre di:-non indossare braccialetti o anelli o lacci da polso-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
+                "Image": ""
+            },
+            {"id": 8,
+                            "Text": "Importante è anche l'HACCP (Hazard Analysis Critical Control Points) che è un sistema basato su sette principi ed è determinato dalla Direttiva Europea 852/2004 per l'igiene dei prodotti alimentari.I pericoli possono essere di tre tipi: fisici (insetti, rischi metallici, ... ), chimici (additivi non intenzionali, residui di lavaggio, ... ), biologici (presenza di parassiti, contaminazione batterica)",
+                            "Image": ""
+                        },
+                        {"id": 9,
+                            "Text": "**Primo soccorso*-Cosa fare? -allentare gli indumenti stretti in caso di emorragia-comprimere a monte l'emorragia-chiamare il 118",
+                            "Image": ""
+                        },
+                        {"id": 10,
+                            "Text": "Cosa non fare: agire senza il consenso della vittima, spostarla, correre rischi personali, somministrare farmaci, eseguire manovre mediche, considerare l'infortunato morto",
+                            "Image": ""
+                        }
+                    ]
+                    },
+            ]
