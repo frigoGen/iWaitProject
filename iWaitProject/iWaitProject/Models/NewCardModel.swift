@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CardModelUp: Decodable {
+public struct CardModelUp: Decodable {
     let module: module
     let Card: [Card]
 }

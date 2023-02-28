@@ -38,14 +38,24 @@ struct QuizView: View {
     var tex: Int
    // @State var refresh: Bool = false
         //number of question
-        @State var i : Int = 0
+        @State var i : Int = -1
         //var for the score
         @State var score = 0
         var body: some View {
             VStack(alignment: .center, spacing: 20){
-                
+                if(self.i == -1){
+                    Button(action: {self.buttonAction(n: self.i)}, label: {
+                        ZStack{
+                            Image("Question")
+                            Text("Sono Pronto")
+                                .font(.body)
+                                .bold()
+                                .foregroundColor(Color.black)
+                        }
+                    })
+                }
                 //if i < of questions --> play question
-                if(self.i < quiz[tex].module.questions){
+              else if(self.i < quiz[tex].module.questions && self.i >= 0){
                     Text("\(i+1)/\(quiz[tex].module.questions)")
                         .font(.body)
                         .bold()
@@ -142,7 +152,10 @@ struct QuizView: View {
         //n = answer [0,1,2,3]
         func buttonAction( n : Int){
             //if answer is correct increment score
-            if(quiz[tex].questions[i].correct_answer == n){
+            if(n == -1){
+                print("IM READY")
+            }
+            else if(quiz[tex].questions[i].correct_answer == n){
                 self.score = self.score + 1
             }
             //GO TO NEXT QUESTION

@@ -19,6 +19,7 @@ struct ContentView: View {
     var scene: SKScene {
         let scene = GameScene()
         scene.tex = 0
+        //scene.modulo.text = card[scene.tex!].module.Text
             scene.size = CGSize(width: 192, height: 192)
             scene.scaleMode = .fill
             return scene
@@ -26,6 +27,7 @@ struct ContentView: View {
     var scene1: SKScene {
         let scene1 = GameScene()
         scene1.tex = 1
+        //scene1.modulo.text = card[scene1.tex!].module.Text
             scene1.size = CGSize(width: 192, height: 192)
             scene1.scaleMode = .fill
             return scene1
@@ -33,6 +35,7 @@ struct ContentView: View {
    var scene2: SKScene {
         let scene2 = GameScene()
         scene2.tex = 2
+       //scene2.modulo.text = card[scene2.tex!].module.Text
             scene2.size = CGSize(width: 192, height: 192)
             scene2.scaleMode = .fill
             return scene2
@@ -40,9 +43,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
          
-              
                 ZStack{
-                    Color.black.edgesIgnoringSafeArea(.all)
+                    //Color.black.edgesIgnoringSafeArea(.all)
                     Image("sfondo1")
                         .resizable()
                         .padding(.bottom)
@@ -53,22 +55,39 @@ struct ContentView: View {
                             VStack{
                                 Spacer(minLength: 235)
                                 NavigationLink(destination: Buttons(tex: 0)){
-                                    SpriteView(scene: self.scene, options: [.allowsTransparency])
-                                        .frame(width: 300, height: 110)
-                                        .ignoresSafeArea()
+                                    ZStack{
+                                        SpriteView(scene: self.scene, options: [.allowsTransparency])
+                                            .frame(width: 300, height: 110)
+                                            .ignoresSafeArea()
+                                        Text(card[0].module.Text)
+                                            .fontWeight(.heavy)
+                                            .foregroundColor(.mint)
+
+                                    }
                                     
                                 }
                                 NavigationLink(destination: Buttons(tex: 1)){
-                                    SpriteView(scene: self.scene1, options: [.allowsTransparency])
-                                        .frame(width: 300, height: 110)
-                                        .ignoresSafeArea()
+                                    ZStack{
+                                        SpriteView(scene: self.scene1, options: [.allowsTransparency])
+                                            .frame(width: 300, height: 110)
+                                            .ignoresSafeArea()
+                                        Text(card[1].module.Text)
+                                            .fontWeight(.heavy)
+                                            .foregroundColor(.indigo)
+                                    }
                                     
                                 }
                                 NavigationLink(destination: Buttons(tex: 2)){
-                                    SpriteView(scene: self.scene2, options: [.allowsTransparency])
-                                        .frame(width: 300, height: 110)
-                                        .ignoresSafeArea()
-                                    
+                                    ZStack{
+                                        SpriteView(scene: self.scene2, options: [.allowsTransparency])
+                                            .frame(width: 300, height: 110)
+                                            .ignoresSafeArea()
+                                        Text(card[2].module.Text)
+                                            .fontWeight(.heavy)
+                                            .foregroundColor(.orange)
+                                            
+                                            
+                                    }
                                 }
                             }
                             
@@ -100,6 +119,7 @@ struct ContentView: View {
                            //  ))
       
         }
+        //.foregroundColor(.black)
    
 
         

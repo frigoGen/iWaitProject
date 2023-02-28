@@ -10,6 +10,7 @@ import SwiftUI
 
 class GameScene: SKScene {
     var tex: Int?
+    //var modulo = SKLabelNode(text: "asdfghj")
     var pis = SKSpriteNode()
     //let backG = SKSpriteNode(color: UIColor(red: 211, green: 237, blue: 243, alpha: 1), size: CGSize(width: 100,height: 100))
     override func didMove(to view: SKView) {
@@ -22,13 +23,32 @@ class GameScene: SKScene {
         pis.isUserInteractionEnabled = false
         pis.texture = modTex[tex ?? 0]
         pis.position = CGPoint(x: frame.width/2, y: frame.width/2)
+        pis.zPosition = 0
+       /* modulo.position = pis.position
+        //adjustLabelFontSizeToFitRect(labelNode: modulo,rect: pis)
+        modulo.zPosition = 1
+        modulo.fontColor = .black
+        modulo.fontSize = CGFloat(15)
+        modulo.fontName = "Arial"*/
        //self.backgroundColor = UIColor(red: 0.83, green: 0.93, blue: 0.95, alpha: 1.00)
         self.backgroundColor = .clear
         
         addChild(pis)
             physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
+        //addChild(modulo)
         }
+        
+   /* func adjustLabelFontSizeToFitRect(labelNode:SKLabelNode, rect:SKSpriteNode) {
 
+    // Determine the font scaling factor that should let the label text fit in the given rectangle.
+        let scalingFactor = min(rect.size.width / (labelNode.frame.width), rect.size.height / labelNode.frame.height)
+
+    // Change the fontSize.
+    labelNode.fontSize *= scalingFactor
+
+    // Optionally move the SKLabelNode to the center of the rectangle.
+        labelNode.position = CGPoint(x: rect.frame.midX, y: rect.frame.midY - labelNode.frame.height / 2.0)
+    }*/
         override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
             guard let touch = touches.first else { return }
             let location = touch.location(in: self)

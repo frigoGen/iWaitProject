@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Buttons: View {
     var tex: Int
-    @State var isUnlocked: [Bool] = [false,false,false]
+    @State var isUnlocked: [Bool] = [true,false,false]
     var body: some View {
         
         ZStack{
@@ -22,6 +22,7 @@ struct Buttons: View {
                 NavigationLink {
                     //ChapterOneCardView()
                     NewCardView(tex: tex)
+                        .ignoresSafeArea()
                     }
             label: {
                 Image("Group")
@@ -70,6 +71,8 @@ struct Buttons: View {
             
             
         }
+        .ignoresSafeArea()
+       // .frame(width:500,height:900)
         
         
     }
