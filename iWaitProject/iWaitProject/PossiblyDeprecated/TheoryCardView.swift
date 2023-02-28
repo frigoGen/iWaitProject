@@ -7,6 +7,9 @@
 
 // Theory card view con .gesture
 
+
+//CARD **---** BOLD //*DI LATO*// ***DI LATO E BOLD ***
+
 /*
 struct TheoryCardView: View {
     

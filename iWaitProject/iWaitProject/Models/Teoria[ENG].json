@@ -12,23 +12,23 @@
             },
             {
                 "id": 2,
-                "Text": " The brigade in general can be schematized hierarchically. First we have the Maitre d'hotel, after which there are the chef de rang and the chef at wines, and finally the commis de rang.",
+                "Text": "  The brigade in general can be schematized hierarchically. First we have the Maitre d'hotel, after which there are the chef de rang and the chef at wines, and finally the commis de rang.",
                 "Image": ""
             },
             {"id": 3,
-                "Text": "RESTAURANT DIRECTOR \n He is in charge of the organization and administration of the food service. Aided by the maître d'hôtel, he also establishes staff duty shifts and rest periods. In addition, he/she is in charge of the food and beverage manager.\n \n BANQUET DIRECTOR \n Manages the banquet service and oversees all organisational aspects: prepares the buffet, takes care of the aesthetics, deals with the menu and the choice of drinks.)",
+                "Text":"RESTAURANT DIRECTOR \n He is in charge of the organization and administration of the food service. Aided by the maître d'hôtel, he also establishes staff duty shifts and rest periods. In addition, he/she is in charge of the food and beverage manager.\n \n BANQUET DIRECTOR \n Manages the banquet service and oversees all organisational aspects: prepares the buffet, takes care of the aesthetics, deals with the menu and the choice of drinks.)",
                 "Image": ""
             },
             {"id": 4,
-                "Text": "FIRST MAITRE D'HOTEL \n Manages room service and determines staffing levels. He defines staff shifts in conjunction with the manager. He takes commandes, maintains relations with guests. He is in charge of the equipment and takes care of the inventory.",
+                "Text":"FIRST MAITRE D'HOTEL \n Manages room service and determines staffing levels. He defines staff shifts in conjunction with the manager. He takes commandes, maintains relations with guests. He is in charge of the equipment and takes care of the inventory.",
                 "Image": ""
             },
             {"id": 5,
-                "Text": "SECOND MAITRE D'HOTEL \n Assisting the first maître d'hôtel. He coordinates and supervises service, staff schedules, and the cleanliness of the room and equipment. He receives guests, takes orders; if there is no staff, he also prepares dishes at the lamp.",
+                "Text": "SECOND MAITRE D'HOTEL \n Assisting the first maître d'hôtel. He coordinates and supervises service, staff schedules, and the cleanliness of the room and equipment. He receives guests, takes orders; if there is no staff, he also prepares dishes at the lamp(refering to flambe trolley).",
                 "Image": ""
             },
             {"id": 6,
-                "Text": "MAITRE AT THE BANQUETS \n He/she looks after the organisation and service of banquets according to the directives of the banquet manager.\n MAITRE AT THE FLOORS \n He/she is responsible for serving meals in the rooms. His or her workstation is near the office on the floors, which is in direct telephone contact with guests. He reports to the hotel manager or maître d'hôtel.",
+                "Text":"MAITRE AT THE BANQUETS \n He/she looks after the organisation and service of banquets according to the directives of the banquet manager.\n MAITRE AT THE FLOORS \n He/she is responsible for serving meals in the rooms. His or her workstation is near the office on the floors, which is in direct telephone contact with guests. He reports to the hotel manager or maître d'hôtel.",
                 "Image": ""
             },
             {"id": 7,
@@ -36,7 +36,7 @@
                 "Image": ""
             },
             {"id": 8,
-                "Text": "SALON HOSTESS Performs customer reception duties. He receives reservations and telephone communications. He contributes to the cloakroom service and helps the maitre d' by escorting guests to their tables if required.",
+                "Text": "SALON HOSTESS Performs customer reception duties. He receives reservations and telephone communications. He contributes to the cloakroom service and helps the maitre d'H by escorting guests to their tables if required.",
                 "Image": ""
             },
             {"id": 9,
@@ -44,7 +44,7 @@
                 "Image": ""
             },
             {"id": 10,
-                "Text": "COMMIS DE RANG \n Takes orders from the chef de rang. He/she collects the dishes from the kitchen and places them on the serving table, takes care of the mise en place, arranges the material in the office, cleans the tables and keeps the equipment and working areas clean.\n \n COMMIS D'ETAGE (commis on the floors) \n Collaborates with the maître d' on the floors in preparing the trolleys and serving trays. He/she takes care of the tidiness and cleanliness of the office on the floors.",
+                "Text": "COMMIS DE RANG \n Takes orders from the chef de rang. He/she collects the dishes from the kitchen and places them on the serving table, takes care of the mise en place, arranges the material in the office, cleans the tables and keeps the equipment and working areas clean.\n \n COMMIS D'ETAGE (commis on the floors) \n Collaborates with the maître d'H on the floors in preparing the trolleys and serving trays. He/she takes care of the tidiness and cleanliness of the office on the floors.",
                 "Image": ""
             }
         ]
@@ -57,12 +57,12 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "Taking care of the tables by laying and arranging them, and making the place clean by cleaning it, are just two of the activities needed to carry out the service in the hall. All this work is called mise en place.In a restaurant, two types of mise en place are possible: mise en place à la carte and mise en place",
+                "Text": "Taking care of the tables by laying and arranging them, and making the place clean by cleaning it, are just two of the activities needed to carry out the service in the hall. All this work is called mise en place. In a restaurant, two types of mise en place are possible: mise en place à la carte and the classic mise en place",
                 "Image": ""
             },
             {
                 "id": 2,
-                "Text": "In the first case, the customer chooses his or her dishes at the moment and therefore the menu is not known; the staff will arrange the place settings as they go. In the second case, on the other hand, the menu is known in advance and all the cutlery needed for service is prepared beforehand. In both cases, however, it is necessary to be able to arrange the material properly on a table.",
+                "Text":  "In the first case, the customer chooses his or her dishes at the moment and therefore the menu is not known; the staff will arrange the place settings as they go. In the second case, on the other hand, the menu is known in advance and all the cutlery needed for service is prepared beforehand. In both cases, however, it is necessary to be able to arrange the material properly on a table.",
                 "Image": ""
             },
             {"id": 3,
@@ -70,19 +70,19 @@
                 "Image": ""
             },
             {"id": 4,
-                "Text": "Glasses the glass for red wine should be placed above the tips of the knife, about 1 cm away the glass for water should be placed diagonally, a little higher than the one for red winethe glass for white wine should be placed diagonally, a little lower than the one for red wine If in addition to these glasses the flûte is also needed, it is placed diagonally above the glass for water.",
+                "Text": "**Glasses** \n -The glass for red wine should be placed above the tips of the knife, about 1 cm away \n -the glass for water should be placed diagonally, a little higher than the one for red wine \n -the glass for white wine should be placed diagonally, a little lower than the one for red wine \n \n If in addition to these glasses the flûte is also needed, it is placed diagonally above the glass for water.",
                 "Image": ""
             },
             {"id": 5,
-                "Text": "Bread saucer with small knife for spreading butter on the left, next to the fork, but a little further from the edge; the small knife should have the blade facing outward from the place setting.",
+                "Text": "**Bread saucer with small knife** for spreading butter on the left, next to the fork, but a little further from the edge; the small knife should have the blade facing outward from the place setting.",
                 "Image": ""
             },
             {"id": 6,
-                "Text": "**The booked cover charge** If the customer has booked and ordered the menu, the cover charge depends on the number and type of courses. **No** more than four pairs of cutlery** (including dessert cutlery) **and three glasses at a time** should be set, however. Other necessary cutlery or glasses should be set separately during service. **The sequence of courses determines that of cutlery**.",
+                "Text":  "**The booked cover charge** If the customer has booked and ordered the menu, the cover charge depends on the number and type of courses. **No** more than four pairs of cutlery** (including dessert cutlery) **and three glasses at a time** should be set, however. Other necessary cutlery or glasses should be set separately during service. **The sequence of courses determines that of cutlery**.",
                 "Image": ""
             },
             {"id": 7,
-                "Text": "**spoon** on the right, outside or in between the knives, depending on the succession of food.**Dessert cutlery** if there is a dessert on the menu, it is arranged above the underplate, parallel to the edge of the table.**MENUITS****Menu and card (theory )** ",
+                "Text": "**Spoon** on the right, outside or in between the knives, depending on the succession of food. \n **Dessert cutlery** if there is a dessert on the menu, it is arranged above the underplate, parallel to the edge of the table.",
                 "Image": ""
             },
             {"id": 8,
@@ -90,11 +90,11 @@
                 "Image": ""
             },
             {"id": 9,
-                "Text": "In a menu it is necessary to add all the nutritional components: lipids, glucose etc.It must be seasonally appropriate with the right doses of nutrients.Contain The typical products of the country A budget appropriate to the preparation",
+                "Text": "In a menu it is necessary to add all the nutritional components: lipids, glucose etc. It must be seasonally appropriate with the right doses of nutrients. Contain The typical products of the country A budget appropriate to the preparation",
                 "Image": ""
             },
             {"id": 10,
-                "Text": "The card presents a selection of dishes each with an assigned price. The card includes: appetizers, meals(first, second desserts), wines and drinks. There can be different types of cards: the aperitif card, the carat of meals, wines and beverages, cafeteria, desserts, and digestifs.",
+                "Text": "The card presents a selection of dishes each with an assigned price. The card includes: appetizers, meals(first, second desserts), wines and drinks. There can be different types of cards: the aperitif card, the card of meals, wines and beverages, cafeteria, desserts, and digestifs.",
                 "Image": ""
             }
         ]
@@ -107,12 +107,12 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "T**Hygiene** For the waiter, personal hygiene and grooming are important:The waiter must have a pleasant, fresh and well-groomed appearance and must inspire admiration and esteem both in the clientele and in the management of colleagues",
+                "Text": "**Hygiene** \n For the waiter, personal hygiene and grooming are important. \n The waiter must have a pleasant, fresh and well-groomed appearance and must inspire admiration and esteem both in the client and in the colleagues",
                 "Image": ""
             },
             {
                 "id": 2,
-                "Text": "The waiter must be on his feet for many hours and must constantly move from hot environments such as the kitchen to cool environments such as the lounge. In addition, his work involves fatigue and stress, so he must also look after his physical and mental health..",
+                "Text": "The waiter must be on his feet for many hours and must constantly move from hot environments such as the kitchen, to cool environments such as the lounge. In addition, his work involves fatigue and stress, so he must also look after his physical and mental health.",
                 "Image": ""
             },
             {"id": 3,
@@ -120,19 +120,19 @@
                 "Image": ""
             },
             {"id": 4,
-                "Text": "In fact food can give rise to various illnesses as it is a vehicle for pathogenic bacteria and poisonous substances that could lead to food poisoning.",
+                "Text": "Food can give rise to various illnesses as it is a vehicle for pathogenic bacteria and poisonous substances that could lead to food poisoning.",
                 "Image": ""
             },
             {"id": 5,
-                "Text": "The rules to improve personal care are:1)devote as much time as necessary to rest and body care2)exercise regularly and be careful with your movements3)choose shoes carefully as waiters spend many hours on their feet4)to relieve the feet it is good to wash them two or three times a day5)it would be good for women to use elasticised stockings to avoid varicose veins",
+                "Text": "The rules to improve personal care are: \n 1)devote as much time as necessary to rest and body care \n 2)exercise regularly and be careful with your movements \n 3)choose shoes carefully as waiters spend many hours on their feet \n 4)to relieve the feet it is good to wash them two or three times a day \n 5)it would be good for women to use elasticised stockings to avoid varicose veins",
                 "Image": ""
             },
             {"id": 6,
-                "Text": "Other rules for personal care are:6)daily cleansing of the body is the first rule to follow7)hair must always be clean and well combed. short hair is preferred8)men must shave thoroughly every morning or before evening service9)hands must be well groomed and have short, clean nails10)women should not use nail polish on their nails11)take care of nutrition.",
+                "Text": "Other rules for personal care are:\n 6)daily cleansing of the body is the first rule to follow \n 7)hair must always be clean and well combed, short hair is preferred \n 8)men must shave thoroughly every morning or before evening service \n 9)hands must be well groomed and have short, clean nails \n 10)women should not use nail polish on their nails11)take care of nutrition.",
                 "Image": ""
             },
             {"id": 7,
-                "Text": "**N.B.** It is also recommended to:-do not wear bracelets or rings or wristwatches-in the case of injuries, use appropriate dressings-take cutlery by the handle glasses by the stem and plates by the rim-remove waste from work areas as soon as possible-clean work surfaces when you have finished using them",
+                "Text": "**N.B.** It is also recommended to: \n -do not wear bracelets or rings or wristwatches \n -in the case of injuries, use appropriate dressings \n -take cutlery by the handle glasses by the stem and plates by the rim \n -remove waste from work areas as soon as possible \n -clean work surfaces when you have finished using them",
                 "Image": ""
             },
             {"id": 8,
@@ -140,11 +140,11 @@
                 "Image": ""
             },
             {"id": 9,
-                "Text": "**First aid*-What to do?-loosen tight clothing in case of bleeding-Compress upstream bleeding-call 118",
+                "Text": "**First aid* \n \n What to do? \n -loosen tight clothing in case of bleeding \n -Compress upstream bleeding \n -call 118",
                 "Image": ""
             },
             {"id": 10,
-                "Text": "What not to do?-Act without the victim's consent-move him/her-take personal risks-give medication-perform medical manoeuvres-consider the casualty dead",
+                "Text": "What not to do? \n -Act without the victim's consent-move him/her \n -take personal risks \n -give medication-perform medical manoeuvres \n -consider the casualty dead",
                 "Image": ""
             }
         ]
