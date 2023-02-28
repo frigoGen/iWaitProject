@@ -19,11 +19,11 @@
     },
     {
       "number": 2,
-      "question": "L’hostess di sala di cosa di occupa:",
+      "question": "L’hostess di sala di cosa si occupa:",
       "answers": [
         "accoglie i clienti se è necessario",
         "si occupa della mise en place",
-        "cura l’ordine e la pulizia della sala ",
+        "cura l’ordine e la pulizia della sala",
         "predispone il buffet"
       ],
       "correct_answer": 1
@@ -35,24 +35,24 @@
         "di predisporre la mise en place",
         "di liberare i tavoli",
         "di prendere ordini dallo chef de rang",
-        " evade le comande dei clienti che lo contattano direttamente"
+        "evade le comande dei clienti che lo contattano direttamente"
       ],
       "correct_answer": 4
     },
     {
       "number": 4,
-      "question": "Lo chef de rang si occupa : ",
+      "question": "Lo chef de rang si occupa:",
       "answers": [
         "di versare il vino",
         "di prendere gli ordini ai tavoli",
         "fare accoglienza si clienti",
-        "curare il proprio rango "
+        "curare il proprio rango"
       ],
       "correct_answer": 4
     },
     {
       "number": 5,
-      "question": "Il sommelier ha la responsabilità di : ",
+      "question": "Il sommelier ha la responsabilità di: ",
       "answers": [
         "abbinare il tipo di vino ai pasti",
         "di versare il vino",
@@ -89,7 +89,7 @@
         "commis",
         "maitre",
         "direttore di ristorante",
-        "chef de range"
+        "chef de rang"
       ],
       "correct_answer": 2
     },
@@ -97,7 +97,7 @@
       "number": 9,
       "question": "il secondo maitre non si occupa di:",
       "answers": [
-        "cpulizia della sala",
+        "pulizia della sala",
         "dei turni di lavoro e di riposo del personale ",
         "di prendere le ordinazioni",
         "di collaborare con il food and beverage manager"
@@ -141,8 +141,8 @@
 },
 {
   "module": {
-    "number": 2,
-    "name": "Igiene, pronto soccorso e haccp",
+    "number": 3,
+    "name": "Igiene, pronto soccorso e HACCP",
     "questions": 12
   },
   "questions": [
@@ -183,8 +183,8 @@
       "number": 4,
       "question": "Si consiglia di:",
       "answers": [
-        "portare bracciali o anelli",
-        "portare orologi da polso",
+        "indossare bracciali o anelli",
+        "indossare orologi da polso",
         "non tossire sul cibo",
         "nessuna delle precedenti"
       ],
@@ -269,12 +269,12 @@
     },
     {
       "number": 12,
-      "question": "Quale non è una regola per la cura e l’igiene personale ? ",
+      "question": "Quale non è una regola per la cura e l’igiene personale? ",
       "answers": [
         "identificazione dei pericoli e ricerca delle misure preventive ",
         "Dedicare al riposo e alla cura del corpo tutto il tempo necessario",
         "Controllo dei risultati e dell’efficacia delle azioni correttive",
-        "Rivisita del manuale HACC "
+        "Rivisita del manuale HACCP "
       ],
       "correct_answer": 2
     }
@@ -283,7 +283,7 @@
 },
 {
   "module": {
-    "number": 3,
+    "number": 2,
     "name": "mise en place",
     "questions": 12
       },
@@ -387,7 +387,7 @@
     },
      {
       "number": 10,
-      "question": "I  coltelli e i cucchiai dove vanno messi nella mise en place?",
+      "question": "I coltelli e i cucchiai dove vanno messi nella mise en place?",
       "answers": [
         "sopra i bicchieri",
         "vicino al piatto del pane",

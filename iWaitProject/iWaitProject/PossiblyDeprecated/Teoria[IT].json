@@ -17,7 +17,7 @@
                 "Image": ""
             },
             {"id": 3,
-                "Text": "DIRETTORE DI RISTORANTE \n Si occupa dell'organizzazione e dell'amministrazione del servizio di ristorazione. Coadiuvato dal maître d'hotel, stabilisce anche i turni di servizio e i periodi di riposo del personale. Inoltre, è responsabile del food and beverage manager.\n \n DIRETTORE BANQUET \n Gestisce il servizio banchetti e sovrintende a tutti gli aspetti organizzativi: prepara il buffet, ne cura l'estetica, si occupa del menu e della scelta delle bevande)",
+                "Text": "DIRETTORE DI RISTORANTE \n Si occupa dell'organizzazione e dell'amministrazione del servizio di ristorazione. Coaudiuvato dal maître d'hotel, stabilisce anche i turni di servizio e i periodi di riposo del personale. Inoltre, è responsabile del food and beverage manager.\n \n DIRETTORE AI BANCHETTI \n Gestisce il servizio banchetti e sovrintende a tutti gli aspetti organizzativi: prepara il buffet, ne cura l'estetica, si occupa del menu e della scelta delle bevande)",
                 "Image": ""
             },
             {"id": 4,
@@ -37,11 +37,11 @@
                 "Image": ""
             },
             {"id": 8,
-                "Text": "SALON HOSTESS Svolge mansioni di accoglienza clienti. Riceve le prenotazioni e le comunicazioni telefoniche. Contribuisce al servizio di guardaroba e aiuta il maitre accompagnando gli ospiti ai loro tavoli, se necessario.",
+                "Text": "SALON HOSTESS \n Svolge mansioni di accoglienza clienti. Riceve le prenotazioni e le comunicazioni telefoniche. Contribuisce al servizio di guardaroba e aiuta il maitre accompagnando gli ospiti ai loro tavoli, se necessario.",
                 "Image": ""
             },
             {"id": 9,
-                "Text": "CHEF DE RANG Si occupa dell'adattamento del servizio del suo rango e partecipa sia alla mise en place della sala da pranzo che alla pulizia del suo reparto. Se necessario, serve anche i piatti e prende le ordinazioni. Collabora con il commis, guidandolo nella distribuzione e nella consegna delle comande",
+                "Text": "CHEF DE RANG \n Si occupa dell'adattamento del servizio del suo rango e partecipa sia alla mise en place della sala da pranzo che alla pulizia del suo reparto. Se necessario, serve anche i piatti e prende le ordinazioni. Collabora con il commis, guidandolo nella distribuzione e nella consegna delle comande",
                 "Image": ""
             },
             {"id": 10,
@@ -58,7 +58,7 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place.In un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place"
+                "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place./n In un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place"
                 "Image": ""
             },
             {
@@ -67,7 +67,7 @@
                 "Image": ""
             },
             {"id": 3,
-                "Text": "**Pannolino** a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
+                "Text": "Tovagliolo/n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande/n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
                 "Image": ""
             },
             {"id": 4,
@@ -75,15 +75,15 @@
                 "Image": ""
             },
             {"id": 5,
-                            "Text": "Piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
+                            "Text": "Il piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
                             "Image": ""
                         },
                         {"id": 6,
-                            "Text": "**Il coperto prenotato** Se il cliente ha prenotato e ordinato il menu, il coperto dipende dal Number e dal tipo di portate. **Tuttavia, non dovrebbero essere servite più di quattro paia di posate** (comprese quelle da dessert) **e tre bicchieri alla volta**. Le altre posate o i bicchieri necessari devono essere sistemati separatamente durante il servizio. **La sequenza delle portate determina quella delle posate**",
+                            "Text": "**Il coperto prenotato** Se il cliente ha prenotato e ordinato il menu, il coperto dipende dal numero e dal tipo di portate. **Tuttavia, non dovrebbero essere servite più di quattro paia di posate** (comprese quelle da dessert) **e tre bicchieri alla volta**. Le altre posate o i bicchieri necessari devono essere sistemati separatamente durante il servizio. **La sequenza delle portate determina quella delle posate**",
                             "Image": ""
                         },
                         {"id": 7,
-                            "Text": "**cucchiaio** a destra, all'esterno o in mezzo ai coltelli, a seconda della successione delle pietanze.**posate da dessert** se nel menu c'è un dolce, si dispongono sopra il sottopiatto, parallele al bordo del tavolo.**MENUITS****Menu e carta (teoria )** ",
+                            "Text": "**cucchiaio** a destra, all'esterno o in mezzo ai coltelli, a seconda della successione delle pietanze.**posate da dessert** se nel menu c'è un dolce, si dispongono sopra il sottopiatto, parallele al bordo del tavolo.**MENUITS** **Menu e carta (teoria)**",
                             "Image": ""
                         },
                         {"id": 8,
@@ -108,7 +108,7 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "T**Igiene** Per il cameriere sono importanti l'igiene personale e la cura del corpo:Il cameriere deve avere un aspetto gradevole, fresco e curato e deve suscitare ammirazione e stima sia nella clientela che nella direzione dei colleghi."
+                "Text": "**Igiene** Per il cameriere sono importanti l'igiene personale e la cura del corpo:Il cameriere deve avere un aspetto gradevole, fresco e curato e deve suscitare ammirazione e stima sia nella clientela che nella direzione dei colleghi."
                 "Image": ""
             },
             {
@@ -121,19 +121,19 @@
                 "Image": ""
             },
             {"id": 4,
-                "Text": "Infatti gli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
+                "Text": "Gli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
                 "Image": ""
             },
             {"id": 5,
-                "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo2)fare esercizio fisico regolarmente e fare attenzione ai movimenti3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
+                "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo/n2)fare esercizio fisico regolarmente e fare attenzione ai movimenti/n3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi/n4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno/n5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
                 "Image": ""
             },
             {"id": 6,
-                "Text": "Altre regole per la cura della persona sono:6)la pulizia quotidiana del corpo è la prima regola da seguire7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale9)le mani devono essere ben curate e avere unghie corte e pulite10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
+                "Text": "Altre regole per la cura della persona sono:/n6)la pulizia quotidiana del corpo è la prima regola da seguire/n7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti/n8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale/n9)le mani devono essere ben curate e avere unghie corte e pulite/n10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
                 "Image": ""
             },
             {"id": 7,
-                "Text": "**N.B.** Si raccomanda inoltre di:-non indossare braccialetti o anelli o lacci da polso-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
+                "Text": "**N.B.** Si raccomanda inoltre di:/n-non indossare braccialetti o anelli o lacci da polso/n-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo/n-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
                 "Image": ""
             },
             {"id": 8,
@@ -141,7 +141,7 @@
                             "Image": ""
                         },
                         {"id": 9,
-                            "Text": "**Primo soccorso*-Cosa fare? -allentare gli indumenti stretti in caso di emorragia-comprimere a monte l'emorragia-chiamare il 118",
+                            "Text": "**Primo soccorso*/n-Cosa fare? /n-allentare gli indumenti stretti in caso di emorragia/n-comprimere a monte l'emorragia/n-chiamare il 118.",
                             "Image": ""
                         },
                         {"id": 10,
