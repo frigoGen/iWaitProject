@@ -7,16 +7,32 @@
 
 import SwiftUI
 
+public var isUnlocked: [Bool] = [false,false,false]
+
 struct Buttons: View {
     var tex: Int
-    @State var isUnlocked: [Bool] = [true,false,false]
+    var mode: Bool
     var body: some View {
         
         ZStack{
             Color(.systemGray5)
+            if(mode){
+                NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true), label: {
+                    HStack(spacing:1){
+                        Image(systemName: "chevron.backward")
+                        Text("Back")
+                        //Spacer()
+                    }
+                    .position(x: 40,y: 80)
+                })
+
+            }
             VStack{
                 // Spacer()
                 Image("clocheUp")
+                    .resizable()
+                    .frame(width: 335,height: 145)
+                    .padding(.bottom, 20.0)
                     
                 //Spacer()
                 NavigationLink {
@@ -28,7 +44,7 @@ struct Buttons: View {
                 Image("Group")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             }
-            .padding(.bottom)
+            
                 NavigationLink {
                     if(isUnlocked[0]){
                         QuizView(tex: tex)}  }
@@ -40,7 +56,7 @@ struct Buttons: View {
                 else{Image("Group 36")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
             }
-                NavigationLink {
+               /* NavigationLink {
                     if(isUnlocked[1]){
                         Text("Collega le parole") }
                 }
@@ -51,7 +67,7 @@ struct Buttons: View {
                 }
                 else{Image("Group 36")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
-            }
+            }*/
                 NavigationLink {
                     if(isUnlocked[0]){Text("Mini-Game")}
                 }
@@ -62,8 +78,13 @@ struct Buttons: View {
                 }
                 else{Image("Group 36")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
-            }
+            }.padding(.bottom)
+                
                 Image("cloche")
+                    .resizable()
+                    .frame(width: 339,height: 20)
+                    .padding(.vertical, 1)
+                
                 //}
                 
                 
@@ -84,7 +105,7 @@ struct Buttons: View {
 
 struct Buttons_Previews: PreviewProvider {
     static var previews: some View {
-        Buttons(tex: 0)
+        Buttons(tex: 0, mode: true)
     }
 }
 

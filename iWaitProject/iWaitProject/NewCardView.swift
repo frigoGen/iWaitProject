@@ -9,48 +9,57 @@
 import SwiftUI
 
 public var card: [CardModelUp] = load("Teoria[PTG]")
+
 // i bottoni indietro alla view si mette in automaticivo dalla view parent
 struct NewCardView: View {
     var tex: Int
+    
     var body: some View {
-        TabView {
-            
-            ForEach(card[tex].Card) { cards in
-                ZStack{
-                    Color(uiColor: UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 1.00))
-                        //.scaledToFill()
-                        
-                    VStack(alignment: .center){
-                        Image("card1")
-                            .resizable()
-                            .position(x:70,y:200)
-                            .scaledToFit()
-                            
-                        Text(cards.Text)
-                            .frame(width: 300,height: 500)
-                            .font(.body)
-                            .fontWeight(.heavy)
-                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                            .scaledToFill()
-                            .multilineTextAlignment(.center)
-                        //Spacer()
-                        if(cards.id == 10){
-                                NavigationLink(destination: Buttons(tex: tex)) {
-                                    Circle()
-                                }
-                                .navigationBarBackButtonHidden(true)
+        ZStack{
+            Color(uiColor: UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 1.00))
+                .edgesIgnoringSafeArea(.all)
+            TabView {
+                ForEach(card[tex].Card) { cards in
+                    ZStack{
+                        VStack(alignment: .center){
+                            Spacer()
+                            Image("card1")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 355,height: 370)
+                                .padding(.top,50)
+                            Text(cards.Text)
+                                .frame(width: 300,height: 300)
+                                .font(.custom("SFPro-Medium",size: 17))
+                                .fontWeight(.heavy)
+                                .font(.body)
+                                .padding(.bottom,50)
+                                .scaledToFill()
+                                .multilineTextAlignment(.center)
+                            Spacer()
                         }
+                        .padding()
+                        
                     }
-                    .padding()
                 }
-                //.padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-               // .frame(width:500,height:900)
+                NavigationLink(destination: Buttons(tex: tex, mode: true).navigationBarBackButtonHidden(true)) {
+                    ZStack{
+                        Image("Question")
+                        Text("Sblocca il Quiz")
+                            .foregroundColor(Color.black)
+                            .font(.custom("SFPro-Medium",size: 17))
+                            .fontWeight(.heavy)
+                        .font(.body)
+                        
+                    }
+                }
+                .simultaneousGesture(TapGesture().onEnded{
+                    isUnlocked[tex] = true
+                })
+                
             }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
         }
-        
-        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
-        
-        //.tabViewStyle(DefaultTabViewStyle())
         
     }
 }
