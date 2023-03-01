@@ -17,11 +17,11 @@ struct Buttons: View {
         ZStack{
             Color(.systemGray5)
             if(mode){
-                NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true), label: {
+                NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true)//.withAnimation(nil, <#T##() -> Result#>)
+                               , label: {
                     HStack(spacing:1){
                         Image(systemName: "chevron.backward")
                         Text("Back")
-                        //Spacer()
                     }
                     .position(x: 40,y: 80)
                 })

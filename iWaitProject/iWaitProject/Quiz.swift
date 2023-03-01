@@ -36,7 +36,6 @@ func load<T: Decodable>(_ filename: String) -> T {
 struct QuizView: View {
     @State var quiz: [Quiz] = load("QuizData[PT]")
     var tex: Int
-   // @State var refresh: Bool = false
         //number of question
         @State var i : Int = 1
     @State var isWrong: Int = 0
@@ -75,9 +74,10 @@ struct QuizView: View {
                     }
                     //text of the question
                     Text(quiz[tex].questions[i].question)
-                        .font(.body)
-                        .bold()
+                      .font(.custom("SFPro-Medium",size: 17))
+                      .bold()
                         .foregroundColor(Color.black)
+//spazio tra loro:14 tutoil blocco: t:325 l:173 r:39 s:39
                     
                     //answer 0
                     Button(action:{
@@ -86,8 +86,10 @@ struct QuizView: View {
                         ZStack{
                             Image("Question")
                             Text(quiz[tex].questions[i].answers[0])
-                                .font(.body)
+                                .font(.custom("SFPro-Medium",size: 17))
                                 .bold()
+                                .padding(.bottom)
+                                .frame(width: 308,height: 76)
                                 .foregroundColor(Color.black)
                         }
                     })
@@ -100,8 +102,9 @@ struct QuizView: View {
                         ZStack{
                             Image("Question")
                             Text(quiz[tex].questions[i].answers[1])
-                                .font(.body)
-                                .bold()
+                                .font(.custom("SFPro-Medium",size: 17))                                .bold()
+                                .padding(.bottom)
+                                .frame(width: 308,height: 76)
                                 .foregroundColor(Color.black)
                         }
                     })
@@ -114,9 +117,11 @@ struct QuizView: View {
                             ZStack{
                                 Image("Question")
                                 Text(quiz[tex].questions[i].answers[2])
-                                    .font(.body)
-                                    .bold()
+                                    .font(.custom("SFPro-Medium",size: 17))                                    .bold()
+                                    .padding(.bottom)
+                                    .frame(width: 308,height: 76)
                                     .foregroundColor(Color.black)
+
                             }
                             })
                     }
@@ -128,8 +133,9 @@ struct QuizView: View {
                             ZStack{
                                 Image("Question")
                                 Text(quiz[tex].questions[i].answers[3])
-                                    .font(.body)
-                                    .bold()
+                                    .font(.custom("SFPro-Medium",size: 17))                                    .bold()
+                                    .padding(.bottom)
+                                    .frame(width: 308,height: 76)
                                     .foregroundColor(Color.black)
                                 
                             }
