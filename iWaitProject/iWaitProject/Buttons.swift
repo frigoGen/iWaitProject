@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public var isUnlocked: [Bool] = [true,false,false]
+public var isUnlocked: [[Bool]] = [[false,false,false],[false,false,false],[false,false,false]]
 
 struct Buttons: View {
     var tex: Int
@@ -17,7 +17,7 @@ struct Buttons: View {
         ZStack{
             Color(.systemGray5)
             if(mode){
-                NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true)//.withAnimation(nil, <#T##() -> Result#>)
+                NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true)//.withAnimation(nil, )
                                , label: {
                     HStack(spacing:1){
                         Image(systemName: "chevron.backward")
@@ -46,10 +46,10 @@ struct Buttons: View {
             }
             
                 NavigationLink {
-                    if(isUnlocked[0]){
+                    if(isUnlocked[tex][0]){
                         QuizView(tex: tex)}  }
             label: {
-                if(isUnlocked[0]){
+                if(isUnlocked[tex][0]){
                     Image("Group")
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 }
@@ -69,10 +69,10 @@ struct Buttons: View {
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
             }*/
                 NavigationLink {
-                    if(isUnlocked[0]){Text("Mini-Game")}
+                    if(isUnlocked[tex][0]){Text("Mini-Game")}
                 }
             label: {
-                if(isUnlocked[2]){
+                if(isUnlocked[tex][2]){
                     Image("Group")
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 }

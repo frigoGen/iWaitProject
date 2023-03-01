@@ -37,12 +37,14 @@ struct HomeView: View {
         NavigationView {
          
                 ZStack{
-                    //Color.black.edgesIgnoringSafeArea(.all)
-                    Image("sfondo1")
+                    
+                    Image("home")
                         .resizable()
                         .padding(.bottom)
                         .scaledToFill()
-                      
+                    
+                    /*Color(uiColor: UIColor(red: 0.98, green: 0.95, blue: 0.87, alpha: 1.00))*/
+
                     ScrollView{
                         LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
                             VStack{

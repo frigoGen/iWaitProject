@@ -94,7 +94,7 @@ struct NewCardView: View {
                     }
                 }
                 .simultaneousGesture(TapGesture().onEnded{
-                    isUnlocked[tex] = true
+                    isUnlocked[tex][0] = true
                 })
                 
             }

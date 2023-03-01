@@ -37,7 +37,7 @@ struct QuizView: View {
     @State var quiz: [Quiz] = load("QuizData[IT]")
     var tex: Int
         //number of question
-    @State var i : Int = 11
+    @State var i : Int = 1
     @State var isWrong: [Int] = [-1,-1,-1,-1]
         //var for the score
         @State var score = 0
@@ -157,6 +157,7 @@ struct QuizView: View {
                       else{
                           self.i += 1
                           buttonAction(n: -1)
+                          
                       }
                   } label: {
                       if(i<11){Text("Next")}
@@ -180,8 +181,17 @@ struct QuizView: View {
                                 Text("\(self.score)/12").foregroundColor(.green)}
                         }
                         Image("cloche")
+                        if(self.score<5){Text("Troppi Errori")}
+                        else if(self.score<=7 && self.score>=5){Text("Puoi Migliorare, manca poco. Ritenta")}
+                        else{
+                            
+                            Text("Congratulazioni, hai sbloccato il livello successivo")}
                     }
-                    NavigationLink(destination: {resocontoView().navigationBarBackButtonHidden(true)}, label: {Text("Resoconto")})
+                    NavigationLink(destination: {HomeView().navigationBarBackButtonHidden(true)}, label: {ZStack{
+                        Image("Question")
+                        Text("Ritorna")
+                        
+                    }})
                     
                 }
                 
@@ -197,6 +207,7 @@ struct QuizView: View {
             if(n == -1){
                 isWrong = [-1,-1,-1,-1]
                 if(self.i < 11){self.i = self.i + 1}
+                else if (self.score >= 5){isUnlocked[tex][2] = true}
                 blocker = -1
                 print("IM READY")
             }
