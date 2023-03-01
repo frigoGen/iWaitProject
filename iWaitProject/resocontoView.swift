@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct answerGuessView: View {
+struct resocontoView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct answerGuessView_Previews: PreviewProvider {
+struct resocontoView_Previews: PreviewProvider {
     static var previews: some View {
-        answerGuessView()
+        resocontoView()
     }
 }

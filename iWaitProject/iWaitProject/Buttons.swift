@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public var isUnlocked: [Bool] = [false,false,false]
+public var isUnlocked: [Bool] = [true,false,false]
 
 struct Buttons: View {
     var tex: Int
