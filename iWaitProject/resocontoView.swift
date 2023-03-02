@@ -9,7 +9,11 @@ import SwiftUI
 
 struct resocontoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            ViewLanguages()
+            ViewHello()
+            ViewEnd()
+        } .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
     }
 }
 
