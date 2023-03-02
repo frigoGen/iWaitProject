@@ -35,84 +35,89 @@ struct HomeView: View {
         }
     var body: some View {
         NavigationView {
-         
-                ZStack{
-                    
-                    Image("home")
-                        .resizable()
-                        .padding(.bottom)
-                        .scaledToFill()
-                    
-                    /*Color(uiColor: UIColor(red: 0.98, green: 0.95, blue: 0.87, alpha: 1.00))*/
-
-                    ScrollView{
-                        LazyVGrid(columns: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Columns@*/[GridItem(.fixed(200))]/*@END_MENU_TOKEN@*/) {
-                            VStack{
-                                Spacer(minLength: 235)
-                                NavigationLink(destination: Buttons(tex: 0,mode: false)){
-                                    ZStack{
-                                        SpriteView(scene: self.scene, options: [.allowsTransparency])
-                                            .frame(width: 300, height: 110)
-                                            .ignoresSafeArea()
-                                        Text(card[0].module.Text)
-                                            .fontWeight(.heavy)
-                                            .foregroundColor(.mint)
-
-                                    }
-                                    
-                                }
-                                NavigationLink(destination: Buttons(tex: 1,mode: false)){
-                                    ZStack{
-                                        SpriteView(scene: self.scene1, options: [.allowsTransparency])
-                                            .frame(width: 300, height: 110)
-                                            .ignoresSafeArea()
-                                        Text(card[1].module.Text)
-                                            .fontWeight(.heavy)
-                                            .foregroundColor(.indigo)
-                                    }
-                                    
-                                }
-                                NavigationLink(destination: Buttons(tex: 2,mode: false)){
-                                    ZStack{
-                                        SpriteView(scene: self.scene2, options: [.allowsTransparency])
-                                            .frame(width: 300, height: 110)
-                                            .ignoresSafeArea()
-                                        Text(card[2].module.Text)
-                                            .fontWeight(.heavy)
-                                            .foregroundColor(.orange)
-                                            
-                                            
-                                    }
-                                }
-                            }
-                            
-                        }
-                    }
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                    VStack{
-                        Spacer(minLength: 60)
-                        
-                        NavigationLink(destination: ProfileView()){
-                            ZStack{
-                                Image("bollapic")
-                                Image("id")
-                            }
-                            
-                        }
-                       // NavigationLink(destination: Text("Toggle Music")){
-                         //   Image("bollapic")
-                            
-                      //  }
-                    }
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                    .frame(width: 100.0, height: 100.0)
-                    .position(x:340,y: 40)
-                    
-                }
             
-           // .background(Color(UIColor(red: 0.44, green: 0.09, blue: 0.13, alpha: 1.00)
-                           //  ))
-      
+            ZStack{
+                
+                Image("home")
+                    .resizable()
+                    .padding(.bottom)
+                    .scaledToFill()
+                
+                /*Color(uiColor: UIColor(red: 0.98, green: 0.95, blue: 0.87, alpha: 1.00))*/
+                
+                ScrollView{
+                    LazyVGrid(columns: [GridItem(.fixed(200))]) {
+                        VStack{
+                            Spacer(minLength: 235)
+                            NavigationLink(destination: Buttons(tex: 0,mode: false)){
+                                ZStack{
+                                    SpriteView(scene: self.scene, options: [.allowsTransparency])
+                                        .frame(width: 300, height: 110)
+                                        .ignoresSafeArea()
+                                    Text(card[0].module.Text)
+                                        .fontWeight(.heavy)
+                                        .foregroundColor(.black)
+                                        .font(.custom("SFPro",size: 17))
+                                        .bold()
+                                }
+                                
+                            }
+                            NavigationLink(destination: Buttons(tex: 1,mode: false)){
+                                ZStack{
+                                    SpriteView(scene: self.scene1, options: [.allowsTransparency])
+                                        .frame(width: 300, height: 110)
+                                        .ignoresSafeArea()
+                                    Text(card[1].module.Text)
+                                        .fontWeight(.heavy)
+                                        .foregroundColor(.black)
+                                        .font(.custom("SFPro",size: 17))
+                                        .bold()
+                                }
+                                
+                            }
+                            NavigationLink(destination: Buttons(tex: 2,mode: false)){
+                                ZStack{
+                                    SpriteView(scene: self.scene2, options: [.allowsTransparency])
+                                        .frame(width: 300, height: 110)
+                                        .ignoresSafeArea()
+                                    Text(card[2].module.Text)
+                                        .fontWeight(.heavy)
+                                        .foregroundColor(.black)
+                                        .font(.custom("SFPro",size: 17))
+                                        .bold()
+                                    
+                                    
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                .padding(.all)
+                VStack{
+                    Spacer(minLength: 60)
+                    
+                    NavigationLink(destination: ProfileView()){
+                        ZStack{
+                            Image("bollapic")
+                            Image("id")
+                        }
+                        
+                    }
+                    // NavigationLink(destination: Text("Toggle Music")){
+                    //   Image("bollapic")
+                    
+                    //  }
+                }
+                .padding(.all)
+                .frame(width: 100.0, height: 100.0)
+                .position(x:340,y: 40)
+                
+            }
+            
+            // .background(Color(UIColor(red: 0.44, green: 0.09, blue: 0.13, alpha: 1.00)
+            //  ))
+            
         }
         //.foregroundColor(.black)
    

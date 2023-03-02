@@ -27,12 +27,16 @@ struct Buttons: View {
                 })
 
             }
+            
             VStack{
-                // Spacer()
+                //Spacer()
                 Image("clocheUp")
                     .resizable()
                     .frame(width: 335,height: 145)
-                    .padding(.bottom, 20.0)
+                    .padding(.bottom, 35.0)
+                    .position(x:200,y: 225)
+                 
+                   
                     
                 //Spacer()
                 NavigationLink {
@@ -41,8 +45,8 @@ struct Buttons: View {
                         .ignoresSafeArea()
                     }
             label: {
-                Image("Group")
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                Image("Etichetta")
+                    .padding(.vertical,15)
             }
             
                 NavigationLink {
@@ -50,11 +54,11 @@ struct Buttons: View {
                         QuizView(tex: tex)}  }
             label: {
                 if(isUnlocked[tex][0]){
-                    Image("Group")
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    Image("Etichetta")
+                        .padding(.vertical,15)
                 }
                 else{Image("Group 36")
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
+                    .padding(.vertical,15)}
             }
                /* NavigationLink {
                     if(isUnlocked[1]){
@@ -78,12 +82,15 @@ struct Buttons: View {
                 }
                 else{Image("Group 36")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
-            }.padding(.bottom)
+            }
                 
                 Image("cloche")
                     .resizable()
                     .frame(width: 339,height: 20)
-                    .padding(.vertical, 1)
+                    .padding(.top, 35)
+                    .padding(.bottom, 40)
+            
+    
                 
                 //}
                 
