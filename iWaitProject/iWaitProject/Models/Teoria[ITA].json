@@ -9,44 +9,44 @@
             {
                 "id": 1,
                 "Text": "La divisa del cameriere di sala prevede scarpe classiche, pantaloni lunghi e dal taglio elegante e camicia che abbiano un aspetto raffinato e tradizionale. In determinati contesti, la divisa prevede anche gilet, cravatta e - ma è piuttosto raro - guanti bianchi.",
-                "Image": ""
+                "Image": "la divisa.png"
             },
             {
                 "id": 2,
                 "Text": "La brigata in generale può essere schematizzata gerarchicamente. In primo luogo abbiamo il Maitre d'hotel, dopodiché ci sono lo chef de rang e lo chef ai vini, e infine il commis de rang.",
-                "Image": ""
+                "Image": "card1.png"
             },
             {"id": 3,
                 "Text": "DIRETTORE DI RISTORANTE \n Si occupa dell'organizzazione e dell'amministrazione del servizio di ristorazione. Coaudiuvato dal maître d'hotel, stabilisce anche i turni di servizio e i periodi di riposo del personale. Inoltre, è responsabile del food and beverage manager.\n \n DIRETTORE AI BANCHETTI \n Gestisce il servizio banchetti e sovrintende a tutti gli aspetti organizzativi: prepara il buffet, ne cura l'estetica, si occupa del menu e della scelta delle bevande)",
-                "Image": ""
+                "Image": "card2.png"
             },
             {"id": 4,
                 "Text": "PRIMO MAITRE D'HOTEL \n Gestisce il servizio in camera e determina l'organico. Definisce i turni del personale in collaborazione con il direttore. Prende le comande, mantiene i rapporti con gli ospiti. È responsabile delle attrezzature e si occupa dell'inventario",
-                "Image": ""
+                "Image": "card3.png"
             },
             {"id": 5,
                 "Text": "SECONDO MAITRE D'HOTEL \n Assiste il primo maître d'hotel. Coordina e supervisiona il servizio, gli orari del personale e la pulizia della sala e delle attrezzature. Riceve gli ospiti, prende le ordinazioni; in mancanza di personale, prepara anche i piatti alla lampada",
-                "Image": ""
+                "Image": "card4.png"
             },
             {"id": 6,
                 "Text": "MAITRE AI BANCHETTI \n Si occupa dell'organizzazione e del servizio dei banchetti secondo le direttive del banquet manager.\n MAITRE AI PIANI \n È responsabile del servizio dei pasti nelle camere. La sua postazione di lavoro si trova vicino all'ufficio ai piani, a diretto contatto telefonico con gli ospiti. Risponde al direttore dell'albergo o al maître d'hôtel",
-                "Image": ""
+                "Image": "card5.png"
             },
             {"id": 7,
                 "Text": "SOMMELIER (chef del vino) \n Si occupa di scegliere i vini, di servirli, di selezionarli e di abbinarli al cibo. \n COMMIS SOMMELIER \n Lavora a stretto contatto con il sommelier",
-                "Image": ""
+                "Image": "card6.png"
             },
             {"id": 8,
                 "Text": "SALON HOSTESS \n Svolge mansioni di accoglienza clienti. Riceve le prenotazioni e le comunicazioni telefoniche. Contribuisce al servizio di guardaroba e aiuta il maitre accompagnando gli ospiti ai loro tavoli, se necessario.",
-                "Image": ""
+                "Image": "card7.png"
             },
             {"id": 9,
                 "Text": "CHEF DE RANG \n Si occupa dell'adattamento del servizio del suo rango e partecipa sia alla mise en place della sala da pranzo che alla pulizia del suo reparto. Se necessario, serve anche i piatti e prende le ordinazioni. Collabora con il commis, guidandolo nella distribuzione e nella consegna delle comande",
-                "Image": ""
+                "Image": "card8.png"
             },
             {"id": 10,
                 "Text": "COMMIS DE RANG \n Prende gli ordini dallo chef de rang. Raccoglie i piatti dalla cucina e li dispone sul tavolo di servizio, si occupa della mise en place, dispone il materiale in ufficio, pulisce i tavoli e mantiene pulite le attrezzature e le aree di lavoro.\n \n COMMIS D'ETAGE (commis ai piani) \n Collabora con il maître ai piani nella preparazione dei carrelli e dei vassoi di servizio. Si occupa dell'ordine e della pulizia dell'ufficio ai piani",
-                "Image": ""
+                "Image": "card9.png"
             }
         ]
         },
@@ -59,44 +59,44 @@
             {
                 "id": 1,
                 "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place./n In un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place",
-                "Image": ""
+                "Image": "card21.png"
             },
             {
                 "id": 2,
                 "Text": "Nel primo caso, il cliente sceglie i suoi piatti al momento e quindi il menu non è noto; il personale provvede a sistemare i coperti man mano. Nel secondo caso, invece, il menu è noto in anticipo e tutte le posate necessarie per il servizio vengono preparate prima. In entrambi i casi, comunque, è necessario essere in grado di disporre correttamente il materiale su un tavolo.",
-                "Image": ""
+                "Image": "card22.png"
             },
             {"id": 3,
                 "Text": "Tovagliolo/n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande/n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
-                "Image": ""
+                "Image": "card23.png"
             },
             {"id": 4,
                 "Text": "Bicchieri il bicchiere per il vino rosso va posto sopra la punta del coltello, a circa 1 cm di distanza il bicchiere per l'acqua va posto in diagonale, un po' più in alto di quello per il vino rossoil bicchiere per il vino bianco va posto in diagonale, un po' più in basso di quello per il vino rosso Se oltre a questi bicchieri è necessario anche il flûte, va posto in diagonale sopra il bicchiere per l'acqua.",
-                "Image": ""
+                "Image": "card24.png"
             },
             {"id": 5,
-                            "Text": "Il piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
-                            "Image": ""
+             "Text": "Il piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
+            "Image": "card25.png"
                         },
                         {"id": 6,
                             "Text": "**Il coperto prenotato** Se il cliente ha prenotato e ordinato il menu, il coperto dipende dal numero e dal tipo di portate. **Tuttavia, non dovrebbero essere servite più di quattro paia di posate** (comprese quelle da dessert) **e tre bicchieri alla volta**. Le altre posate o i bicchieri necessari devono essere sistemati separatamente durante il servizio. **La sequenza delle portate determina quella delle posate**",
-                            "Image": ""
+                            "Image": "card26.png"
                         },
                         {"id": 7,
                             "Text": "**cucchiaio** a destra, all'esterno o in mezzo ai coltelli, a seconda della successione delle pietanze.**posate da dessert** se nel menu c'è un dolce, si dispongono sopra il sottopiatto, parallele al bordo del tavolo.**MENUITS** **Menu e carta (teoria)**",
-                            "Image": ""
+                            "Image": "card27.png"
                         },
                         {"id": 8,
                             "Text": "Il menu è un insieme di preparazioni culinarie che rappresentano i piatti dall'antipasto al dolce che si possono avere. Viene presentato con prezzo fisso al cliente.Ogni dipendente deve conoscere il menu e gli ingredienti dei piatti.I piatti sono divisi in categorie: gli antipasti, i primi, il pesce, la carne, i contorni e il dessert",
-                            "Image": ""
+                            "Image": "card28.png"
                         },
                         {"id": 9,
                             "Text": "In un menù è necessario inserire tutte le componenti nutrizionali: lipidi, glucosio ecc.Deve essere adeguato alla stagione con le giuste dosi di nutrienti.Contenere I prodotti tipici del paese Un budget adeguato alla preparazione",
-                            "Image": ""
+                            "Image": "card29.png"
                         },
                         {"id": 10,
                             "Text": "La carta presenta una selezione di piatti ciascuno con un prezzo assegnato. La carta comprende: antipasti, pasti (primo, secondo, dessert), vini e bevande. Possono esserci diversi tipi di carte: la carta degli aperitivi, la carta dei pasti, dei vini e delle bevande, della caffetteria, dei dessert e dei digestivi.",
-                            "Image": ""
+                            "Image": "card30.png"
                         }
                     ]
                     },
@@ -109,44 +109,44 @@
             {
                 "id": 1,
                 "Text": "**Igiene** Per il cameriere sono importanti l'igiene personale e la cura del corpo:Il cameriere deve avere un aspetto gradevole, fresco e curato e deve suscitare ammirazione e stima sia nella clientela che nella direzione dei colleghi",
-                "Image": ""
+                "Image": "card31.png"
             },
             {
                 "id": 2,
                 "Text": "Il cameriere deve stare in piedi per molte ore e deve spostarsi continuamente da ambienti caldi come la cucina ad ambienti freschi come la sala. Inoltre, il suo lavoro comporta fatica e stress, quindi deve anche prendersi cura della sua salute fisica e mentale...",
-                "Image": ""
+                "Image": "card32.png"
             },
             {"id": 3,
-                "Text": "Il cameriere è a contatto con le attrezzature di chi mangia e quindi deve curare il più possibile la propria pulizia",
-                "Image": ""
+                "Text": "Il cameriere è a contatto con le attrezzature di chi mangia e quindi deve curare il più possibile la propria pulizia./nGli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
+                "Image": "card34.png"
             },
             {"id": 4,
-                "Text": "Gli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
-                "Image": ""
+                "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo/n2)fare esercizio fisico regolarmente e fare attenzione ai movimenti/n3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi/n4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno/n5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
+                "Image": "card35.png"
             },
             {"id": 5,
-                "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo/n2)fare esercizio fisico regolarmente e fare attenzione ai movimenti/n3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi/n4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno/n5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
-                "Image": ""
+                "Text": "Altre regole per la cura della persona sono:/n6)la pulizia quotidiana del corpo è la prima regola da seguire/n7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti/n8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale/n9)le mani devono essere ben curate e avere unghie corte e pulite/n10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
+                "Image": "card36.png"
             },
             {"id": 6,
-                "Text": "Altre regole per la cura della persona sono:/n6)la pulizia quotidiana del corpo è la prima regola da seguire/n7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti/n8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale/n9)le mani devono essere ben curate e avere unghie corte e pulite/n10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
-                "Image": ""
+                "Text": "***N.B.** Si raccomanda inoltre di:/n-non indossare braccialetti o anelli o lacci da polso/n-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo/n-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
+                "Image": "card37.png"
             },
             {"id": 7,
-                "Text": "***N.B.** Si raccomanda inoltre di:/n-non indossare braccialetti o anelli o lacci da polso/n-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo/n-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
-                "Image": ""
-            },
-            {"id": 8,
-                            "Text": "Importante è anche l'HACCP (Hazard Analysis Critical Control Points) che è un sistema basato su sette principi ed è determinato dalla Direttiva Europea 852/2004 per l'igiene dei prodotti alimentari.I pericoli possono essere di tre tipi: fisici (insetti, rischi metallici, ... ), chimici (additivi non intenzionali, residui di lavaggio, ... ), biologici (presenza di parassiti, contaminazione batterica)",
+                            "Text": "E' importante l'HACCP (Hazard Analysis Critical Control Points) che è un sistema basato su sette principi ed è determinato dalla Direttiva Europea 852/2004 per l'igiene dei prodotti alimentari.I pericoli possono essere di tre tipi: fisici (insetti, rischi metallici, ... ), chimici (additivi non intenzionali, residui di lavaggio, ... ), biologici (presenza di parassiti, contaminazione batterica)",
                             "Image": ""
+                        },
+                        {"id": 8,
+                            "Text": "**Primo soccorso*/n-Cosa fare? /n-allentare gli indumenti stretti in caso di emorragia/n-comprimere a monte l'emorragia/n-chiamare il 118.",
+                            "Image": "card38.png"
                         },
                         {"id": 9,
-                            "Text": "**Primo soccorso*/n-Cosa fare? /n-allentare gli indumenti stretti in caso di emorragia/n-comprimere a monte l'emorragia/n-chiamare il 118.",
-                            "Image": ""
+                            "Text": "Cosa non fare: agire senza il consenso della vittima, spostarla, correre rischi personali, somministrare farmaci, eseguire manovre mediche, considerare l'infortunato morto",
+                            "Image": "card39.png"
                         },
                         {"id": 10,
-                            "Text": "Cosa non fare: agire senza il consenso della vittima, spostarla, correre rischi personali, somministrare farmaci, eseguire manovre mediche, considerare l'infortunato morto",
-                            "Image": ""
+                            "Text": "I 7 principi HACCP/nIndividuazione e analisi dei pericoli./nIndividuazione dei Punti Critici di Controllo./nDeterminazione dei limiti critici per tutti i Punti Critici di Controllo./nDefinizione del sistema di monitoraggio./nIndividuazione delle azioni correttive eventualmente necessarie./nDefinizione delle procedure di verifica.",
+                            "Image": "card39.png"
                         }
                     ]
                     },
