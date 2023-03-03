@@ -15,6 +15,8 @@
 		13504C3E29A8BD6400E33021 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13504C3D29A8BD6400E33021 /* Quiz.swift */; };
 		137B939A29ACAFA200CB5282 /* QuizData[EN].json in Resources */ = {isa = PBXBuildFile; fileRef = 137B939929ACAFA200CB5282 /* QuizData[EN].json */; };
 		137B939C29ACCCFC00CB5282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137B939B29ACCCFB00CB5282 /* Assets.xcassets */; };
+		6E06491429B0A82D00E466DE /* pulsantinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E06491329B0A82D00E466DE /* pulsantinoView.swift */; };
+		6E06491629B0AE7700E466DE /* peristenza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E06491529B0AE7700E466DE /* peristenza.swift */; };
 		6E373ED929A5FFA100F18525 /* iWaitProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373ED829A5FFA100F18525 /* iWaitProjectApp.swift */; };
 		6E373EDB29A5FFA100F18525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E373EDA29A5FFA100F18525 /* ContentView.swift */; };
 		6E373EE029A5FFA300F18525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E373EDF29A5FFA300F18525 /* Preview Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		13504C3D29A8BD6400E33021 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		137B939929ACAFA200CB5282 /* QuizData[EN].json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "QuizData[EN].json"; sourceTree = "<group>"; };
 		137B939B29ACCCFB00CB5282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E06491329B0A82D00E466DE /* pulsantinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pulsantinoView.swift; sourceTree = "<group>"; };
+		6E06491529B0AE7700E466DE /* peristenza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peristenza.swift; sourceTree = "<group>"; };
 		6E373ED529A5FFA100F18525 /* iWaitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWaitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E373ED829A5FFA100F18525 /* iWaitProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWaitProjectApp.swift; sourceTree = "<group>"; };
 		6E373EDA29A5FFA100F18525 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,7 +112,9 @@
 		6E373ECC29A5FFA100F18525 = {
 			isa = PBXGroup;
 			children = (
+				6E06491529B0AE7700E466DE /* peristenza.swift */,
 				6ED43D2629AF7412005CEE42 /* resocontoView.swift */,
+				6E06491329B0A82D00E466DE /* pulsantinoView.swift */,
 				6E373ED729A5FFA100F18525 /* iWaitProject */,
 				6E373ED629A5FFA100F18525 /* Products */,
 			);
@@ -262,7 +268,9 @@
 				F79DA82829B0CC7700252B21 /* ViewHello.swift in Sources */,
 				F77D6B6829A9266D002278F8 /* CardView.swift in Sources */,
 				6E373EE229A5FFA300F18525 /* Persistence.swift in Sources */,
+				6E06491629B0AE7700E466DE /* peristenza.swift in Sources */,
 				6ED43D1A29AD215E005CEE42 /* NewCardModel.swift in Sources */,
+				6E06491429B0A82D00E466DE /* pulsantinoView.swift in Sources */,
 				F77D6B6229A9263F002278F8 /* ChapterTwoCardView.swift in Sources */,
 				13504C3E29A8BD6400E33021 /* Quiz.swift in Sources */,
 				13504C3A29A8BAF900E33021 /* QuestionModel.swift in Sources */,
@@ -409,7 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iWaitProject/Preview Content\"";
-				DEVELOPMENT_TEAM = LMVDSLF8YS;
+				DEVELOPMENT_TEAM = 8Q2GQ7758S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -442,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iWaitProject/Preview Content\"";
-				DEVELOPMENT_TEAM = LMVDSLF8YS;
+				DEVELOPMENT_TEAM = 8Q2GQ7758S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

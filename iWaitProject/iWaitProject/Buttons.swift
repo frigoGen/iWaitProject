@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public var isUnlocked: [[Bool]] = [[false,false,false],[false,false,false],[false,false,false]]
+public var isUnlocked: [[Bool]] = [[true,false,false],[false,false,false],[false,false,false]]
 
 struct Buttons: View {
     var tex: Int
@@ -77,7 +77,7 @@ struct Buttons: View {
                 }
             label: {
                 if(isUnlocked[tex][2]){
-                    Image("Group")
+                    Image("Etichetta")
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 }
                 else{Image("Group 36")

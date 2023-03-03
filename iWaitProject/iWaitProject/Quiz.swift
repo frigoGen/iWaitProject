@@ -55,115 +55,122 @@ struct QuizView: View {
                     })
                 }*/
                 //if i < of questions --> play question
-              if(self.i < quiz[tex].module.questions && self.i >= 0){
-                    Text("\(i+1)/\(quiz[tex].module.questions)")
+                if(self.i <= quiz[tex].module.questions && self.i >= 0){
+                    Text("\(i)/\(quiz[tex].module.questions)")
                         .font(.body)
                         .bold()
                         .foregroundColor(Color.black)
                     //image of the question
-                    ZStack{
+                    /*ZStack{
                         HStack{
                             Spacer()
                             Text("\(self.score)")
                                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        }
+                        }*/
                         Image("card1")
                             .resizable()
-                           // .scaledToFit()
                             .padding(.all)
-                    }
+                    //}
                     //text of the question
-                    Text(quiz[tex].questions[i].question)
-                      .font(.custom("SFPro-Medium",size: 17))
-                      .bold()
-                        .foregroundColor(Color.black)
-//spazio tra loro:14 tutoil blocco: t:325 l:173 r:39 s:39
                     
-                    //answer 0
-                  
-                    Button(action:{
-                        if(blocker == -1){self.buttonAction(n: 1)}
-                    },label: {
-                        ZStack{
-                            if (isWrong[0] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {
-                                
-                                Image("WrongQuestion")}
-                            else if (isWrong[0] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
-                            else{ Image("Question") }
-                            Text(quiz[tex].questions[i].answers[0])
-                                .font(.custom("SFPro-Medium",size: 17))
-                                .bold()
-                                .padding(.bottom)
-                                .frame(width: 308,height: 76)
-                                .foregroundColor(Color.black)
-                        }
-                    })
-                    
-                    
-                    //answer 1
-                    Button(action:{
-                        if(blocker == -1){self.buttonAction(n: 2)}
-                    },label: {
-                        ZStack{
-                            if (isWrong[1] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("WrongQuestion")}
-                            else if (isWrong[1] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
-                            else{ Image("Question") }
-                            Text(quiz[tex].questions[i].answers[1])
-                                .font(.custom("SFPro-Medium",size: 17))                                .bold()
-                                .padding(.bottom)
-                                .frame(width: 308,height: 76)
-                                .foregroundColor(Color.black)
-                        }
-                    })
-                    
-                    if(quiz[tex].questions[i].answers.count <= 4){
-                        //answer 2
+                    //spazio tra loro:14 tutoil blocco: t:325 l:173 r:39 s:39
+                    VStack{
+                        Text(quiz[tex].questions[i-1].question)
+                            .font(.custom("SFPro-Medium",size: 17))
+                            .bold()
+                            .foregroundColor(Color.black)
+                        //answer 0
                         Button(action:{
-                            if(blocker == -1){self.buttonAction(n: 3)}
+                            if(blocker == -1){self.buttonAction(n: 1)}
                         },label: {
                             ZStack{
-                                if (isWrong[2] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("WrongQuestion")}
-                                else if (isWrong[2] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
+                                if (isWrong[0] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {
+                                    
+                                    Image("WrongQuestion")}
+                                else if (isWrong[0] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
                                 else{ Image("Question") }
-                                Text(quiz[tex].questions[i].answers[2])
-                                    .font(.custom("SFPro-Medium",size: 17))                                    .bold()
+                                Text(quiz[tex].questions[i-1].answers[0])
+                                    .font(.custom("SFPro-Medium",size: 17))
+                                    .bold()
                                     .padding(.bottom)
                                     .frame(width: 308,height: 76)
                                     .foregroundColor(Color.black)
-
-                            }
-                            })
-                    }
-                    if(quiz[tex].questions[i].answers.count == 4 ){
-                        //answer 3
-                        Button(action:{
-                            if(blocker == -1){self.buttonAction(n: 4)}
-                        },label: {
-                            ZStack{
-                                if (isWrong[3] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("WrongQuestion")}
-                                else if (isWrong[3] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
-                                else{ Image("Question") }
-                                Text(quiz[tex].questions[i].answers[3])
-                                    .font(.custom("SFPro-Medium",size: 17))                                    .bold()
-                                    .padding(.bottom)
-                                    .frame(width: 308,height: 76)
-                                    .foregroundColor(Color.black)
-                                
                             }
                         })
+                        
+                        
+                        //answer 1
+                        Button(action:{
+                            if(blocker == -1){self.buttonAction(n: 2)}
+                        },label: {
+                            ZStack{
+                                if (isWrong[1] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("WrongQuestion")}
+                                else if (isWrong[1] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
+                                else{ Image("Question") }
+                                Text(quiz[tex].questions[i-1].answers[1])
+                                    .font(.custom("SFPro-Medium",size: 17))                                .bold()
+                                    .padding(.bottom)
+                                    .frame(width: 308,height: 76)
+                                    .foregroundColor(Color.black)
+                            }
+                        })
+                        
+                        if(quiz[tex].questions[i-1].answers.count <= 4){
+                            //answer 2
+                            Button(action:{
+                                if(blocker == -1){self.buttonAction(n: 3)}
+                            },label: {
+                                ZStack{
+                                    if (isWrong[2] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("WrongQuestion")}
+                                    else if (isWrong[2] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
+                                    else{ Image("Question") }
+                                    Text(quiz[tex].questions[i-1].answers[2])
+                                        .font(.custom("SFPro-Medium",size: 17))                                    .bold()
+                                        .padding(.bottom)
+                                        .frame(width: 308,height: 76)
+                                        .foregroundColor(Color.black)
+                                    
+                                }
+                            })
+                        }
+                        if(quiz[tex].questions[i-1].answers.count == 4 ){
+                            //answer 3
+                            Button(action:{
+                                if(blocker == -1){self.buttonAction(n: 4)}
+                            },label: {
+                                ZStack{
+                                    if (isWrong[3] == 1 && blocker == 0 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("WrongQuestion")}
+                                    else if (isWrong[3] == 0 && blocker == 1 && (!isWrong.contains(1) || !isWrong.contains(0))) {Image("RightQuestion")}
+                                    else{ Image("Question") }
+                                    Text(quiz[tex].questions[i-1].answers[3])
+                                        .font(.custom("SFPro-Medium",size: 17))                                    .bold()
+                                        .padding(.bottom)
+                                        .frame(width: 308,height: 76)
+                                        .foregroundColor(Color.black)
+                                    
+                                }
+                            })
+                        }
+                        Spacer()
+                        if(isWrong.contains(0) || isWrong.contains(1)) { Button {
+                            if(self.i<=11){
+                                if(self.i == 11){self.i += 1}
+                                buttonAction(n: -1)}
+                            else{
+                                self.i += 1
+                                buttonAction(n: -1)
+                                
+                            }
+                        } label: {
+                            if(i<=11){Text("Next")}
+                            else{Text("End Quiz")}
+                        }
+                        }
                     }
-                  if(isWrong.contains(0) || isWrong.contains(1)) { Button {
-                      if(self.i<11){buttonAction(n: -1)}
-                      else{
-                          self.i += 1
-                          buttonAction(n: -1)
-                          
-                      }
-                  } label: {
-                      if(i<11){Text("Next")}
-                      else{Text("End Quiz")}
-                  }
-}
+                    .frame(width: 312,height: 346)
+                    .padding(.bottom,40)
+                  
+
                 }
                     
                 else{
@@ -211,7 +218,7 @@ struct QuizView: View {
                 blocker = -1
                 print("IM READY")
             }
-            else if(quiz[tex].questions[i].correct_answer == n){
+            else if(quiz[tex].questions[i-1].correct_answer == n){
                 print(n)
                 if(isWrong[n-1] == -1){self.score = self.score + 1}
                 isWrong[n-1] = 0
@@ -226,7 +233,7 @@ struct QuizView: View {
             //GO TO NEXT QUESTION
          
 
-            print("i:\(i) n:\(n) correct: \(quiz[tex].questions[i-1].correct_answer) blocker:\(blocker)")
+         if(self.i<12){print("i:\(i) n:\(n) correct: \(quiz[tex].questions[i-1].correct_answer) blocker:\(blocker)")}
         }
         
         
