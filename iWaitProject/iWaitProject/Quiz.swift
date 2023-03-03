@@ -41,6 +41,7 @@ struct QuizView: View {
     
     @State var quiz: [Quiz] = load("QuizData[IT]")
     var tex: Int
+    @State var zest = 0
         //number of question
     @State var i : Int = 1
     @State var isWrong: [Int] = [-1,-1,-1,-1]
@@ -74,7 +75,7 @@ struct QuizView: View {
                               .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                       }*/
                       //-------Image view random
-                      Image(imageQuiz[tex][self.i] ?? "defaultImage") // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
+                      Image(imageQuiz[tex][zest] ?? "defaultImage") // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
                           .resizable()
                           .scaledToFit()
                   
@@ -163,7 +164,10 @@ struct QuizView: View {
                         Spacer()
                         if(isWrong.contains(0) || isWrong.contains(1)) { Button {
                             if(self.i<=11){
-                                if(self.i == 11){self.i += 1}
+                                if(self.i == 11){
+                                    self.i += 1
+                                }
+                                
                                 buttonAction(n: -1)}
                             else{
                                 self.i += 1
@@ -221,6 +225,9 @@ struct QuizView: View {
      func buttonAction( n : Int){
             //if answer is correct increment score
             if(n == -1){
+                if(self.zest == 9){self.zest = 0}
+                else {self.zest = self.zest + 1}
+                
                 isWrong = [-1,-1,-1,-1]
                 if(self.i < 11){self.i = self.i + 1}
                 else if (self.score >= 5){isUnlocked[tex][2] = true}
