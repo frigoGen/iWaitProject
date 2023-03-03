@@ -34,6 +34,11 @@ func load<T: Decodable>(_ filename: String) -> T {
 }
 
 struct QuizView: View {
+    //aggiunto per contare le immagini nei Quiz
+    @State var imageQuiz: [[String]] = [["card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8","card9", "card10"],["card11", "card12",  "card13", "card14", "card15","card16","card17", "card18", "card19", "card20"], ["card21","card22","card23","card24", "card25", "card26","card27","card28","card29","card30" ]]
+
+    //------------
+    
     @State var quiz: [Quiz] = load("QuizData[IT]")
     var tex: Int
         //number of question
@@ -61,17 +66,20 @@ struct QuizView: View {
                         .bold()
                         .foregroundColor(Color.black)
                     //image of the question
-                    /*ZStack{
-                        HStack{
-                            Spacer()
-                            Text("\(self.score)")
-                                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        }*/
-                        Image("card1")
-                            .resizable()
-                           .scaledToFit()
-                            .padding(.all)
-                    //}
+
+                  ZStack{
+                     /* HStack{
+                          Spacer()
+                          Text("\(self.score)")
+                              .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                      }*/
+                      //-------Image view random
+                      Image(imageQuiz[tex][self.i] ?? "defaultImage") // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
+                          .resizable()
+                          .scaledToFit()
+                  
+                            }
+
                     //text of the question
                     
                     //spazio tra loro:14 tutoil blocco: t:325 l:173 r:39 s:39

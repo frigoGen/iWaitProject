@@ -31,20 +31,39 @@ struct ViewLanguages: View {
             VStack(alignment: .center){
                 
                 HStack{
-                    Rectangle()
-                        .frame(width: 52,height: 34)
-                        .cornerRadius(10)
-                        .foregroundColor(Color.gray)
-                       
-                    Rectangle()
-                        .frame(width: 52,height: 34)
-                        .cornerRadius(10)
-                        .foregroundColor(Color.gray)
-                        .padding(.horizontal, 30)
-                    Rectangle()
-                        .frame(width: 52,height: 34)
-                        .cornerRadius(10)
-                        .foregroundColor(Color.gray)
+                    Button{
+                        
+                    }label: {
+                            Rectangle()
+                                .frame(width: 52,height: 34)
+                                .cornerRadius(10)
+                                .foregroundColor(Color.gray)
+                            Image("bra")
+                        }
+                    Button{
+                        
+                    }label: {
+                        ZStack{
+                    
+                            Rectangle()
+                                .frame(width: 52,height: 34)
+                                .cornerRadius(10)
+                                .foregroundColor(Color.gray)
+                                .padding(.horizontal, 30)
+                            Image("ita")
+        
+                        }
+                        
+                    }
+                    Button{
+                        
+                    }label: {
+                        Rectangle()
+                            .frame(width: 52,height: 34)
+                            .cornerRadius(10)
+                            .foregroundColor(Color.gray)
+                        Image("eng")
+                    }
                     
                 }
                 HStack{
@@ -69,7 +88,7 @@ struct ViewLanguages: View {
                     .foregroundColor(Color.white)
             
             }
-            
+            .padding(.bottom, 20)
             Spacer()
         }
     }
