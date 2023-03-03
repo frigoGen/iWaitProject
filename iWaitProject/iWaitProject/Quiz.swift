@@ -9,7 +9,6 @@ import SwiftUI
 
 
 var quest:Int = 0
-var blocker: Int = -1
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
@@ -38,7 +37,7 @@ struct QuizView: View {
     @State var imageQuiz: [[String]] = [["card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8","card9", "card10"],["card11", "card12",  "card13", "card14", "card15","card16","card17", "card18", "card19", "card20"], ["card21","card22","card23","card24", "card25", "card26","card27","card28","card29","card30" ]]
 
     //------------
-    
+    @State var blocker: Int = -1
     @State var quiz: [Quiz] = load("QuizData[IT]")
     var tex: Int
     @State var zest = 0
@@ -78,6 +77,7 @@ struct QuizView: View {
                       Image(imageQuiz[tex][zest] ?? "defaultImage") // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
                           .resizable()
                           .scaledToFit()
+                          .padding()
                   
                             }
 
@@ -89,7 +89,8 @@ struct QuizView: View {
                             .font(.custom("SFPro-Medium",size: 17))
                             .bold()
                             .foregroundColor(Color.black)
-                        //answer 0
+                            .multilineTextAlignment(.center)
+                                                //answer 0
                         Button(action:{
                             if(blocker == -1){self.buttonAction(n: 1)}
                         },label: {
