@@ -190,29 +190,7 @@ struct QuizView: View {
                 else{
                     //FinalView(score : self.score)
                     //NUOVA VIEW con resoconto
-                    VStack{
-                        Image("clocheUp")
-                        ZStack{
-                            Image("Fiesta")
-                            if(self.score<5){
-                                Text("\(self.score)/12").foregroundColor(.orange)}
-                            else if(self.score<=7 && self.score>=5){
-                                Text("\(self.score)/12").foregroundColor(.yellow)}
-                            else{
-                                Text("\(self.score)/12").foregroundColor(.green)}
-                        }
-                        Image("cloche")
-                        if(self.score<5){Text("Troppi Errori")}
-                        else if(self.score<=7 && self.score>=5){Text("Puoi Migliorare, manca poco. Ritenta")}
-                        else{
-                            
-                            Text("Congratulazioni, hai sbloccato il livello successivo")}
-                    }
-                    NavigationLink(destination: {HomeView().navigationBarBackButtonHidden(true)}, label: {ZStack{
-                        Image("Question")
-                        Text("Ritorna")
-                        
-                    }})
+                    pulsantinoView(tex: tex, score: score).navigationBarBackButtonHidden(true)
                     
                 }
                 

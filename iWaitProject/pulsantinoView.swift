@@ -8,13 +8,39 @@
 import SwiftUI
 
 struct pulsantinoView: View {
+    var tex: Int
+    var score: Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            Image("clocheUp")
+            ZStack{
+                Image("Fiesta")
+                if(self.score<5){
+                    Text("\(self.score)/12").foregroundColor(.orange)}
+                else if(self.score<=7 && self.score>=5){
+                    Text("\(self.score)/12").foregroundColor(.yellow)}
+                else{
+                    Text("\(self.score)/12").foregroundColor(.green)}
+            }
+            Image("cloche")
+            if(self.score<5){Text("Troppi Errori")}
+            else if(self.score<=7 && self.score>=5){Text("Puoi Migliorare, manca poco. Ritenta")}
+            else{
+                
+                Text("Congratulazioni, hai sbloccato il livello successivo")}
+            NavigationLink(destination: {Buttons(tex: tex, mode: true).navigationBarBackButtonHidden(true)}, label: {ZStack{
+                    Image("Question")
+                    Text("Ritorna")
+                    
+                }})
+        }
+        
     }
 }
 
 struct pulsantinoView_Previews: PreviewProvider {
     static var previews: some View {
-        pulsantinoView()
+        pulsantinoView(tex: 0, score: 5)
     }
 }

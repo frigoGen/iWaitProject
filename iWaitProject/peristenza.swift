@@ -7,14 +7,15 @@
 
 import Foundation
 
-public struct Salvataggio: Codable{
-    var modulo: [Bool]
-    var score: [Int]
+struct Salvataggio: Codable{
+    var modulo: [[Bool]]
+    var score: [[Int]]
+    var cacao : userData
 }
-public struct userData: Codable{
+struct userData: Codable{
     var name: String
     var language: Int
 }
-public var saveData: [Salvataggio] = [Salvataggio(modulo: [false,false,false], score: [0,0,0]),Salvataggio(modulo: [false,false,false], score: [0,0,0]),Salvataggio(modulo: [false,false,false], score: [0,0,0])]
+public var saveData: Salvataggio = 
 
 public var userDat = userData(name: "", language: 0)
