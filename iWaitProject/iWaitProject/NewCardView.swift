@@ -63,7 +63,7 @@ struct NewCardView: View {
                     ZStack{
                         VStack(alignment: .center){
                             Spacer()
-                            Image("card1")
+                            Image(cards.Image)
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 355,height: 370)

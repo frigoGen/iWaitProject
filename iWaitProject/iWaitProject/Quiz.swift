@@ -69,6 +69,7 @@ struct QuizView: View {
                         }*/
                         Image("card1")
                             .resizable()
+                           .scaledToFit()
                             .padding(.all)
                     //}
                     //text of the question

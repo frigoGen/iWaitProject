@@ -7,45 +7,45 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "Uniform and Brigade",
-                "Image": "The uniform of the waiter involves classic shoes, long, smartly cut trousers and a shirt with a refined, traditional look. In certain contexts, the uniform also includes a waistcoat, tie and - but this is quite rare - white gloves."
+                "Text": "The uniform of the waiter involves classic shoes, long, smartly cut trousers and a shirt with a refined, traditional look. In certain contexts, the uniform also includes a waistcoat, tie and - but this is quite rare - white gloves",
+                "Image": "la divisa"
             },
             {
                 "id": 2,
                 "Text": "  The brigade in general can be schematized hierarchically. First we have the Maitre d'hotel, after which there are the chef de rang and the chef at wines, and finally the commis de rang.",
-                "Image": ""
+                "Image": "card1"
             },
             {"id": 3,
                 "Text":"RESTAURANT DIRECTOR \n He is in charge of the organization and administration of the food service. Aided by the maître d'hôtel, he also establishes staff duty shifts and rest periods. In addition, he/she is in charge of the food and beverage manager.\n \n BANQUET DIRECTOR \n Manages the banquet service and oversees all organisational aspects: prepares the buffet, takes care of the aesthetics, deals with the menu and the choice of drinks.)",
-                "Image": ""
+                "Image": "card2"
             },
             {"id": 4,
                 "Text":"FIRST MAITRE D'HOTEL \n Manages room service and determines staffing levels. He defines staff shifts in conjunction with the manager. He takes commandes, maintains relations with guests. He is in charge of the equipment and takes care of the inventory.",
-                "Image": ""
+                "Image": "card3"
             },
             {"id": 5,
                 "Text": "SECOND MAITRE D'HOTEL \n Assisting the first maître d'hôtel. He coordinates and supervises service, staff schedules, and the cleanliness of the room and equipment. He receives guests, takes orders; if there is no staff, he also prepares dishes at the lamp(refering to flambe trolley).",
-                "Image": ""
+                "Image": "card4"
             },
             {"id": 6,
                 "Text":"MAITRE AT THE BANQUETS \n He/she looks after the organisation and service of banquets according to the directives of the banquet manager.\n MAITRE AT THE FLOORS \n He/she is responsible for serving meals in the rooms. His or her workstation is near the office on the floors, which is in direct telephone contact with guests. He reports to the hotel manager or maître d'hôtel.",
-                "Image": ""
+                "Image": "card5"
             },
             {"id": 7,
                 "Text": "SOMMELIER (wine chef) \n He/she is in charge of choosing wines, serving them, selecting them and matching them with food. \n COMMIS SOMMELIER \n Works closely with the sommelier",
-                "Image": ""
+                "Image": "card6"
             },
             {"id": 8,
                 "Text": "SALON HOSTESS Performs customer reception duties. He receives reservations and telephone communications. He contributes to the cloakroom service and helps the maitre d'H by escorting guests to their tables if required.",
-                "Image": ""
+                "Image": "card7"
             },
             {"id": 9,
                 "Text": "CHEF DE RANG He/she looks after the adaptation of the service of his/her rank and takes part in both the mise en place in the dining room and the cleaning of his/her department. If necessary, he/she also serves the dishes and takes orders. He works with the commis, guiding him in the distribution and delivery of commandes.",
-                "Image": ""
+                "Image": "card8"
             },
             {"id": 10,
                 "Text": "COMMIS DE RANG \n Takes orders from the chef de rang. He/she collects the dishes from the kitchen and places them on the serving table, takes care of the mise en place, arranges the material in the office, cleans the tables and keeps the equipment and working areas clean.\n \n COMMIS D'ETAGE (commis on the floors) \n Collaborates with the maître d'H on the floors in preparing the trolleys and serving trays. He/she takes care of the tidiness and cleanliness of the office on the floors.",
-                "Image": ""
+                "Image": "card9"
             }
         ]
         },
@@ -58,44 +58,44 @@
             {
                 "id": 1,
                 "Text": "Taking care of the tables by laying and arranging them, and making the place clean by cleaning it, are just two of the activities needed to carry out the service in the hall. All this work is called mise en place. In a restaurant, two types of mise en place are possible: mise en place à la carte and the classic mise en place",
-                "Image": ""
+                "Image": "card21"
             },
             {
                 "id": 2,
                 "Text":  "In the first case, the customer chooses his or her dishes at the moment and therefore the menu is not known; the staff will arrange the place settings as they go. In the second case, on the other hand, the menu is known in advance and all the cutlery needed for service is prepared beforehand. In both cases, however, it is necessary to be able to arrange the material properly on a table.",
-                "Image": ""
+                "Image": "card22"
             },
             {"id": 3,
                 "Text": "**Napkin** half an inch from the edge of the table, to the left of the forks folded plain.Large knife to the right of the underplate with the blade facing inward.Second knife to the right next to the first one.Large fork to the left of the underplate. Second fork to the left of the first fork, a little higher than the first",
-                "Image": ""
+                "Image": "card23"
             },
             {"id": 4,
                 "Text": "**Glasses** \n -The glass for red wine should be placed above the tips of the knife, about 1 cm away \n -the glass for water should be placed diagonally, a little higher than the one for red wine \n -the glass for white wine should be placed diagonally, a little lower than the one for red wine \n \n If in addition to these glasses the flûte is also needed, it is placed diagonally above the glass for water.",
-                "Image": ""
+                "Image": "card24"
             },
             {"id": 5,
                 "Text": "**Bread saucer with small knife** for spreading butter on the left, next to the fork, but a little further from the edge; the small knife should have the blade facing outward from the place setting.",
-                "Image": ""
+                "Image": "card25"
             },
             {"id": 6,
                 "Text":  "**The booked cover charge** If the customer has booked and ordered the menu, the cover charge depends on the number and type of courses. **No** more than four pairs of cutlery** (including dessert cutlery) **and three glasses at a time** should be set, however. Other necessary cutlery or glasses should be set separately during service. **The sequence of courses determines that of cutlery**.",
-                "Image": ""
+                "Image": "card26"
             },
             {"id": 7,
                 "Text": "**Spoon** on the right, outside or in between the knives, depending on the succession of food. \n **Dessert cutlery** if there is a dessert on the menu, it is arranged above the underplate, parallel to the edge of the table.",
-                "Image": ""
+                "Image": "card27"
             },
             {"id": 8,
                 "Text": "The menu is a set of culinary preparations that represent the dishes from appetizer to dessert that you can have. It is presented with fixed price to the customer.Each employee must know the menu and the ingredients of the dishes.The dishes are divided into categories: the appetizers, entrees, fish, meat, side dishes, and dessert.",
-                "Image": ""
+                "Image": "card28"
             },
             {"id": 9,
                 "Text": "In a menu it is necessary to add all the nutritional components: lipids, glucose etc. It must be seasonally appropriate with the right doses of nutrients. Contain The typical products of the country A budget appropriate to the preparation",
-                "Image": ""
+                "Image": "card29"
             },
             {"id": 10,
                 "Text": "The card presents a selection of dishes each with an assigned price. The card includes: appetizers, meals(first, second desserts), wines and drinks. There can be different types of cards: the aperitif card, the card of meals, wines and beverages, cafeteria, desserts, and digestifs.",
-                "Image": ""
+                "Image": "card30"
             }
         ]
         },
@@ -106,47 +106,47 @@
         },
         "Card": [
             {
-                "id": 1,
-                "Text": "**Hygiene** \n For the waiter, personal hygiene and grooming are important. \n The waiter must have a pleasant, fresh and well-groomed appearance and must inspire admiration and esteem both in the client and in the colleagues",
-                "Image": ""
-            },
-            {
-                "id": 2,
-                "Text": "The waiter must be on his feet for many hours and must constantly move from hot environments such as the kitchen, to cool environments such as the lounge. In addition, his work involves fatigue and stress, so he must also look after his physical and mental health.",
-                "Image": ""
-            },
-            {"id": 3,
-                "Text": "The waiter is in contact with food people equipment and therefore must take care of his cleanliness as much as possible.",
-                "Image": ""
-            },
-            {"id": 4,
-                "Text": "Food can give rise to various illnesses as it is a vehicle for pathogenic bacteria and poisonous substances that could lead to food poisoning.",
-                "Image": ""
-            },
-            {"id": 5,
-                "Text": "The rules to improve personal care are: \n 1)devote as much time as necessary to rest and body care \n 2)exercise regularly and be careful with your movements \n 3)choose shoes carefully as waiters spend many hours on their feet \n 4)to relieve the feet it is good to wash them two or three times a day \n 5)it would be good for women to use elasticised stockings to avoid varicose veins",
-                "Image": ""
-            },
-            {"id": 6,
-                "Text": "Other rules for personal care are:\n 6)daily cleansing of the body is the first rule to follow \n 7)hair must always be clean and well combed, short hair is preferred \n 8)men must shave thoroughly every morning or before evening service \n 9)hands must be well groomed and have short, clean nails \n 10)women should not use nail polish on their nails11)take care of nutrition.",
-                "Image": ""
-            },
-            {"id": 7,
-                "Text": "**N.B.** It is also recommended to: \n -do not wear bracelets or rings or wristwatches \n -in the case of injuries, use appropriate dressings \n -take cutlery by the handle glasses by the stem and plates by the rim \n -remove waste from work areas as soon as possible \n -clean work surfaces when you have finished using them",
-                "Image": ""
-            },
-            {"id": 8,
-                "Text": "Also important is HACCP (Hazard Analysis Critical Control Points) which is a system based on seven principles and is determined by European Directive 852/2004 for the hygiene of foodstuffs.Hazards can be of three types: physical (insects, metal hazards, ... ), chemical (unintentional additives, washing residues, ... ), biological (presence of parasites, bacterial contamination)",
-                "Image": ""
-            },
-            {"id": 9,
-                "Text": "**First aid* \n \n What to do? \n -loosen tight clothing in case of bleeding \n -Compress upstream bleeding \n -call 118",
-                "Image": ""
-            },
-            {"id": 10,
-                "Text": "What not to do? \n -Act without the victim's consent-move him/her \n -take personal risks \n -give medication-perform medical manoeuvres \n -consider the casualty dead",
-                "Image": ""
-            }
-        ]
-        },
-]
+                            "id": 1,
+                            "Text": "**Hygiene** Personal hygiene and body care are important for the waiter: The waiter must look good, fresh and well-groomed and must arouse admiration and esteem in both customers and colleagues' management",
+                            "image": "card31"
+                        },
+                        {
+                            }, "id": 2,
+                            "text": "The waiter has to stand for many hours and has to constantly move from hot environments such as the kitchen to cool environments such as the lounge. In addition, his job involves fatigue and stress, so he also has to take care of his physical and mental health...",
+                            "image": "card32"
+                        },
+                        { "id": "3",
+                            "text": "The waiter is in contact with the equipment of those who eat and therefore must take care of their cleanliness as much as possible./nFood can give rise to various illnesses as it is a vehicle for pathogenic bacteria and poisonous substances that could lead to food poisoning."
+                            "Image": "card34"
+                        },
+                        { "id": 4,
+                            "Text": "The rules to improve personal care are:1)spend as much time as you need to rest and care for your body/n2)exercise regularly and pay attention to your movements/n3)choose your shoes carefully because waiters spend many hours on their feet/n4)to relieve your feet it is good to wash them two or three times a day/n5)for women it would be good to use elasticated stockings to avoid varicose veins",
+                            "Image": "card35"
+                        },
+                        { "id": "5",
+                            "text": "Other rules for personal care are:/n6)daily cleansing of the body is the first rule to follow/n7)hair should always be clean and well combed. short hair is preferable/n8)men should shave thoroughly every morning or before evening service/n9)hands should be well cared for and have short, clean nails/n10)women should not use nail varnish on their nails/n11)care should be taken with nutrition."
+                            "Image": "card36"
+                        },
+                        { "id": "6",
+                            "Text": "***N.B.** It is also recommended to:/don't wear bracelets or rings or wrist-straps/n-in case of injuries, use appropriate dressings-take cutlery by the handle glasses by the stem and plates by the rim/n-remove waste from work areas as soon as possible-clean work surfaces when finished using them",
+                            "Image": "card37"
+                        },
+                        { "id": 7,
+                                        "Text": "HACCP (Hazard Analysis Critical Control Points) is important, which is a system based on seven principles and is determined by the European Directive 852/2004 for the hygiene of foodstuffs.Hazards can be of three types: physical (insects, metal hazards, ... ), chemical (unintentional additives, washing residues, ... ), biological (presence of parasites, bacterial contamination)",
+                                        "Image": ""
+                                    },
+                        { "id": 8,
+                                                    "Text": "The 7 HACCP Principles/Indentification and analysis of hazards./nIdentification of Critical Control Points./nDetermination of critical limits for all Critical Control Points./nDefinition of the monitoring system./nIdentification of corrective actions where necessary./nDefinition of verification procedures."
+                                                    "Image": ""
+                                                },
+                        { "id": 9,
+                                                    "Text": "*First aid/n-what to do?/n-loosen tight clothing in case of bleeding/n-compress upstream bleeding/n-call 118."
+                                                    "Image": "card38"
+                                                },
+                        { "id": 10,
+                                                    "text": "What not to do: act without the victim's consent, move the victim, take personal risks, administer drugs, perform medical manoeuvres, consider the casualty dead",
+                                                    "image": "card39"
+                                                }
+                                                        ]
+                                },
+                        ]
