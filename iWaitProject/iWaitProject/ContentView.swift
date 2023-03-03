@@ -18,6 +18,7 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
     
     var body: some View {
+        
         HomeView()
     }
     private func addItem() {

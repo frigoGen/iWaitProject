@@ -16,6 +16,8 @@ struct userData: Codable{
     var name: String
     var language: Int
 }
+/*
 public var saveData: Salvataggio = 
 
 public var userDat = userData(name: "", language: 0)
+*/

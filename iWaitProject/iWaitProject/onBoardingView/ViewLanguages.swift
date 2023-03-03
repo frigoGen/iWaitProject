@@ -34,11 +34,13 @@ struct ViewLanguages: View {
                     Button{
                         
                     }label: {
+                        ZStack{
                             Rectangle()
                                 .frame(width: 52,height: 34)
                                 .cornerRadius(10)
-                                .foregroundColor(Color.gray)
+                                .foregroundColor(Color(red: 0.85, green: 0.85, blue: 0.85))
                             Image("bra")
+                        }
                         }
                     Button{
                         
@@ -48,7 +50,7 @@ struct ViewLanguages: View {
                             Rectangle()
                                 .frame(width: 52,height: 34)
                                 .cornerRadius(10)
-                                .foregroundColor(Color.gray)
+                                .foregroundColor(Color(red: 0.85, green: 0.85, blue: 0.85))
                                 .padding(.horizontal, 30)
                             Image("ita")
         
@@ -58,11 +60,16 @@ struct ViewLanguages: View {
                     Button{
                         
                     }label: {
-                        Rectangle()
-                            .frame(width: 52,height: 34)
-                            .cornerRadius(10)
-                            .foregroundColor(Color.gray)
-                        Image("eng")
+                        ZStack{
+                            Rectangle()
+                                .frame(width: 52,height: 34)
+                                .cornerRadius(10)
+                                .foregroundColor(Color(red: 0.85, green: 0.85, blue: 0.85))
+                            Image("eng")
+                            
+                                
+                            
+                        }
                     }
                     
                 }
@@ -82,7 +89,7 @@ struct ViewLanguages: View {
                 Rectangle()
                     .cornerRadius(10)
                     .frame(width: 288,height: 62)
-                    .foregroundColor(Color.red)
+                    .foregroundColor(Color(red: 0.82, green: 0.50, blue: 0.50))
                 
                 Text("inizia")
                     .foregroundColor(Color.white)
