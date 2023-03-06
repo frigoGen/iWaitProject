@@ -47,6 +47,7 @@ struct Buttons: View {
             label: {
                 Image("Etichetta")
                     .padding(.vertical,15)
+               
             }
             
                 NavigationLink {
