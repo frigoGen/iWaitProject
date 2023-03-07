@@ -113,11 +113,16 @@ struct ProfileView: View {
                         //   Image("back")
                         // .padding(.leading, -150.0)
                         //ZStack{
+                        
                         TextField("Name" , text: $textfieldText)
+                            
                             .padding(.bottom, 100.0)
                             .padding(.horizontal, 70.0)
+                            .foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
+                           
                         
                         Button("Save")
+                        
                         {
                             if !textfieldText.isEmpty
                             {

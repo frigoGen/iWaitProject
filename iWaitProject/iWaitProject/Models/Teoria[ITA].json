@@ -9,7 +9,7 @@
             {
                 "id": 1,
                 "Text": "La divisa del cameriere di sala prevede scarpe classiche, pantaloni lunghi e dal taglio elegante e camicia che abbiano un aspetto raffinato e tradizionale. In determinati contesti, la divisa prevede anche gilet, cravatta e - ma è piuttosto raro - guanti bianchi.",
-                "Image": "la divisa"
+                "Image": "La Divisa"
             },
             {
                 "id": 2,
@@ -68,23 +68,23 @@
             },
             {"id": 3,
                 "Text": "Tovagliolo/n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande/n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
-                "Image": "card23"
+                "Image": "miseenplace"
             },
             {"id": 4,
                 "Text": "Bicchieri il bicchiere per il vino rosso va posto sopra la punta del coltello, a circa 1 cm di distanza il bicchiere per l'acqua va posto in diagonale, un po' più in alto di quello per il vino rossoil bicchiere per il vino bianco va posto in diagonale, un po' più in basso di quello per il vino rosso Se oltre a questi bicchieri è necessario anche il flûte, va posto in diagonale sopra il bicchiere per l'acqua.",
-                "Image": "card24"
+                "Image": "miseenplace"
             },
             {"id": 5,
              "Text": "Il piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
-            "Image": "card25"
+            "Image": "miseenplace"
                         },
                         {"id": 6,
                             "Text": "**Il coperto prenotato** Se il cliente ha prenotato e ordinato il menu, il coperto dipende dal numero e dal tipo di portate. **Tuttavia, non dovrebbero essere servite più di quattro paia di posate** (comprese quelle da dessert) **e tre bicchieri alla volta**. Le altre posate o i bicchieri necessari devono essere sistemati separatamente durante il servizio. **La sequenza delle portate determina quella delle posate**",
-                            "Image": "card26"
+                            "Image": "miseenplace"
                         },
                         {"id": 7,
                             "Text": "**cucchiaio** a destra, all'esterno o in mezzo ai coltelli, a seconda della successione delle pietanze.**posate da dessert** se nel menu c'è un dolce, si dispongono sopra il sottopiatto, parallele al bordo del tavolo.**MENUITS** **Menu e carta (teoria)**",
-                            "Image": "card27"
+                            "Image": "miseenplace"
                         },
                         {"id": 8,
                             "Text": "Il menu è un insieme di preparazioni culinarie che rappresentano i piatti dall'antipasto al dolce che si possono avere. Viene presentato con prezzo fisso al cliente.Ogni dipendente deve conoscere il menu e gli ingredienti dei piatti.I piatti sono divisi in categorie: gli antipasti, i primi, il pesce, la carne, i contorni e il dessert",

@@ -55,9 +55,9 @@ struct HomeView: View {
                                         .frame(width: 300, height: 110)
                                         .ignoresSafeArea()
                                     Text(card[0].module.Text)
-                                        .fontWeight(.heavy)
+                                        .fontWeight(.black)
                                         .foregroundColor(.black)
-                                        .font(.custom("SFPro",size: 17))
+                                        .font(.body)
                                         .bold()
                                 }
                                 
@@ -68,9 +68,9 @@ struct HomeView: View {
                                         .frame(width: 300, height: 110)
                                         .ignoresSafeArea()
                                     Text(card[1].module.Text)
-                                        .fontWeight(.heavy)
+                                        .fontWeight(.black)
                                         .foregroundColor(.black)
-                                        .font(.custom("SFPro",size: 17))
+                                        .font(.body)
                                         .bold()
                                 }
                                 
@@ -81,9 +81,9 @@ struct HomeView: View {
                                         .frame(width: 300, height: 110)
                                         .ignoresSafeArea()
                                     Text(card[2].module.Text)
-                                        .fontWeight(.heavy)
+                                        .fontWeight(.black)
                                         .foregroundColor(.black)
-                                        .font(.custom("SFPro",size: 17))
+                                        .font(.body)
                                         .bold()
                                     
                                     
