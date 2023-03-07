@@ -86,6 +86,8 @@ struct QuizView: View {
                     VStack{
                         Text(quiz[tex].questions[i-1].question)
                             .font(.custom("SFPro-Medium",size: 17))
+                            .frame(width: 308,height: 40)
+                            .padding(.top)
                             .bold()
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
