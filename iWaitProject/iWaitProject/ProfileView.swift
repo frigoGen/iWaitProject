@@ -232,11 +232,11 @@ struct ProfileView: View {
                         //ZStack{
                         
                        
-                       // TextField("Name" , text: $textfieldText)
+                       TextField("Name" , text: $textfieldText)
                         
-                            //.padding(.bottom, 100.0)
-                           // .padding(.horizontal, 70.0)
-                            //.foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
+                            .padding(.top, 450.0)
+                            .padding(.horizontal, 90.0)
+                            .foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
                         
                         
                        // Button("Save")
@@ -256,8 +256,9 @@ struct ProfileView: View {
                       //  .padding(.bottom, 100.0)
                       //  .padding(.horizontal, 70.0)
                         
-                    }//.frame(width: 303, height: 404)
-                    Spacer()
+                    }
+                    //.frame(width: 303, height: 404)
+                   Spacer()
                 }
                 
             }
