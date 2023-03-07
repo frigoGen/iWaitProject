@@ -141,6 +141,145 @@
 },
 {
   "module": {
+    "number": 2,
+    "name": "mise en place",
+    "questions": 12
+      },
+  "questions": [
+    {
+      "number": 1,
+      "question": "Dove Viene disposto il tovagliolo?:",
+      "answers": [
+        "a sinistra della forchetta",
+        "a destra del coltello",
+        "al centro"
+    ],
+      "correct_answer": 1
+    },
+    {
+      "number": 2,
+      "question": "Quale bicchiere è il primo ad essere messo a 45° vicino all punta del coltello nella mise en place?:",
+      "answers": [
+        "bicchiere per l’acqua",
+        "bicchiere per il vino rosso ",
+        "bicchiere per il vino bianco"
+        ],
+      "correct_answer": 1
+    },
+     {
+      "number": 3,
+      "question": "MISE EN PLACE SIGNIFICA?",
+      "answers": [
+        "Preparazione della sala",
+        "riassetto della sala",
+        "servizio di sala",
+        "pulizia dei tavoli"
+      ],
+      "correct_answer": 1
+    },
+     {
+      "number": 4,
+      "question": "Dove va posto il piatto del pane?",
+      "answers": [
+        "in alto in corrispondenza delle posate da dessert",
+        "in alto in corrispondenza delle forchette",
+        "sopra il piatto antipasto",
+        "viene posto alla destra del tovagliolo"
+      ],
+      "correct_answer": 2
+    },
+     {
+      "number": 5,
+      "question": "Dove vanno poste le posate per il dessert?",
+      "answers": [
+        "vanno poste solo all’occorrenza",
+        "al di sopra del sottopiatto",
+        "vano poste al di sopra dei bicchieri",
+        "vanno poste di fianco alle forchette"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "number": 6,
+      "question": "La successione delle portate determina quella delle posate?",
+      "answers": [
+        "vero",
+        "falso"
+      ],
+      "correct_answer": 1
+  
+},
+    {
+      "number": 7,
+      "question": "Il coltello deve essere disposto con il filo della lama rivolto verso il piatto?",
+      "answers": [
+        "vero",
+        "falso"
+      ],
+      "correct_answer": 1
+  
+},
+     {
+      "number": 8,
+      "question": "La mise en place non deve comprendere: ",
+      "answers": [
+        "coprimacchia",
+        "bicchiere per acqua e per vino",
+        "posate",
+        "clip",
+        "piattino per il pane"
+       
+      ],
+      "correct_answer": 4
+    },
+     {
+      "number": 9,
+      "question": "Quanti bicchieri posso disporre nella mise en place?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 4
+    },
+     {
+      "number": 10,
+      "question": "I coltelli e i cucchiai dove vanno messi nella mise en place?",
+      "answers": [
+        "sopra i bicchieri",
+        "vicino al piatto del pane",
+        "a destra del tovagliolo o sottopiatto"
+    
+      ],
+      "correct_answer": 3
+    },
+     {
+      "number": 11,
+      "question": "Il menù è:",
+      "answers": [
+        "a destra del tovagliolo o sottopiatto",
+        "si divide per tipologie (aperitivi, bevande, ecc..)",
+        "deve essere adeguato alla stagione e contenere prodotti tipici del paese",
+        "nessuna delle precedenti"
+      ],
+      "correct_answer": 3
+    },
+     {
+      "number": 12,
+      "question": "quale è l’ordine dei pasti all’interno del menù?:",
+      "answers": [
+        "antipasti,primi,secondi,dessert",
+        "antipasti,primi,pesce,carne,contorni,dessert",
+        "primi,secondi,contorni e dessert",
+        "antipasti,pesce,carne,contorni,dessert"
+      ],
+      "correct_answer": 2
+    }
+  ]
+},
+{
+  "module": {
     "number": 3,
     "name": "Igiene, pronto soccorso e HACCP",
     "questions": 12
@@ -280,145 +419,7 @@
     }
   ]
     
-},
-{
-  "module": {
-    "number": 2,
-    "name": "mise en place",
-    "questions": 12
-      },
-  "questions": [
-    {
-      "number": 1,
-      "question": "Dove Viene disposto il tovagliolo?:",
-      "answers": [
-        "a sinistra della forchetta",
-        "a destra del coltello",
-        "al centro"
-    ],
-      "correct_answer": 1
-    },
-    {
-      "number": 2,
-      "question": "Quale bicchiere è il primo ad essere messo a 45° vicino all punta del coltello nella mise en place?:",
-      "answers": [
-        "bicchiere per l’acqua",
-        "bicchiere per il vino rosso ",
-        "bicchiere per il vino bianco"
-        ],
-      "correct_answer": 1
-    },
-     {
-      "number": 3,
-      "question": "MISE EN PLACE SIGNIFICA?",
-      "answers": [
-        "Preparazione della sala",
-        "riassetto della sala",
-        "servizio di sala",
-        "pulizia dei tavoli"
-      ],
-      "correct_answer": 1
-    },
-     {
-      "number": 4,
-      "question": "Dove va posto il piatto del pane?",
-      "answers": [
-        "in alto in corrispondenza delle posate da dessert",
-        "in alto in corrispondenza delle forchette",
-        "sopra il piatto antipasto",
-        "viene posto alla destra del tovagliolo"
-      ],
-      "correct_answer": 2
-    },
-     {
-      "number": 5,
-      "question": "Dove vanno poste le posate per il dessert?",
-      "answers": [
-        "vanno poste solo all’occorrenza",
-        "al di sopra del sottopiatto",
-        "vano poste al di sopra dei bicchieri",
-        "vanno poste di fianco alle forchette"
-      ],
-      "correct_answer": 2
-    },
-    {
-      "number": 6,
-      "question": "La successione delle portate determina quella delle posate?",
-      "answers": [
-        "vero",
-        "falso"
-      ],
-      "correct_answer": 1
-  
-},
-    {
-      "number": 7,
-      "question": "Il coltello deve essere disposto con il filo della lama rivolto verso il piatto?",
-      "answers": [
-        "vero",
-        "falso"
-      ],
-      "correct_answer": 1
-  
-},
-     {
-      "number": 8,
-      "question": "La mise en place non deve comprendere: ",
-      "answers": [
-        "coprimacchia",
-        "bicchiere per acqua e per vino",
-        "posate",
-        "clip",
-        "piattino per il pane"
-       
-      ],
-      "correct_answer": 4
-    },
-     {
-      "number": 9,
-      "question": "Quanti bicchieri posso disporre nella mise en place?",
-      "answers": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correct_answer": 4
-    },
-     {
-      "number": 10,
-      "question": "I coltelli e i cucchiai dove vanno messi nella mise en place?",
-      "answers": [
-        "sopra i bicchieri",
-        "vicino al piatto del pane",
-        "a destra del tovagliolo o sottopiatto"
-    
-      ],
-      "correct_answer": 3
-    },
-     {
-      "number": 11,
-      "question": "Il menù è:",
-      "answers": [
-        "a destra del tovagliolo o sottopiatto",
-        "si divide per tipologie (aperitivi, bevande, ecc..)",
-        "deve essere adeguato alla stagione e contenere prodotti tipici del paese",
-        "nessuna delle precedenti"
-      ],
-      "correct_answer": 3
-    },
-     {
-      "number": 12,
-      "question": "quale è l’ordine dei pasti all’interno del menù?:",
-      "answers": [
-        "antipasti,primi,secondi,dessert",
-        "antipasti,primi,pesce,carne,contorni,dessert",
-        "primi,secondi,contorni e dessert",
-        "antipasti,pesce,carne,contorni,dessert"
-      ],
-      "correct_answer": 2
-    }
-  ]
 }
+
 ]
 

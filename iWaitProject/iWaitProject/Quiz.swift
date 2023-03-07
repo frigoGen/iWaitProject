@@ -34,7 +34,7 @@ func load<T: Decodable>(_ filename: String) -> T {
 
 struct QuizView: View {
     //aggiunto per contare le immagini nei Quiz
-    @State var imageQuiz: [[String]] = [["la divisa","card6","card10","card9","card6","card1","card4","card2","card2","card9","la divisa","la divisa"],["card11","card12","card13","card14","card15","card16","card17","card18","card19","card20"],["card40","card40","card32","card36","card39","card39","card31","card32","card31","card40","card31","card33"]]
+    @State var imageQuiz: [[String]] = [["la divisa","card6","card10","card9","card6","card1","card4","card2","card2","card9","la divisa","la divisa"],["card21","card22","card23","card24","card25","card26","card27","card28","card29","card30"],["card40","card40","card32","card36","card39","card39","card31","card32","card31","card40","card31","card33"]]
 
     //------------
     @State var blocker: Int = -1

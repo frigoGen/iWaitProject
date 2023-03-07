@@ -142,6 +142,143 @@
   ]
 },
 {
+  "module": {
+    "number": 2,
+    "name": "Mise en place",
+    "questions": 12
+      },
+   "questions": [
+    {
+       "number": 1,
+      "question": "Where is the napkin placed?:",
+       "answers": [
+        "to the left of the fork",
+        "to the right of the knife",
+        "in the middle"
+    ],
+      "correct_answer": 1
+    },
+    {
+      "number": 2,
+      "question": "Which glass is the first to be placed at 45° near the tip of the knife in the mise en place?",
+      "answers": [
+        "water glass",
+        "glass for red wine",
+        "glass for white wine"
+        ],
+      "correct_answer": 1
+    },
+     {
+       "number": 3,
+      "question": "MISE EN PLACE MEANS?",
+        "answers": [
+        "preparing the room",
+        "tidying up the room",
+        "room service",
+        "cleaning tables"
+      ],
+      "correct_answer": 1
+    },
+     {
+      "number": 4,
+      "question": "Where should the bread plate be placed?",
+      "answers": [
+        "on top at the dessert cutlery",
+        "on top at the forks",
+        "above the starter plate",
+        "is placed to the right of the napkin"
+      ],
+      "correct_answer": 2
+    },
+     {
+      "number": 5,
+      "question": "Where should the dessert cutlery be placed?",
+      "answers": [
+        "should be placed only when necessary",
+        "above the underplate",
+        "should be placed above the glasses",
+        "should be placed next to the forks"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "number": 6,
+      "question": "Does the succession of courses determine the succession of cutlery?",
+      "answers": [
+        "true",
+        "false"
+      ],
+      "correct_answer": 1
+  
+},
+    {
+      "number": 7,
+      "question": "Should the knife be placed with the edge of the blade facing the plate?",
+       "answers": [
+        "true",
+        "false"
+      ],
+      "correct_answer": 1
+  
+},
+     {
+      "number": 8,
+      "question": "The mise en place must not include : ",
+       "answers": [
+         "cover",
+        "water and wine glass",
+        "cutlery",
+        "clip",
+        "bread plate" ],
+       "correct_answer": 4
+    },
+     {
+       "number": 9,
+      "question": "How many glasses can I place in the mise en place?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 4
+    },
+     {
+       "number": 10,
+      "question": "Where should knives and spoons be placed in the mise en place?",
+      "answers": [
+        "above the glasses",
+        "next to the bread plate",
+        "to the right of the napkin or underplate"
+    
+      ],
+      "correct_answer": 3
+    },
+     {
+      "number": 11,
+      "question": "The menu is:",
+      "answers": [
+        "to the right of the napkin or underplate",
+        "is divided into types (aperitifs, drinks, etc.)",
+        "must be appropriate to the season and contain typical products of the country",
+        "none of the above"
+      ],
+      "correct_answer": 3
+    },
+     {
+      "number": 12,
+      "question": "what is the order of the meals within the menu?",
+      "answers": [
+        "starters,main courses,desserts",
+        "starters,main courses,fish,meat,side dishes,dessert",
+        "starters,main courses,side dishes,dessert",
+        "starters,fish,meat,side dishes,dessert"
+      ],
+      "correct_answer": 2
+    }
+  ]
+},
+{
 "module": {
     "number": 3,
     "name": "Hygiene, first aid and haccp",
@@ -282,142 +419,6 @@
     }
   ]
     
-},
-{
-  "module": {
-    "number": 2,
-    "name": "Mise en place",
-    "questions": 12
-      },
-   "questions": [
-    {
-       "number": 1,
-      "question": "Where is the napkin placed?:",
-       "answers": [
-        "to the left of the fork",
-        "to the right of the knife",
-        "in the middle"
-    ],
-      "correct_answer": 1
-    },
-    {
-      "number": 2,
-      "question": "Which glass is the first to be placed at 45° near the tip of the knife in the mise en place?",
-      "answers": [
-        "water glass",
-        "glass for red wine",
-        "glass for white wine"
-        ],
-      "correct_answer": 1
-    },
-     {
-       "number": 3,
-      "question": "MISE EN PLACE MEANS?",
-        "answers": [
-        "preparing the room",
-        "tidying up the room",
-        "room service",
-        "cleaning tables"
-      ],
-      "correct_answer": 1
-    },
-     {
-      "number": 4,
-      "question": "Where should the bread plate be placed?",
-      "answers": [
-        "on top at the dessert cutlery",
-        "on top at the forks",
-        "above the starter plate",
-        "is placed to the right of the napkin"
-      ],
-      "correct_answer": 2
-    },
-     {
-      "number": 5,
-      "question": "Where should the dessert cutlery be placed?",
-      "answers": [
-        "should be placed only when necessary",
-        "above the underplate",
-        "should be placed above the glasses",
-        "should be placed next to the forks"
-      ],
-      "correct_answer": 2
-    },
-    {
-      "number": 6,
-      "question": "Does the succession of courses determine the succession of cutlery?",
-      "answers": [
-        "true",
-        "false"
-      ],
-      "correct_answer": 1
-  
-},
-    {
-      "number": 7,
-      "question": "Should the knife be placed with the edge of the blade facing the plate?",
-       "answers": [
-        "true",
-        "false"
-      ],
-      "correct_answer": 1
-  
-},
-     {
-      "number": 8,
-      "question": "The mise en place must not include : ",
-       "answers": [
-         "cover",
-        "water and wine glass",
-        "cutlery",
-        "clip",
-        "bread plate" ],
-       "correct_answer": 4
-    },
-     {
-       "number": 9,
-      "question": "How many glasses can I place in the mise en place?",
-      "answers": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correct_answer": 4
-    },
-     {
-       "number": 10,
-      "question": "Where should knives and spoons be placed in the mise en place?",
-      "answers": [
-        "above the glasses",
-        "next to the bread plate",
-        "to the right of the napkin or underplate"
-    
-      ],
-      "correct_answer": 3
-    },
-     {
-      "number": 11,
-      "question": "The menu is:",
-      "answers": [
-        "to the right of the napkin or underplate",
-        "is divided into types (aperitifs, drinks, etc.)",
-        "must be appropriate to the season and contain typical products of the country",
-        "none of the above"
-      ],
-      "correct_answer": 3
-    },
-     {
-      "number": 12,
-      "question": "what is the order of the meals within the menu?",
-      "answers": [
-        "starters,main courses,desserts",
-        "starters,main courses,fish,meat,side dishes,dessert",
-        "starters,main courses,side dishes,dessert",
-        "starters,fish,meat,side dishes,dessert"
-      ],
-      "correct_answer": 2
-    }
-  ]
 }
+
 ]
