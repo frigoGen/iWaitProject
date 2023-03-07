@@ -13,7 +13,7 @@ var colors: [UIColor] = [UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65
 // i bottoni indietro alla view si mette in automaticivo dalla view parent
 struct NewCardView: View {
     var tex: Int
-    
+    let images: [String] = ["teoria1","teoria2","teoria3"]
     var body: some View {
         ZStack{
             Color(uiColor: colors[tex])
@@ -49,9 +49,14 @@ struct NewCardView: View {
                                     .fill(Color(uiColor: UIColor(red: 0.92, green: 0.50, blue: 0.01, alpha: 1.00)))
                                     .frame(width: 10, height: 10)
                                 Text("Le mansioni dei singoli ruoli")
+                                   
+                                
                             }
-                            
+                            Image(images[tex])
+                                .resizable()
+                                .scaledToFit()
                         }
+                    
                         Spacer()
                     }//.frame(width: 200,height: 50)
                     

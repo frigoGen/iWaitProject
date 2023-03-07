@@ -118,19 +118,19 @@
                 "Image": "card32"
             },
             {"id": 3,
-                "Text": "Il cameriere è a contatto con le attrezzature di chi mangia e quindi deve curare il più possibile la propria pulizia./nGli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
+                "Text": "Il cameriere è a contatto con le attrezzature di chi mangia e quindi deve curare il più possibile la propria pulizia.\nGli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
                 "Image": "card34"
             },
             {"id": 4,
-                "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo/n2)fare esercizio fisico regolarmente e fare attenzione ai movimenti/n3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi/n4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno/n5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
+                "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo\n2)fare esercizio fisico regolarmente e fare attenzione ai movimenti\n3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi\n4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno\n5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
                 "Image": "card35"
             },
             {"id": 5,
-                "Text": "Altre regole per la cura della persona sono:/n6)la pulizia quotidiana del corpo è la prima regola da seguire/n7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti/n8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale/n9)le mani devono essere ben curate e avere unghie corte e pulite/n10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
+                "Text": "Altre regole per la cura della persona sono:\n6)la pulizia quotidiana del corpo è la prima regola da seguire\n7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti\n8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale\n9)le mani devono essere ben curate e avere unghie corte e pulite\n10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
                 "Image": "card36"
             },
             {"id": 6,
-                "Text": "***N.B.** Si raccomanda inoltre di:/n-non indossare braccialetti o anelli o lacci da polso/n-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo/n-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
+                "Text": "***N.B.** Si raccomanda inoltre di:\n-non indossare braccialetti o anelli o lacci da polso\n-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo\n-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
                 "Image": "card37"
             },
             {"id": 7,
@@ -138,11 +138,11 @@
                             "Image": "card40"
                         },
             {"id": 8,
-                                        "Text": "I 7 principi HACCP/nIndividuazione e analisi dei pericoli./nIndividuazione dei Punti Critici di Controllo./nDeterminazione dei limiti critici per tutti i Punti Critici di Controllo./nDefinizione del sistema di monitoraggio./nIndividuazione delle azioni correttive eventualmente necessarie./nDefinizione delle procedure di verifica.",
+                                        "Text": "I 7 principi HACCP\nIndividuazione e analisi dei pericoli.\nIndividuazione dei Punti Critici di Controllo.\nDeterminazione dei limiti critici per tutti i Punti Critici di Controllo.\nDefinizione del sistema di monitoraggio.\nIndividuazione delle azioni correttive eventualmente necessarie.\nDefinizione delle procedure di verifica.",
                                         "Image": "card40"
                                     },
             {"id": 9,
-                                        "Text": "*Primo soccorso/n-Cosa fare? /n-allentare gli indumenti stretti in caso di emorragia/n-comprimere a monte l'emorragia/n-chiamare il 118.",
+                                        "Text": "*Primo soccorso\n-Cosa fare? \n-allentare gli indumenti stretti in caso di emorragia\n-comprimere a monte l'emorragia\n-chiamare il 118.",
                                         "Image": "card39"
                                     },
             {"id": 10,
