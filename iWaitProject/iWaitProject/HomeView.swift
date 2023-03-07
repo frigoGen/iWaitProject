@@ -34,6 +34,7 @@ struct HomeView: View {
             return scene2
         }
     var body: some View {
+        var tempotest: ProfileView.Language = .nul
         NavigationView {
             
             ZStack{
@@ -97,7 +98,7 @@ struct HomeView: View {
                 VStack{
                     Spacer(minLength: 60)
                     
-                    NavigationLink(destination: ProfileView()){
+                    NavigationLink(destination: ProfileView(selectedLan: tempotest)){
                         ZStack{
                             Image("bollapic")
                             Image("id")

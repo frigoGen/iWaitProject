@@ -48,7 +48,7 @@
                 "Image": "card9"
             }
         ]
-        },
+    },
     {
         "module": {
             "Number": 2,
@@ -98,7 +98,7 @@
                 "Image": "card30"
             }
         ]
-        },
+    },
     {
         "module": {
             "Number": 3,
@@ -106,47 +106,46 @@
         },
         "Card": [
             {
-                            "id": 1,
-                            "Text": "**Hygiene** Personal hygiene and body care are important for the waiter: The waiter must look good, fresh and well-groomed and must arouse admiration and esteem in both customers and colleagues' management",
-                            "image": "card31"
-                        },
-                        {
-                            }, "id": 2,
-                            "text": "The waiter has to stand for many hours and has to constantly move from hot environments such as the kitchen to cool environments such as the lounge. In addition, his job involves fatigue and stress, so he also has to take care of his physical and mental health...",
-                            "image": "card32"
-                        },
-                        { "id": "3",
-                            "text": "The waiter is in contact with the equipment of those who eat and therefore must take care of their cleanliness as much as possible.\nFood can give rise to various illnesses as it is a vehicle for pathogenic bacteria and poisonous substances that could lead to food poisoning."
-                            "Image": "card34"
-                        },
-                        { "id": 4,
-                            "Text": "The rules to improve personal care are:1)spend as much time as you need to rest and care for your body\n2)exercise regularly and pay attention to your movements\n3)choose your shoes carefully because waiters spend many hours on their feet\n4)to relieve your feet it is good to wash them two or three times a day\n5)for women it would be good to use elasticated stockings to avoid varicose veins",
-                            "Image": "card35"
-                        },
-                        { "id": "5",
-                            "text": "Other rules for personal care are:\n6)daily cleansing of the body is the first rule to follow\n7)hair should always be clean and well combed. short hair is preferable\n8)men should shave thoroughly every morning or before evening service\n9)hands should be well cared for and have short, clean nails\n10)women should not use nail varnish on their nails\n11)care should be taken with nutrition."
-                            "Image": "card36"
-                        },
-                        { "id": "6",
-                            "Text": "***N.B.** It is also recommended to:\don't wear bracelets or rings or wrist-straps\n-in case of injuries, use appropriate dressings-take cutlery by the handle glasses by the stem and plates by the rim/n-remove waste from work areas as soon as possible-clean work surfaces when finished using them",
-                            "Image": "card37"
-                        },
-                        { "id": 7,
-                                        "Text": "HACCP (Hazard Analysis Critical Control Points) is important, which is a system based on seven principles and is determined by the European Directive 852/2004 for the hygiene of foodstuffs.Hazards can be of three types: physical (insects, metal hazards, ... ), chemical (unintentional additives, washing residues, ... ), biological (presence of parasites, bacterial contamination)",
-                                        "Image": "card40"
-                                    },
-                        { "id": 8,
-                                                    "Text": "The 7 HACCP Principles/Indentification and analysis of hazards.\nIdentification of Critical Control Points.\nDetermination of critical limits for all Critical Control Points.\nDefinition of the monitoring system.\nIdentification of corrective actions where necessary.\nDefinition of verification procedures."
-                                                    "Image": "card40"
-                                                },
-                        { "id": 9,
-                                                    "Text": "*First aid\n-what to do?\n-loosen tight clothing in case of bleeding\n-compress upstream bleeding\n-call 118."
-                                                    "Image": "card38"
-                                                },
-                        { "id": 10,
-                                                    "text": "What not to do: act without the victim's consent, move the victim, take personal risks, administer drugs, perform medical manoeuvres, consider the casualty dead",
-                                                    "image": "card39"
-                                                }
-                                                        ]
-                                },
-                        ]
+                "id": 1,
+                "Text": "**Hygiene** Personal hygiene and body care are important for the waiter: The waiter must look good, fresh and well-groomed and must arouse admiration and esteem in both customers and colleagues' management",
+                "Image": "card31"
+            },
+            {
+                "id": 2,
+                "Text": "The waiter has to stand for many hours and has to constantly move from hot environments such as the kitchen to cool environments such as the lounge. In addition, his job involves fatigue and stress, so he also has to take care of his physical and mental health...",
+                "Image": "card32"
+            },
+            { "id": 3,
+                "Text": "The waiter is in contact with the equipment of those who eat and therefore must take care of their cleanliness as much as possible.\nFood can give rise to various illnesses as it is a vehicle for pathogenic bacteria and poisonous substances that could lead to food poisoning.",
+                "Image": "card34"
+            },
+            { "id": 4,
+                "Text": "The rules to improve personal care are:1)spend as much time as you need to rest and care for your body\n2)exercise regularly and pay attention to your movements\n3)choose your shoes carefully because waiters spend many hours on their feet\n4)to relieve your feet it is good to wash them two or three times a day\n5)for women it would be good to use elasticated stockings to avoid varicose veins",
+                "Image": "card35"
+            },
+            { "id": 5,
+                "Text": "Other rules for personal care are:\n6)daily cleansing of the body is the first rule to follow\n7)hair should always be clean and well combed. short hair is preferable\n8)men should shave thoroughly every morning or before evening service\n9)hands should be well cared for and have short, clean nails\n10)women should not use nail varnish on their nails\n11)care should be taken with nutrition.",                "Image": "card36"
+            },
+            { "id": 6,
+                "Text": "***N.B.** It is also recommended to:\ndon't wear bracelets or rings or wrist-straps\n-in case of injuries, use appropriate dressings-take cutlery by the handle glasses by the stem and plates by the rim/n-remove waste from work areas as soon as possible-clean work surfaces when finished using them",
+                "Image": "card37"
+            },
+            { "id": 7,
+                "Text": "HACCP (Hazard Analysis Critical Control Points) is important, which is a system based on seven principles and is determined by the European Directive 852/2004 for the hygiene of foodstuffs.Hazards can be of three types: physical (insects, metal hazards, ... ), chemical (unintentional additives, washing residues, ... ), biological (presence of parasites, bacterial contamination)",
+                "Image": "card40"
+            },
+            { "id": 8,
+                "Text": "The 7 HACCP Principles/Indentification and analysis of hazards.\nIdentification of Critical Control Points.\nDetermination of critical limits for all Critical Control Points.\nDefinition of the monitoring system.\nIdentification of corrective actions where necessary.\nDefinition of verification procedures.",
+                "Image": "card40"
+            },
+            { "id": 9,
+                "Text": "*First aid\n-what to do?\n-loosen tight clothing in case of bleeding\n-compress upstream bleeding\n-call 118.",
+                "Image": "card38"
+            },
+            { "id": 10,
+                "Text": "What not to do: act without the victim's consent, move the victim, take personal risks, administer drugs, perform medical manoeuvres, consider the casualty dead",
+                "Image": "card39"
+            }
+        ]
+    },
+]

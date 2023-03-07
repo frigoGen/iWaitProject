@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public var isUnlocked: [[Bool]] = [[false,false,false],[false,false,false],[false,false,false]]
+public var isUnlocked: [[Bool]] = saveData.modulo
 
 struct Buttons: View {
     var tex: Int
@@ -17,6 +17,7 @@ struct Buttons: View {
         ZStack{
             Color(.systemGray5)
             if(mode){
+                
                 NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true)//.withAnimation(nil, )
                                , label: {
                     HStack(spacing:1){
@@ -48,16 +49,14 @@ struct Buttons: View {
                 ZStack{
                     Image("Etichetta")
                     .padding(.vertical,15)
-//<<<<<<< HEAD
-               
-//=======
+
                     Text("Teoria")
                         .fontWeight(.heavy)
                         .foregroundColor(.black)
                         .font(.custom("SFPro",size: 17))
                         .bold()
                 }
-//>>>>>>> 85b0533e4560e965b4d99d27e5a793697972cf14
+
             }
             
                 NavigationLink {

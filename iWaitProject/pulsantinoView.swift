@@ -28,7 +28,12 @@ struct pulsantinoView: View {
             else if(self.score<=7 && self.score>=5){Text("Puoi Migliorare, manca poco. Ritenta")}
             else{
                 
-                Text("Congratulazioni, hai sbloccato il livello successivo")}
+                Text("Congratulazioni, hai sbloccato il livello successivo")
+                    .onAppear{
+                        incrediPush()
+                    }
+            }
+                
             NavigationLink(destination: {Buttons(tex: tex, mode: true).navigationBarBackButtonHidden(true)}, label: {ZStack{
                     Image("Question")
                     Text("Ritorna")
@@ -36,6 +41,10 @@ struct pulsantinoView: View {
                 }})
         }
         
+        
+    }
+    func incrediPush(){
+        saveData.modulo = isUnlocked
     }
 }
 

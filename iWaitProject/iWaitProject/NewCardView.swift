@@ -8,8 +8,9 @@
 
 import SwiftUI
 
-public var card: [CardModelUp] = load("Teoria[ITA]")
-var colors: [UIColor] = [UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.71, green: 0.94, blue: 0.81, alpha: 0.65)]
+var CardArray: [String] = ["Teoria[ENG]","Teoria[ITA]","Teoria[PTG]"]
+public var card: [CardModelUp] = load(CardArray[saveData.cacao.language])
+public let colors: [UIColor] = [UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.71, green: 0.94, blue: 0.81, alpha: 0.65)]
 // i bottoni indietro alla view si mette in automaticivo dalla view parent
 struct NewCardView: View {
     var tex: Int
@@ -80,7 +81,7 @@ struct NewCardView: View {
                                 .font(.body)
                                 .padding(.bottom,50)
                                 .scaledToFill()
-                                .multilineTextAlignment(.center)
+                                .multilineTextAlignment(.trailing)
                             Spacer()
                         }
                         .padding()

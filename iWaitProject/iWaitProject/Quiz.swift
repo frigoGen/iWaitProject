@@ -6,10 +6,7 @@
 //
 
 import SwiftUI
-
-
-var quest:Int = 0
-
+let quizData : [String] = ["QuizData[EN]","QuizData[IT]","QuizData[PT]"]
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
@@ -37,27 +34,30 @@ struct QuizView: View {
     @State var imageQuiz: [[String]] = [["La Divisa","card6","card10","card9","card6","card1","card4","card2","card2","card9","La Divisa","la divisa"],["Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image"],["card40","card40","card32","card36","card39","card39","card31","card32","card31","card40","card31","card33"]]
     //------------
     @State var blocker: Int = -1
-    @State var quiz: [Quiz] = load("QuizData[IT]")
     var tex: Int
     @State var zest = 0
         //number of question
     @State var i : Int = 1
     @State var isWrong: [Int] = [-1,-1,-1,-1]
         //var for the score
-        @State var score = 0
-        var body: some View {
+    @State var score = 0
+    @State var quiz: [Quiz] = [Quiz(module: Module(number: 0, name: "Test", questions: 12), questions: [Question(number: 0, question: "?", answers: ["!","!"], correct_answer: 1)]),Quiz(module: Module(number: 0, name: "Test", questions: 12), questions: [Question(number: 0, question: "?", answers: ["!","!"], correct_answer: 1)]),Quiz(module: Module(number: 0, name: "Test", questions: 12), questions: [Question(number: 0, question: "?", answers: ["!","!"], correct_answer: 1)])]
+    var body: some View {
+        ZStack{
+            Color(uiColor: colors[tex])
+                .edgesIgnoringSafeArea(.all)
             VStack(alignment: .center, spacing: 20){
-               /* if(self.i == -1){
-                    Button(action: {self.buttonAction(n: self.i)}, label: {
-                        ZStack{
-                            Image("Question")
-                            Text("Sono Pronto")
-                                .font(.body)
-                                .bold()
-                                .foregroundColor(Color.black)
-                        }
-                    })
-                }*/
+                /* if(self.i == -1){
+                 Button(action: {self.buttonAction(n: self.i)}, label: {
+                 ZStack{
+                 Image("Question")
+                 Text("Sono Pronto")
+                 .font(.body)
+                 .bold()
+                 .foregroundColor(Color.black)
+                 }
+                 })
+                 }*/
                 //if i < of questions --> play question
                 if(self.i <= quiz[tex].module.questions && self.i >= 0){
                     Text("\(i)/\(quiz[tex].module.questions)")
@@ -65,20 +65,20 @@ struct QuizView: View {
                         .bold()
                         .foregroundColor(Color.black)
                     //image of the question
-
-                  ZStack{
-                     /* HStack{
-                          Spacer()
-                          Text("\(self.score)")
-                              .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                      }*/
-                      //-------Image view random
-                      Image(imageQuiz[tex][zest] ) // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
-                          .resizable()
-                          .scaledToFit()
-                          .padding()
-                            }
-                
+                    
+                    ZStack{
+                        /* HStack{
+                         Spacer()
+                         Text("\(self.score)")
+                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                         }*/
+                        //-------Image view random
+                        Image(imageQuiz[tex][zest] ) // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
+                            .resizable()
+                            .scaledToFit()
+                            .padding()
+                    }
+                    
                     //text of the question
                     
                     //spazio tra loro:14 tutoil blocco: t:325 l:173 r:39 s:39
@@ -90,7 +90,7 @@ struct QuizView: View {
                             .bold()
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                                                //answer 0
+                        //answer 0
                         Button(action:{
                             if(blocker == -1){self.buttonAction(n: 1)}
                         },label: {
@@ -183,10 +183,10 @@ struct QuizView: View {
                     }
                     .frame(width: 312,height: 346)
                     .padding(.bottom,40)
-                   
-
-                }
                     
+                    
+                }
+                
                 else{
                     //FinalView(score : self.score)
                     //NUOVA VIEW con resoconto
@@ -197,6 +197,10 @@ struct QuizView: View {
                 
             }
         }
+        .onAppear{
+            quiz = load(quizData[tex])
+        }
+    }
         
         
         //action of the buttons

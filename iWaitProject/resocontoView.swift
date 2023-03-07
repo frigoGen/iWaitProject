@@ -10,8 +10,6 @@ import SwiftUI
 struct resocontoView: View {
     var body: some View {
         TabView{
-            
-                ViewLanguages()
                 ViewHello()
                 ViewEnd()
             

@@ -16,14 +16,14 @@ struct ProfileView: View {
     var color1 = Color(.green)
     var color2 = Color(.white)
     enum Language: String, CaseIterable, Identifiable {
-        case ita, bra, eng
+        case ita, bra, eng,nul
         var id: Self { self }
     }
-    
-    @State var selectedLan: Language = .ita
+    @State var selectedLan: Language
     @State private var progress: CGFloat = 0.0
     var body: some View {
         let multiplier = width/100
+
     
             //   Image("back")
             // .padding(.leading, -150.0)
@@ -260,14 +260,16 @@ struct ProfileView: View {
                     //.frame(width: 303, height: 404)
                    Spacer()
                 }
-                
+                Spacer()
             }
+
         
     }
 }
+
     struct ProfileView_Previews: PreviewProvider {
         static var previews: some View {
-            ProfileView()
+            ProfileView(selectedLan: .ita)
             
         }
     }

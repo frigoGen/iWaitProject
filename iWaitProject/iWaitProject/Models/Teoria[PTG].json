@@ -113,50 +113,49 @@
             "Text":"Higiene e Segurança e HACCP"
         },
         "Card": [
+            {"id": 1,
+                "Text": "**Hygiene** A higiene pessoal e os cuidados com o corpo são importantes para o garçom: O garçom deve ter uma aparência agradável, fresca e bem cuidada e deve despertar admiração e estima tanto nos clientes quanto na administração dos colegas",
+                "Image": "card31"
+            },
             {
-                            "id": 1,
-                            "Text": "**Hygiene** A higiene pessoal e os cuidados com o corpo são importantes para o garçom: O garçom deve ter uma aparência agradável, fresca e bem cuidada e deve despertar admiração e estima tanto nos clientes quanto na administração dos colegas",
-                            "image": "card31".
-                        },
-                        {
-                            }, "id": 2,
-                            "text": "O garçom tem que ficar de pé por muitas horas e tem que se mover constantemente de ambientes quentes como a cozinha para ambientes frios como a sala. Além disso, seu trabalho envolve fadiga e estresse, portanto ele também tem que cuidar de sua saúde física e mental...",
-                            "image": "card32".
-                        },
-                        {"id": "3",
-                            "text": "O garçom está em contato com o equipamento daqueles que comem e, portanto, deve cuidar de sua limpeza o máximo possível.\nFood pode dar origem a várias doenças, pois é um veículo para bactérias patogênicas e substâncias venenosas que podem levar a intoxicações alimentares".
-                            "image": "card34".
-                        },
-                        {"id": 4,
-                            "Text": "As regras para melhorar os cuidados pessoais são:1)gastar o tempo necessário para descansar e cuidar de seu corpo\n2)exercitar-se regularmente e prestar atenção a seus movimentos\n3)escolher cuidadosamente seus sapatos porque os garçons passam muitas horas em seus pés\n4)para aliviar seus pés é bom lavá-los duas ou três vezes por dia\n5)para as mulheres seria bom usar meias elásticas para evitar varizes",
-                            "image": "card35".
-                        },
-                        {"id": "5",
-                            "text": "Outras regras para cuidados pessoais são:\n6)a limpeza diária do corpo é a primeira regra a seguir\n7)os pêlos devem estar sempre limpos e bem penteados. cabelos curtos é preferível\n8)os homens devem se barbear bem todas as manhãs ou antes do serviço noturno\n9)as mãos devem ser bem cuidadas e ter unhas curtas e limpas\n10)as mulheres não devem usar verniz para unhas\n11)cuidados devem ser tomados com a nutrição".
-                            "image": "card36".
-                        },
-                        {"id": "6",
-                            "Text": "***N.B.** Também é recomendável:/não usar pulseiras ou anéis ou pulseiras em caso de ferimentos, usar curativos apropriados - pegar talheres pelo cabo vidros pela haste e placas pela borda / remover os resíduos das áreas de trabalho o mais rápido possível - limpar as superfícies de trabalho quando terminar de usá-los",
-                            "image": "card37".
-                        },
-                        {"id": 7,
-                                        "Text": "O HACCP (Hazard Analysis Critical Control Points) é importante, que é um sistema baseado em sete princípios e é determinado pela Diretiva Européia 852/2004 para a higiene de alimentos. Os perigos podem ser de três tipos: físicos (insetos, riscos metálicos, ... ), químicos (aditivos não intencionais, resíduos de lavagem, ... ), biológicos (presença de parasitas, contaminação bacteriana)",
-                                        "image": "card40".
-                                    },
-                        {"id": 8,
-                                                    "Text": "Os 7 Princípios HACCP/Indentificação e análise de perigos.\nIdentificação de Pontos Críticos de Controle.\nDeterminação de limites críticos para todos os Pontos Críticos de Controle.\nDefinição do sistema de monitoramento.\nIdentificação de ações corretivas quando necessário.\nDefinição de procedimentos de verificação".
-                                                    "image": "card40".
-                                                },
-                        {"id": 9,
-                                                    "Text": "*Primeiro socorro/não-desaperte roupas apertadas em caso de sangramento/não comprimir a montante/chamada 118".
-                                                    "image": "card38".
-                                                },
-                        {"id": 10,
-                                                    "text": "O que não fazer: agir sem o consentimento da vítima, mover a vítima, correr riscos pessoais, administrar drogas, realizar manobras médicas, considerar a vítima morta",
-                                                    "image": "card39".
-                                                }
-                                                        ]
-                                },
-                        ]
-
-        
+                "id": 2,
+                "Text": "O garçom tem que ficar de pé por muitas horas e tem que se mover constantemente de ambientes quentes como a cozinha para ambientes frios como a sala. Além disso, seu trabalho envolve fadiga e estresse, portanto ele também tem que cuidar de sua saúde física e mental...",
+                "Image": "card32"
+            },
+            {"id": 3,
+                "Text": "O garçom está em contato com o equipamento daqueles que comem e, portanto, deve cuidar de sua limpeza o máximo possível.\nFood pode dar origem a várias doenças, pois é um veículo para bactérias patogênicas e substâncias venenosas que podem levar a intoxicações alimentares",
+                "Image": "card34"
+            },
+            {"id": 4,
+                "Text": "As regras para melhorar os cuidados pessoais são:1)gastar o tempo necessário para descansar e cuidar de seu corpo\n2)exercitar-se regularmente e prestar atenção a seus movimentos\n3)escolher cuidadosamente seus sapatos porque os garçons passam muitas horas em seus pés\n4)para aliviar seus pés é bom lavá-los duas ou três vezes por dia\n5)para as mulheres seria bom usar meias elásticas para evitar varizes",
+                "Image": "card35"
+            },
+            {"id": 5,
+                "Text": "Outras regras para cuidados pessoais são:\n6)a limpeza diária do corpo é a primeira regra a seguir\n7)os pêlos devem estar sempre limpos e bem penteados. cabelos curtos é preferível\n8)os homens devem se barbear bem todas as manhãs ou antes do serviço noturno\n9)as mãos devem ser bem cuidadas e ter unhas curtas e limpas\n10)as mulheres não devem usar verniz para unhas\n11)cuidados devem ser tomados com a nutrição",
+                "Image": "card36"
+            },
+            {"id": 6,
+                "Text": "***N.B.** Também é recomendável:/não usar pulseiras ou anéis ou pulseiras em caso de ferimentos, usar curativos apropriados - pegar talheres pelo cabo vidros pela haste e placas pela borda / remover os resíduos das áreas de trabalho o mais rápido possível - limpar as superfícies de trabalho quando terminar de usá-los",
+                "Image": "card37"
+            },
+            {"id": 7,
+                "Text": "O HACCP (Hazard Analysis Critical Control Points) é importante, que é um sistema baseado em sete princípios e é determinado pela Diretiva Européia 852/2004 para a higiene de alimentos. Os perigos podem ser de três tipos: físicos (insetos, riscos metálicos, ... ), químicos (aditivos não intencionais, resíduos de lavagem, ... ), biológicos (presença de parasitas, contaminação bacteriana)",
+                "Image": "card40"
+            },
+            {"id": 8,
+                "Text": "Os 7 Princípios HACCP/Indentificação e análise de perigos.\nIdentificação de Pontos Críticos de Controle.\nDeterminação de limites críticos para todos os Pontos Críticos de Controle.\nDefinição do sistema de monitoramento.\nIdentificação de ações corretivas quando necessário.\nDefinição de procedimentos de verificação",
+                "Image": "card40"
+            },
+            {"id": 9,
+                "Text": "*Primeiro socorro/não-desaperte roupas apertadas em caso de sangramento/não comprimir a montante/chamada 118",
+                "Image": "card38"
+            },
+            {"id": 10,
+                "Text": "O que não fazer: agir sem o consentimento da vítima, mover a vítima, correr riscos pessoais, administrar drogas, realizar manobras médicas, considerar a vítima morta",
+                "Image": "card39"
+            }
+        ]
+    },
+]
+ 
+ 
