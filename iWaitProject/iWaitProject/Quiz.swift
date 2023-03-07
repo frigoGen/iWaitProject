@@ -77,9 +77,8 @@ struct QuizView: View {
                           .resizable()
                           .scaledToFit()
                           .padding()
-                  
                             }
-
+                
                     //text of the question
                     
                     //spazio tra loro:14 tutoil blocco: t:325 l:173 r:39 s:39
@@ -184,7 +183,7 @@ struct QuizView: View {
                     }
                     .frame(width: 312,height: 346)
                     .padding(.bottom,40)
-                  
+                   
 
                 }
                     
@@ -230,8 +229,9 @@ struct QuizView: View {
          
 
          if(self.i<12){print("i:\(i) n:\(n) correct: \(quiz[tex].questions[i-1].correct_answer) blocker:\(blocker)")}
+         
         }
-        
+ 
         
     }
 
