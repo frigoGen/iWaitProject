@@ -142,6 +142,145 @@
 },
 {
 "module": {
+  "number": 2,
+  "name": "mise en place",
+  "questions": 12
+    },
+"questions": [
+  {
+    "number": 1,
+    "question": "Onde é colocado o guardanapo?:",
+    "answers": [
+      "à esquerda do garfo",
+      "à direita da faca",
+      "no centro"
+  ],
+    "correct_answer": 1
+  },
+  {
+    "number": 2,
+    "question": "Qual vidro é o primeiro a ser colocado a 45° perto da ponta da faca na mise en place?",
+    "answers": [
+      "copo para água",
+      "copo para vinho tinto",
+      "copo para vinho branco"
+      ],
+    "correct_answer": 1
+  },
+   {
+    "number": 3,
+    "question": "mise en place significa?",
+    "answers": [
+      "Preparação da sala",
+      "Rearranjo da sala",
+      "Serviço de quarto",
+      "Limpeza de mesa"
+    ],
+    "correct_answer": 1
+  },
+   {
+    "number": 4,
+    "question": "Onde deve ser colocado o prato de pão?",
+    "answers": [
+      "em cima no talher de sobremesa",
+      "em cima nos garfos",
+      "acima da placa de partida",
+      "colocado à direita do guardanapo"
+    ],
+    "correct_answer": 2
+  },
+   {
+    "number": 5,
+    "question": "Onde devem ser colocados os talheres de sobremesa",
+    "answers": [
+      "devem ser colocados somente quando necessário",
+      "acima da chapa inferior",
+      "colocado acima dos copos",
+      "colocado ao lado dos garfos"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "number": 6,
+    "question": "A seqüência de cursos determina a seqüência de talheres",
+    "answers": [
+      "verdadeiro",
+      "falso"
+    ],
+    "correct_answer": 1
+
+},
+  {
+    "number": 7,
+    "question": "A faca deve ser colocada com a borda da lâmina voltada para a placa?",
+    "answers": [
+      "verdadeiro",
+      "falso"
+    ],
+    "correct_answer": 1
+
+},
+   {
+    "number": 8,
+    "question": "O mise en place deve sempre incluir (marque as respostas corretas):",
+    "answers": [
+      "capa de tabela",
+      "talheres",
+      "copos de água e vinho",
+      "clip",
+      "prato pequeno com pão"
+     
+    ],
+    "correct_answer": 4
+  },
+   {
+    "number": 9,
+    "question": "Quantos copos posso arranjar no lugar do mise en place?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": 4
+  },
+   {
+    "number": 10,
+    "question": "Onde as facas e colheres devem ser colocadas no lugar?",
+    "answers": [
+      "acima dos copos",
+      "ao lado do prato de pão",
+      "à direita do guardanapo ou da chapa inferior"
+  
+    ],
+    "correct_answer": 3
+  },
+   {
+    "number": 11,
+    "question": "O menù è:",
+    "answers": [
+      "ma seleção de pratos com um preço atribuído",
+      "é dividida por tipo (aperitivos, bebidas, etc.)",
+      "deve ser apropriada à estação e conter produtos típicos locais",
+      "nenhum dos itens acima"
+    ],
+    "correct_answer": 3
+  },
+   {
+    "number": 12,
+    "question": "Qual é a ordem das refeições dentro do menu?:",
+    "answers": [
+      "entradas, pratos principais, sobremesas",
+      "entradas, pratos principais, peixe, carne, acompanhamentos, sobremesas",
+      "entradas, pratos principais, acompanhamentos e sobremesas",
+      "entradas, peixe, carne, acompanhamentos, sobremesa"
+    ],
+    "correct_answer": 2
+  }
+]
+},
+{
+"module": {
   "number": 3,
   "name": "Higiene, primeiros socorros e haccp",
   "questions": 12
@@ -281,145 +420,7 @@
   }
 ]
   
-},
-{
-"module": {
-  "number": 2,
-  "name": "mise en place",
-  "questions": 12
-    },
-"questions": [
-  {
-    "number": 1,
-    "question": "Onde é colocado o guardanapo?:",
-    "answers": [
-      "à esquerda do garfo",
-      "à direita da faca",
-      "no centro"
-  ],
-    "correct_answer": 1
-  },
-  {
-    "number": 2,
-    "question": "Qual vidro é o primeiro a ser colocado a 45° perto da ponta da faca na mise en place?",
-    "answers": [
-      "copo para água",
-      "copo para vinho tinto",
-      "copo para vinho branco"
-      ],
-    "correct_answer": 1
-  },
-   {
-    "number": 3,
-    "question": "mise en place significa?",
-    "answers": [
-      "Preparação da sala",
-      "Rearranjo da sala",
-      "Serviço de quarto",
-      "Limpeza de mesa"
-    ],
-    "correct_answer": 1
-  },
-   {
-    "number": 4,
-    "question": "Onde deve ser colocado o prato de pão?",
-    "answers": [
-      "em cima no talher de sobremesa",
-      "em cima nos garfos",
-      "acima da placa de partida",
-      "colocado à direita do guardanapo"
-    ],
-    "correct_answer": 2
-  },
-   {
-    "number": 5,
-    "question": "Onde devem ser colocados os talheres de sobremesa",
-    "answers": [
-      "devem ser colocados somente quando necessário",
-      "acima da chapa inferior",
-      "colocado acima dos copos",
-      "colocado ao lado dos garfos"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "number": 6,
-    "question": "A seqüência de cursos determina a seqüência de talheres",
-    "answers": [
-      "verdadeiro",
-      "falso"
-    ],
-    "correct_answer": 1
-
-},
-  {
-    "number": 7,
-    "question": "A faca deve ser colocada com a borda da lâmina voltada para a placa?",
-    "answers": [
-      "verdadeiro",
-      "falso"
-    ],
-    "correct_answer": 1
-
-},
-   {
-    "number": 8,
-    "question": "O mise en place deve sempre incluir (marque as respostas corretas):",
-    "answers": [
-      "capa de tabela",
-      "talheres",
-      "copos de água e vinho",
-      "clip",
-      "prato pequeno com pão"
-     
-    ],
-    "correct_answer": 4
-  },
-   {
-    "number": 9,
-    "question": "Quantos copos posso arranjar no lugar do mise en place?",
-    "answers": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correct_answer": 4
-  },
-   {
-    "number": 10,
-    "question": "Onde as facas e colheres devem ser colocadas no lugar?",
-    "answers": [
-      "acima dos copos",
-      "ao lado do prato de pão",
-      "à direita do guardanapo ou da chapa inferior"
-  
-    ],
-    "correct_answer": 3
-  },
-   {
-    "number": 11,
-    "question": "O menù è:",
-    "answers": [
-      "ma seleção de pratos com um preço atribuído",
-      "é dividida por tipo (aperitivos, bebidas, etc.)",
-      "deve ser apropriada à estação e conter produtos típicos locais",
-      "nenhum dos itens acima"
-    ],
-    "correct_answer": 3
-  },
-   {
-    "number": 12,
-    "question": "Qual é a ordem das refeições dentro do menu?:",
-    "answers": [
-      "entradas, pratos principais, sobremesas",
-      "entradas, pratos principais, peixe, carne, acompanhamentos, sobremesas",
-      "entradas, pratos principais, acompanhamentos e sobremesas",
-      "entradas, peixe, carne, acompanhamentos, sobremesa"
-    ],
-    "correct_answer": 2
-  }
-]
 }
+
 ]
 
