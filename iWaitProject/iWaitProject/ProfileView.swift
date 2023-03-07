@@ -12,7 +12,7 @@ struct ProfileView: View {
     @State private var textfieldText = ""
     var width: CGFloat=200
     var height: CGFloat=20
-    var percent: CGFloat=60
+    var percent: CGFloat=20
     var color1 = Color(.green)
     var color2 = Color(.white)
     enum Language: String, CaseIterable, Identifiable {
@@ -24,81 +24,138 @@ struct ProfileView: View {
     @State private var progress: CGFloat = 0.0
     var body: some View {
         let multiplier = width/100
-      /*  VStack{
+    
             //   Image("back")
             // .padding(.leading, -150.0)
             // HStack{
-            //   TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            //   TextField(K, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
             //Spacer()
-            Image("Badge")
-                .padding()
-            ZStack {
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(Color(UIColor(red: 0.78, green: 0.91, blue: 0.85, alpha: 1)))
-                    .shadow(radius: 5)
-                VStack {
-                    Image("a caso")
-                    
-                    Text("Teoria")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .padding()
-                    ZStack (alignment: .leading)
-                    {
-                        RoundedRectangle(cornerRadius: height, style: .continuous)
-                            .frame(width: width, height: height)
-                            .foregroundColor(Color.black.opacity(0.1))
-                        RoundedRectangle(cornerRadius: height, style: .continuous)
-                            .frame(width: percent * multiplier, height: height)
-                            .background(
-                                LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
-                                               startPoint: .leading, endPoint: .trailing)
-                                .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
-                            )
-                            .foregroundColor(.clear)
-                        
-                    }
-                    Text("Quiz")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .padding()
-                    ZStack (alignment: .leading)
-                    {
-                        RoundedRectangle(cornerRadius: height, style: .continuous)
-                            .frame(width: width, height: height)
-                            .foregroundColor(Color.black.opacity(0.1))
-                        RoundedRectangle(cornerRadius: height, style: .continuous)
-                            .frame(width: percent * multiplier, height: height)
-                            .background(
-                                LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
-                                               startPoint: .leading, endPoint: .trailing)
-                                .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
-                            )
-                        .foregroundColor(.clear)}
-                    Text("Game")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .padding()
-                    ZStack (alignment: .leading)
-                    {
-                        RoundedRectangle(cornerRadius: height, style: .continuous)
-                            .frame(width: width, height: height)
-                            .foregroundColor(Color.black.opacity(0.1))
-                        RoundedRectangle(cornerRadius: height, style: .continuous)
-                            .frame(width: percent * multiplier, height: height)
-                            .background(
-                                LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
-                                               startPoint: .leading, endPoint: .trailing)
-                                .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
-                            )
-                        .foregroundColor(.clear)}
-                }
-            }
+
+//            ZStack {
+
+//                    .shadow(radius: 5).overlay{
+//                                        VStack {
+//                                            Image("a caso")
+//
+//                                            Text("Teoria")
+//                                                .font(.title)
+//                                                .fontWeight(.bold)
+//                                                .padding()
+//                                            ZStack (alignment: .leading)
+//                                            {
+//                                                RoundedRectangle(cornerRadius: height, style: .continuous)
+//                                                    .frame(width: width, height: height)
+//                                                    .foregroundColor(Color.black.opacity(0.1))
+//                                                RoundedRectangle(cornerRadius: height, style: .continuous)
+//                                                    .frame(width: percent * multiplier, height: height)
+//                                                    .background(
+//                                                        LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+//                                                                       startPoint: .leading, endPoint: .trailing)
+//                                                        .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+//                                                    )
+//                                                    .foregroundColor(.clear)
+//
+//                                            }
+//                                            Text("Quiz")
+//                                                .font(.title)
+//                                                .fontWeight(.bold)
+//                                                .padding()
+//                                            ZStack (alignment: .leading)
+//                                            {
+//                                                RoundedRectangle(cornerRadius: height, style: .continuous)
+//                                                    .frame(width: width, height: height)
+//                                                    .foregroundColor(Color.black.opacity(0.1))
+//                                                RoundedRectangle(cornerRadius: height, style: .continuous)
+//                                                    .frame(width: percent * multiplier, height: height)
+//                                                    .background(
+//                                                        LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+//                                                                       startPoint: .leading, endPoint: .trailing)
+//                                                        .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+//                                                    )
+//                                                .foregroundColor(.clear)}
+//                                            Text("Game")
+//                                                .font(.title)
+//                                                .fontWeight(.bold)
+//                                                .padding()
+//                                            ZStack (alignment: .leading)
+//                                            {
+//                                                RoundedRectangle(cornerRadius: height, style: .continuous)
+//                                                    .frame(width: width, height: height)
+//                                                    .foregroundColor(Color.black.opacity(0.1))
+//                                                RoundedRectangle(cornerRadius: height, style: .continuous)
+//                                                    .frame(width: percent * multiplier, height: height)
+//                                                    .background(
+//                                                        LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+//                                                                       startPoint: .leading, endPoint: .trailing)
+//                                                        .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+//                                                    )
+//                                                .foregroundColor(.clear)}
+//                                        }
+//
+//                    }
+//                VStack {
+//                    Image("a caso")
+//
+//                    Text("Teoria")
+//                        .font(.title)
+//                        .fontWeight(.bold)
+//                        .padding()
+//                    ZStack (alignment: .leading)
+//                    {
+//                        RoundedRectangle(cornerRadius: height, style: .continuous)
+//                            .frame(width: width, height: height)
+//                            .foregroundColor(Color.black.opacity(0.1))
+//                        RoundedRectangle(cornerRadius: height, style: .continuous)
+//                            .frame(width: percent * multiplier, height: height)
+//                            .background(
+//                                LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+//                                               startPoint: .leading, endPoint: .trailing)
+//                                .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+//                            )
+//                            .foregroundColor(.clear)
+//
+//                    }
+//                    Text("Quiz")
+//                        .font(.title)
+//                        .fontWeight(.bold)
+//                        .padding()
+//                    ZStack (alignment: .leading)
+//                    {
+//                        RoundedRectangle(cornerRadius: height, style: .continuous)
+//                            .frame(width: width, height: height)
+//                            .foregroundColor(Color.black.opacity(0.1))
+//                        RoundedRectangle(cornerRadius: height, style: .continuous)
+//                            .frame(width: percent * multiplier, height: height)
+//                            .background(
+//                                LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+//                                               startPoint: .leading, endPoint: .trailing)
+//                                .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+//                            )
+//                        .foregroundColor(.clear)}
+//                    Text("Game")
+//                        .font(.title)
+//                        .fontWeight(.bold)
+//                        .padding()
+//                    ZStack (alignment: .leading)
+//                    {
+//                        RoundedRectangle(cornerRadius: height, style: .continuous)
+//                            .frame(width: width, height: height)
+//                            .foregroundColor(Color.black.opacity(0.1))
+//                        RoundedRectangle(cornerRadius: height, style: .continuous)
+//                            .frame(width: percent * multiplier, height: height)
+//                            .background(
+//                                LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+//                                               startPoint: .leading, endPoint: .trailing)
+//                                .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+//                            )
+//                        .foregroundColor(.clear)}
+//                }
+//            }
+//
+//            .frame(width: 303, height: 404)
             
-            .frame(width: 303, height: 404)
             
             
-            */
             GeometryReader{ geometry in
                 VStack{
                     Picker("Seleziona Lingua",selection: $selectedLan) {
@@ -106,45 +163,107 @@ struct ProfileView: View {
                         Image("bra").tag(Language.bra)
                         Image("eng").tag(Language.eng)
                     }
-                    Spacer()
+                
                     ZStack{
                         Spacer()
-                        Image("profileView")
+                        Image("profile2")
+                        
+                                            VStack(spacing:5) {
+                                                //Image("a caso")
+                            
+                                                Text("Teoria")
+                                                    .font(.title)
+                                                    .fontWeight(.bold)
+                                                    .padding()
+                                                ZStack (alignment: .leading)
+                                                {
+                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
+                                                        .frame(width: width, height: height)
+                                                        .foregroundColor(Color.black.opacity(0.1))
+                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
+                                                        .frame(width: percent * multiplier, height: height)
+                                                        .background(
+                                                            LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+                                                                           startPoint: .leading, endPoint: .trailing)
+                                                            .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+                                                        )
+                                                        .foregroundColor(.clear)
+                            
+                                                }
+                                                Text("Quiz")
+                                                    .font(.title)
+                                                    .fontWeight(.bold)
+                                                    .padding()
+                                                ZStack (alignment: .leading)
+                                                {
+                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
+                                                        .frame(width: width, height: height)
+                                                        .foregroundColor(Color.black.opacity(0.1))
+                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
+                                                        .frame(width: percent * multiplier, height: height)
+                                                        .background(
+                                                            LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+                                                                           startPoint: .leading, endPoint: .trailing)
+                                                            .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+                                                        )
+                                                    .foregroundColor(.clear)}
+                                                Text("Game")
+                                                    .font(.title)
+                                                    .fontWeight(.bold)
+                                                    .padding()
+                                                ZStack (alignment: .leading)
+                                                {
+                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
+                                                        .frame(width: width, height: height)
+                                                        .foregroundColor(Color.black.opacity(0.1))
+                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
+                                                        .frame(width: percent * multiplier, height: height)
+                                                        .background(
+                                                            LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
+                                                                           startPoint: .leading, endPoint: .trailing)
+                                                            .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
+                                                        )
+                                                    .foregroundColor(.clear)}
+                                            }
+
+                        
                         //   Image("back")
                         // .padding(.leading, -150.0)
                         //ZStack{
                         
-                        TextField("Name" , text: $textfieldText)
-                            
-                            .padding(.bottom, 100.0)
-                            .padding(.horizontal, 70.0)
-                            .foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
-                           
+                       
+                       // TextField("Name" , text: $textfieldText)
                         
-                        Button("Save")
+                            //.padding(.bottom, 100.0)
+                           // .padding(.horizontal, 70.0)
+                            //.foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
                         
-                        {
-                            if !textfieldText.isEmpty
-                            {
-                                print("Text: \(textfieldText)")
-                            }
+                        
+                       // Button("Save")
+                        
+                       // {
+                        //    if !textfieldText.isEmpty
+                          //  {
+                         //       print("Text: \(textfieldText)")
+                          //  }
                             //Button (action: {
                             // Qui puoi aggiungere il codice per cambiare la lingua dell'applicazione
                             // })
                             // {
                             //  Text("Cambia lingua")
                             
-                        }
-                        .padding(.bottom, 100.0)
-                        .padding(.horizontal, 70.0)
+                      //  }
+                      //  .padding(.bottom, 100.0)
+                      //  .padding(.horizontal, 70.0)
                         
-                    }
+                    }//.frame(width: 303, height: 404)
                     Spacer()
                 }
                 
             }
-        }
+        
     }
+}
     struct ProfileView_Previews: PreviewProvider {
         static var previews: some View {
             ProfileView()
