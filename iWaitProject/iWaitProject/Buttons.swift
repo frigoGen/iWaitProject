@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public var isUnlocked: [[Bool]] = [[true,false,false],[false,false,false],[false,false,false]]
+public var isUnlocked: [[Bool]] = [[false,false,false],[false,false,false],[false,false,false]]
 
 struct Buttons: View {
     var tex: Int
@@ -45,9 +45,19 @@ struct Buttons: View {
                         .ignoresSafeArea()
                     }
             label: {
-                Image("Etichetta")
+                ZStack{
+                    Image("Etichetta")
                     .padding(.vertical,15)
+//<<<<<<< HEAD
                
+//=======
+                    Text("Teoria")
+                        .fontWeight(.heavy)
+                        .foregroundColor(.black)
+                        .font(.custom("SFPro",size: 17))
+                        .bold()
+                }
+//>>>>>>> 85b0533e4560e965b4d99d27e5a793697972cf14
             }
             
                 NavigationLink {
@@ -55,8 +65,15 @@ struct Buttons: View {
                         QuizView(tex: tex)}  }
             label: {
                 if(isUnlocked[tex][0]){
-                    Image("Etichetta")
+                    ZStack{
+                        Image("Etichetta")
                         .padding(.vertical,15)
+                        Text("Quiz")
+                            .fontWeight(.heavy)
+                            .foregroundColor(.black)
+                            .font(.custom("SFPro",size: 17))
+                            .bold()
+                    }
                 }
                 else{Image("Group 36")
                     .padding(.vertical,15)}
@@ -74,12 +91,19 @@ struct Buttons: View {
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
             }*/
                 NavigationLink {
-                    if(isUnlocked[tex][0]){Text("Mini-Game")}
+                    if(isUnlocked[tex][0]){Text("WIP")}
                 }
             label: {
                 if(isUnlocked[tex][2]){
-                    Image("Etichetta")
+                    ZStack{
+                        Image("Etichetta")
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        Text("MiniGame")
+                            .fontWeight(.heavy)
+                            .foregroundColor(.black)
+                            .font(.custom("SFPro",size: 17))
+                            .bold()
+                    }
                 }
                 else{Image("Group 36")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)}
