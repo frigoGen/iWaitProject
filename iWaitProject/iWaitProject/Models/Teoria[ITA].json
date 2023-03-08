@@ -57,9 +57,9 @@
     },
     {
         "first" : [ "Cosa imparerai?",
-            "definizione della mîse en place",
-            "disposizione  della mîse en place",
-            "differenze tra i tipi di mîse en place"
+            "Definizione della mîse en place",
+            "Disposizione  della mîse en place",
+            "Differenze tra i tipi di mîse en place"
         ],
         "module": {
             "Number":2,
@@ -112,10 +112,10 @@
         ]
     },
     {
-        "first" : [ "Cosa imparerai?",
+        "first" : [ "What will you learn?",
             "Igiene  e sicurezza sul lavoro",
-            "principi fondamentali dell’ HACCP",
-            "regole di primo soccorso"
+            "Principi fondamentali dell’ HACCP",
+            "Regole di primo soccorso"
         ],
         "module": {
             "Number":3,
