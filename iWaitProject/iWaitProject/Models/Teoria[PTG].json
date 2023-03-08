@@ -8,51 +8,51 @@
             {
                 "id": 1,
                 "Text": "O uniforme do garçom envolve sapatos clássicos, calças longas e cortadas de forma inteligente e uma camisa com um visual refinado e tradicional. Em certos contextos, o uniforme também inclui um colete, gravata e - mas isto é bastante raro - luvas brancas.",
-                "Image": "la divisa"
+                "Image": "t1"
             },
             {
                 "id": 2,
                 "Text": "A brigada em geral pode ser esquematizada hierarquicamente. Primeiro temos o Maitre d'hotel, depois há o chef de rang e o chef de vinhos, e finalmente o commis de rang",
-                "Image": "card1"
+                "Image": "t2"
             },
             {
                 "id": 3,
                 "Text": "DIRETOR RESTAURANTE: \nEle é o responsável pela organização e administração do serviço de alimentação. Auxiliado pelo maître d'hôtel, ele também estabelece turnos de trabalho e períodos de descanso do pessoal. Além disso, ele é responsável pelo gerente de alimentos e bebidas.\n O DIRETOR DE BANQUETAS Gerencia o serviço de banquete e supervisiona todos os aspectos organizacionais: prepara o buffet, cuida da estética, lida com o cardápio e a escolha das bebidas",
-                "Image": "card2"
+                "Image": "t3"
             },
             {
                 "id": 4,
                 "Text": "FIRST MAITRE D'HOTEL\n Gerencia o serviço de quarto e determina os níveis de pessoal. Ele define os turnos de pessoal em conjunto com o gerente. Ele assume os comandos, mantém relações com os hóspedes. Ele é o responsável pelo equipamento e cuida do inventário",
-                "Image": "card3"
+                "Image": "t4"
             },
             {
                 "id": 5,
                 "Text": "SEGUNDO MAITRE D'HOTEL\n Assistindo o primeiro maître d'hôtel. Ele coordena e supervisiona o serviço, os horários do pessoal e a limpeza da sala e do equipamento. Ele recebe convidados, recebe ordens; se não houver pessoal, ele também prepara pratos na lâmpada",
-                "Image": "card4"
+                "Image": "t5"
             },
             {
                 "id": 6,
                 "Text": "MAITRE AT THE BANQUETS\n Ele/ela cuida da organização e serviço dos banquetes de acordo com as diretrizes do gerente do banquete.n MAITRE AT THE FLOORS:Ele/ela é responsável por servir as refeições nas salas. Seu posto de trabalho fica próximo ao escritório no andar, que está em contato telefônico direto com os hóspedes. Ele se reporta ao gerente do hotel ou ao maître d'hôtel",
-                "Image": "card5"
+                "Image": "t6"
             },
             {
                 "id": 7,
                 "Text": "SOMMELIER (chef de vinhos): Ele é responsável por escolher os vinhos, servi-los, selecioná-los e combiná-los com a comida. \nCOMMIS SOMMELIER Trabalha em estreita colaboração com o sommelier",
-                "Image": "card6"
+                "Image": "t7"
             },
             {
                 "id": 8,
                 "Text":"SALON HOSTESS Executa tarefas de recepção de clientes. Recebe reservas e comunicações telefônicas. Ele contribui para o serviço de vestiário e ajuda o maitre d' acompanhando os convidados até suas mesas, se necessário",
-                "Image": "card7"
+                "Image": "t8"
             },
             {
                 "id": 9,
                 "Text": "CHEF DE RANG Ele/ela cuida da adaptação do serviço de seu posto e participa tanto da mise en place na sala de jantar como da limpeza de seu departamento. Se necessário, ele também serve a louça e recebe ordens. Ele trabalha com o comissário, orientando-o na distribuição e entrega dos comandos",
-                "Image": "card8"
+                "Image": "t9"
             },
             {"id": 10,
                 "Text": "COMMIS DE RANG \n Recebe ordens do chef de rang. Ele recolhe os pratos da cozinha e os coloca sobre a mesa de serviço, cuida do mise en place, organiza o material no escritório, limpa as mesas e mantém limpos os equipamentos e as áreas de trabalho.\n COMMIS D'ETAGE (COMMIS D'ETAGE) Colabora com o maître d' nos pisos na preparação dos carrinhos e bandejas de serviço. Ele cuida da arrumação e limpeza do escritório nos pisos",
-                "Image": "card9"
+                "Image": "t10"
             }
         ]
     },
@@ -66,12 +66,12 @@
             {
                 "id": 1,
                 "Text": "Cuidar das mesas, colocando-as e organizando-as, e limpar o local limpando-as, são apenas duas das atividades necessárias para realizar o serviço no salão. Em um restaurante, dois tipos de mise en place são possíveis: mise en place à la carte e mise en place",
-                "Image": "card21"
+                "Image": "tt2"
             },
             {
                 "id": 2,
                 "Text": "No primeiro caso, o cliente escolhe seus pratos no momento e, portanto, o cardápio não é conhecido; a equipe organizará as configurações do local à medida que eles forem indo. No segundo caso, por outro lado, o cardápio é conhecido antecipadamente e todos os talheres necessários para o serviço são preparados de antemão. Em ambos os casos, no entanto, é necessário ser capaz de arrumar o material adequadamente sobre uma mesa",
-                "Image": "card22"
+                "Image": "tt2"
             },
             {"id": 3,
                 "Text": "** Guardanapo** a meia polegada da borda da mesa, à esquerda dos garfos dobrados liso. Faca grande à direita da placa inferior com a lâmina voltada para dentro. Segunda faca à direita junto à primeira. Garfo grande à esquerda da placa inferior. Segundo garfo à esquerda da primeira forquilha, um pouco mais alto que o primeiro",
@@ -95,15 +95,15 @@
             },
             {"id": 8,
                 "Text": "O menu é um conjunto de preparações culinárias que representam os pratos desde o aperitivo até a sobremesa que você pode comer. Cada funcionário deve conhecer o cardápio e os ingredientes dos pratos. Os pratos são divididos em categorias: os aperitivos, entradas, peixe, carne, acompanhamentos e sobremesa",
-                "Image": "card28"
+                "Image": "tt4"
             },
             {"id": 9,
                 "Text": "Em um menu é necessário acrescentar todos os componentes nutricionais: lipídios, glicose etc. Deve ser sazonalmente apropriado com as doses certas de nutrientes. Conter os produtos típicos do país Um orçamento apropriado ao preparo",
-                "Image": "card29"
+                "Image": "tt5"
             },
             {"id": 10,
                 "Text": "O Card apresenta uma seleção de pratos cada um com um preço atribuído. O Card inclui: aperitivos, refeições (primeira, segunda sobremesa), vinhos e bebidas. Podem existir diferentes tipos de cartões: o Card de aperitivos, o caratê de refeições, vinhos e bebidas, cafeteria, sobremesas e digestivos",
-                "Image": "card30"
+                "Image": "tt5"
             }
         ]
     },
@@ -115,44 +115,44 @@
         "Card": [
             {"id": 1,
                 "Text": "**Hygiene** A higiene pessoal e os cuidados com o corpo são importantes para o garçom: O garçom deve ter uma aparência agradável, fresca e bem cuidada e deve despertar admiração e estima tanto nos clientes quanto na administração dos colegas",
-                "Image": "card31"
+                "Image": "1"
             },
             {
                 "id": 2,
                 "Text": "O garçom tem que ficar de pé por muitas horas e tem que se mover constantemente de ambientes quentes como a cozinha para ambientes frios como a sala. Além disso, seu trabalho envolve fadiga e estresse, portanto ele também tem que cuidar de sua saúde física e mental...",
-                "Image": "card32"
+                "Image": "2"
             },
             {"id": 3,
                 "Text": "O garçom está em contato com o equipamento daqueles que comem e, portanto, deve cuidar de sua limpeza o máximo possível.\nFood pode dar origem a várias doenças, pois é um veículo para bactérias patogênicas e substâncias venenosas que podem levar a intoxicações alimentares",
-                "Image": "card34"
+                "Image": "3"
             },
             {"id": 4,
                 "Text": "As regras para melhorar os cuidados pessoais são:1)gastar o tempo necessário para descansar e cuidar de seu corpo\n2)exercitar-se regularmente e prestar atenção a seus movimentos\n3)escolher cuidadosamente seus sapatos porque os garçons passam muitas horas em seus pés\n4)para aliviar seus pés é bom lavá-los duas ou três vezes por dia\n5)para as mulheres seria bom usar meias elásticas para evitar varizes",
-                "Image": "card35"
+                "Image": "4"
             },
             {"id": 5,
                 "Text": "Outras regras para cuidados pessoais são:\n6)a limpeza diária do corpo é a primeira regra a seguir\n7)os pêlos devem estar sempre limpos e bem penteados. cabelos curtos é preferível\n8)os homens devem se barbear bem todas as manhãs ou antes do serviço noturno\n9)as mãos devem ser bem cuidadas e ter unhas curtas e limpas\n10)as mulheres não devem usar verniz para unhas\n11)cuidados devem ser tomados com a nutrição",
-                "Image": "card36"
+                "Image": "5"
             },
             {"id": 6,
                 "Text": "***N.B.** Também é recomendável:/não usar pulseiras ou anéis ou pulseiras em caso de ferimentos, usar curativos apropriados - pegar talheres pelo cabo vidros pela haste e placas pela borda / remover os resíduos das áreas de trabalho o mais rápido possível - limpar as superfícies de trabalho quando terminar de usá-los",
-                "Image": "card37"
+                "Image": "6"
             },
             {"id": 7,
                 "Text": "O HACCP (Hazard Analysis Critical Control Points) é importante, que é um sistema baseado em sete princípios e é determinado pela Diretiva Européia 852/2004 para a higiene de alimentos. Os perigos podem ser de três tipos: físicos (insetos, riscos metálicos, ... ), químicos (aditivos não intencionais, resíduos de lavagem, ... ), biológicos (presença de parasitas, contaminação bacteriana)",
-                "Image": "card40"
+                "Image": "tt6"
             },
             {"id": 8,
                 "Text": "Os 7 Princípios HACCP/Indentificação e análise de perigos.\nIdentificação de Pontos Críticos de Controle.\nDeterminação de limites críticos para todos os Pontos Críticos de Controle.\nDefinição do sistema de monitoramento.\nIdentificação de ações corretivas quando necessário.\nDefinição de procedimentos de verificação",
-                "Image": "card40"
+                "Image": "tt6"
             },
             {"id": 9,
                 "Text": "*Primeiro socorro/não-desaperte roupas apertadas em caso de sangramento/não comprimir a montante/chamada 118",
-                "Image": "card38"
+                "Image": "9"
             },
             {"id": 10,
                 "Text": "O que não fazer: agir sem o consentimento da vítima, mover a vítima, correr riscos pessoais, administrar drogas, realizar manobras médicas, considerar a vítima morta",
-                "Image": "card39"
+                "Image": "9"
             }
         ]
     },

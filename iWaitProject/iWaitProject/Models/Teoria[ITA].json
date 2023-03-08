@@ -59,7 +59,7 @@
             {
                 "id": 1,
                 "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place. \n In un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place",
-                "Image": "card21"
+                "Image": "tt2"
             },
             {
                 "id": 2,
@@ -68,7 +68,7 @@
             },
             {"id": 3,
                 "Text": "Tovagliolo/n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande/n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
-                "Image": "tt3"
+                "Image": "miseenplace"
             },
             {"id": 4,
                 "Text": "Bicchieri il bicchiere per il vino rosso va posto sopra la punta del coltello, a circa 1 cm di distanza il bicchiere per l'acqua va posto in diagonale, un po' più in alto di quello per il vino rossoil bicchiere per il vino bianco va posto in diagonale, un po' più in basso di quello per il vino rosso Se oltre a questi bicchieri è necessario anche il flûte, va posto in diagonale sopra il bicchiere per l'acqua.",
@@ -110,44 +110,44 @@
             {
                 "id": 1,
                 "Text": "**Igiene** Per il cameriere sono importanti l'igiene personale e la cura del corpo:Il cameriere deve avere un aspetto gradevole, fresco e curato e deve suscitare ammirazione e stima sia nella clientela che nella direzione dei colleghi",
-                "Image": "card31"
+                "Image": "1"
             },
             {
                 "id": 2,
                 "Text": "Il cameriere deve stare in piedi per molte ore e deve spostarsi continuamente da ambienti caldi come la cucina ad ambienti freschi come la sala. Inoltre, il suo lavoro comporta fatica e stress, quindi deve anche prendersi cura della sua salute fisica e mentale...",
-                "Image": "card32"
+                "Image": "2"
             },
             {"id": 3,
                 "Text": "Il cameriere è a contatto con le attrezzature di chi mangia e quindi deve curare il più possibile la propria pulizia.\nGli alimenti possono dare origine a diverse malattie in quanto sono veicolo di batteri patogeni e sostanze velenose che potrebbero portare a intossicazioni alimentari",
-                "Image": "card34"
+                "Image": "3"
             },
             {"id": 4,
                 "Text": "Le regole per migliorare la cura della persona sono:1)dedicare tutto il tempo necessario al riposo e alla cura del corpo\n2)fare esercizio fisico regolarmente e fare attenzione ai movimenti\n3)scegliere con cura le scarpe perché i camerieri passano molte ore in piedi\n4)per dare sollievo ai piedi è bene lavarli due o tre volte al giorno\n5)per le donne sarebbe bene usare calze elasticizzate per evitare le vene varicose",
-                "Image": "card35"
+                "Image": "4"
             },
             {"id": 5,
                 "Text": "Altre regole per la cura della persona sono:\n6)la pulizia quotidiana del corpo è la prima regola da seguire\n7)i capelli devono essere sempre puliti e ben pettinati. sono da preferire i capelli corti\n8)gli uomini devono radersi accuratamente ogni mattina o prima del servizio serale\n9)le mani devono essere ben curate e avere unghie corte e pulite\n10)le donne non devono usare smalti sulle unghie11)curare l'alimentazione.",
-                "Image": "card36"
+                "Image": "5"
             },
             {"id": 6,
                 "Text": "***N.B.** Si raccomanda inoltre di:\n-non indossare braccialetti o anelli o lacci da polso\n-in caso di ferite, utilizzare medicazioni adeguate-prendere le posate per il manico i bicchieri per il gambo e i piatti per il bordo\n-rimuovere i rifiuti dalle aree di lavoro il prima possibile-pulire le superfici di lavoro quando si è finito di utilizzarle",
-                "Image": "card37"
+                "Image": "6"
             },
             {"id": 7,
                             "Text": "E' importante l'HACCP (Hazard Analysis Critical Control Points) che è un sistema basato su sette principi ed è determinato dalla Direttiva Europea 852/2004 per l'igiene dei prodotti alimentari.I pericoli possono essere di tre tipi: fisici (insetti, rischi metallici, ... ), chimici (additivi non intenzionali, residui di lavaggio, ... ), biologici (presenza di parassiti, contaminazione batterica)",
-                            "Image": "card40"
+                            "Image": "tt6"
                         },
             {"id": 8,
                                         "Text": "I 7 principi HACCP\nIndividuazione e analisi dei pericoli.\nIndividuazione dei Punti Critici di Controllo.\nDeterminazione dei limiti critici per tutti i Punti Critici di Controllo.\nDefinizione del sistema di monitoraggio.\nIndividuazione delle azioni correttive eventualmente necessarie.\nDefinizione delle procedure di verifica.",
-                                        "Image": "card40"
+                                        "Image": "tt6"
                                     },
             {"id": 9,
                                         "Text": "*Primo soccorso\n-Cosa fare? \n-allentare gli indumenti stretti in caso di emorragia\n-comprimere a monte l'emorragia\n-chiamare il 118.",
-                                        "Image": "card39"
+                                        "Image": "9"
                                     },
             {"id": 10,
                                         "Text": "Cosa non fare: agire senza il consenso della vittima, spostarla, correre rischi personali, somministrare farmaci, eseguire manovre mediche, considerare l'infortunato morto",
-                                        "Image": "card39"
+                                        "Image": "9"
                                     }
                                             ]
                     },
