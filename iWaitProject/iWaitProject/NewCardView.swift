@@ -8,11 +8,13 @@
 
 import SwiftUI
 
+var markdownText: AttributedString = ""
 var CardArray: [String] = ["Teoria[ENG]","Teoria[ITA]","Teoria[PTG]"]
 public var card: [CardModelUp] = load(CardArray[saveData.cacao.language])
 public let colors: [UIColor] = [UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.71, green: 0.94, blue: 0.81, alpha: 0.65)]
 // i bottoni indietro alla view si mette in automaticivo dalla view parent
 struct NewCardView: View {
+    
     var tex: Int
     let images: [String] = ["teoria1","teoria2","teoria3"]
     var body: some View {
@@ -37,19 +39,19 @@ struct NewCardView: View {
                                 Circle()
                                     .fill(Color(uiColor: UIColor(red: 0.92, green: 0.50, blue: 0.01, alpha: 1.00)))
                                     .frame(width: 10, height: 10)
-                                Text("La divisa da Lavoro")
+                                Text(card[tex].first[1])
                             }
                             HStack{
                                 Circle()
                                     .fill(Color(uiColor: UIColor(red: 0.92, green: 0.50, blue: 0.01, alpha: 1.00)))
                                     .frame(width: 10, height: 10)
-                                Text("Com'è strutturata la brigata di sala")
+                                Text(card[tex].first[2])
                             }
                             HStack{
                                 Circle()
                                     .fill(Color(uiColor: UIColor(red: 0.92, green: 0.50, blue: 0.01, alpha: 1.00)))
                                     .frame(width: 10, height: 10)
-                                Text("Le mansioni dei singoli ruoli")
+                                Text(card[tex].first[3])
                                    
                                 
                             }
@@ -66,6 +68,7 @@ struct NewCardView: View {
                     
                 }
                 ForEach(card[tex].Card) { cards in
+                   // markdownText = try! AttributedString(markdown: cards.Text)
                     ZStack{
                         VStack(alignment: .center){
                             Spacer()
@@ -74,7 +77,7 @@ struct NewCardView: View {
                                 .scaledToFit()
                                 .frame(width: 355,height: 370)
                                 .padding(.top,50)
-                            Text(cards.Text)
+                            Text(try! AttributedString(markdown: cards.Text ))
                                 .frame(width: 300,height: 300)
                                 .font(.custom("SFPro-Medium",size: 17))
                                 .fontWeight(.heavy)

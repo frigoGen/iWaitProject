@@ -24,8 +24,15 @@ struct pulsantinoView: View {
                     Text("\(self.score)/12").foregroundColor(.green)}
             }
             Image("cloche")
-            if(self.score<5){Text("Troppi Errori")}
-            else if(self.score<=7 && self.score>=5){Text("Puoi Migliorare, manca poco. Ritenta")}
+            if(self.score<5){Text("Troppi Errori").onAppear{
+                saveData.score[tex] = self.score
+            }}
+            else if(self.score<=7 && self.score>=5){
+                Text("Puoi Migliorare, manca poco. Ritenta")
+                    .onAppear{
+                        saveData.score[tex] = self.score
+                    }
+            }
             else{
                 
                 Text("Congratulazioni, hai sbloccato il livello successivo")
@@ -34,11 +41,15 @@ struct pulsantinoView: View {
                     }
             }
                 
-            NavigationLink(destination: {Buttons(tex: tex, mode: true).navigationBarBackButtonHidden(true)}, label: {ZStack{
+            NavigationLink(destination: Buttons(tex: tex, mode: true).navigationBarBackButtonHidden(true)){
+                ZStack{
                     Image("Question")
                     Text("Ritorna")
-                    
-                }})
+                }
+                
+            }.simultaneousGesture(TapGesture().onEnded{
+                UserDefaults.standard.set(try? PropertyListEncoder().encode(saveData), forKey:"saves")
+            })
         }
         
         

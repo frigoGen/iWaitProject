@@ -1,6 +1,11 @@
 
 [
     {
+        "first" : [ "Cosa imparerai?",
+            "La divisa da lavoro",
+            "Com'è strutturata la brigata di sala",
+            "Le mansioni dei singoli ruoli"
+        ],
         "module": {
             "Number":1,
             "Text": "Uniforme e brigata"
@@ -49,8 +54,13 @@
                 "Image": "t10"
             }
         ]
-        },
+    },
     {
+        "first" : [ "Cosa imparerai?",
+            "definizione della mîse en place",
+            "disposizione  della mîse en place",
+            "differenze tra i tipi di mîse en place"
+        ],
         "module": {
             "Number":2,
             "Text": "Mise en place e menù"
@@ -75,33 +85,38 @@
                 "Image": "miseenplace"
             },
             {"id": 5,
-             "Text": "Il piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
-            "Image": "miseenplace"
-
-                        },
-                        {"id": 6,
-                            "Text": "**Il coperto prenotato** Se il cliente ha prenotato e ordinato il menu, il coperto dipende dal numero e dal tipo di portate. **Tuttavia, non dovrebbero essere servite più di quattro paia di posate** (comprese quelle da dessert) **e tre bicchieri alla volta**. Le altre posate o i bicchieri necessari devono essere sistemati separatamente durante il servizio. **La sequenza delle portate determina quella delle posate**",
-                            "Image": "miseenplace"
-                        },
-                        {"id": 7,
-                            "Text": "**cucchiaio** a destra, all'esterno o in mezzo ai coltelli, a seconda della successione delle pietanze.**posate da dessert** se nel menu c'è un dolce, si dispongono sopra il sottopiatto, parallele al bordo del tavolo.**MENUITS** **Menu e carta (teoria)**",
-                            "Image": "miseenplace"
-                        },
-                        {"id": 8,
-                            "Text": "Il menu è un insieme di preparazioni culinarie che rappresentano i piatti dall'antipasto al dolce che si possono avere. Viene presentato con prezzo fisso al cliente.Ogni dipendente deve conoscere il menu e gli ingredienti dei piatti.I piatti sono divisi in categorie: gli antipasti, i primi, il pesce, la carne, i contorni e il dessert",
-                            "Image": "tt4"
-                        },
-                        {"id": 9,
-                            "Text": "In un menù è necessario inserire tutte le componenti nutrizionali: lipidi, glucosio ecc.Deve essere adeguato alla stagione con le giuste dosi di nutrienti.Contenere I prodotti tipici del paese Un budget adeguato alla preparazione",
-                            "Image": "tt5"
-                        },
-                        {"id": 10,
-                            "Text": "La carta presenta una selezione di piatti ciascuno con un prezzo assegnato. La carta comprende: antipasti, pasti (primo, secondo, dessert), vini e bevande. Possono esserci diversi tipi di carte: la carta degli aperitivi, la carta dei pasti, dei vini e delle bevande, della caffetteria, dei dessert e dei digestivi.",
-                            "Image": "tt5"
-                        }
-                    ]
-                    },
+                "Text": "Il piattino per il pane con coltellino per spalmare il burro a sinistra, accanto alla forchetta, ma un po' più lontano dal bordo; il coltellino deve avere la lama rivolta verso l'esterno del coperti.",
+                "Image": "miseenplace"
+                
+            },
+            {"id": 6,
+                "Text": "**Il coperto prenotato** Se il cliente ha prenotato e ordinato il menu, il coperto dipende dal numero e dal tipo di portate. **Tuttavia, non dovrebbero essere servite più di quattro paia di posate** (comprese quelle da dessert) **e tre bicchieri alla volta**. Le altre posate o i bicchieri necessari devono essere sistemati separatamente durante il servizio. **La sequenza delle portate determina quella delle posate**",
+                "Image": "miseenplace"
+            },
+            {"id": 7,
+                "Text": "**cucchiaio** a destra, all'esterno o in mezzo ai coltelli, a seconda della successione delle pietanze.**posate da dessert** se nel menu c'è un dolce, si dispongono sopra il sottopiatto, parallele al bordo del tavolo.**MENUITS** **Menu e carta (teoria)**",
+                "Image": "miseenplace"
+            },
+            {"id": 8,
+                "Text": "Il menu è un insieme di preparazioni culinarie che rappresentano i piatti dall'antipasto al dolce che si possono avere. Viene presentato con prezzo fisso al cliente.Ogni dipendente deve conoscere il menu e gli ingredienti dei piatti.I piatti sono divisi in categorie: gli antipasti, i primi, il pesce, la carne, i contorni e il dessert",
+                "Image": "tt4"
+            },
+            {"id": 9,
+                "Text": "In un menù è necessario inserire tutte le componenti nutrizionali: lipidi, glucosio ecc.Deve essere adeguato alla stagione con le giuste dosi di nutrienti.Contenere I prodotti tipici del paese Un budget adeguato alla preparazione",
+                "Image": "tt5"
+            },
+            {"id": 10,
+                "Text": "La carta presenta una selezione di piatti ciascuno con un prezzo assegnato. La carta comprende: antipasti, pasti (primo, secondo, dessert), vini e bevande. Possono esserci diversi tipi di carte: la carta degli aperitivi, la carta dei pasti, dei vini e delle bevande, della caffetteria, dei dessert e dei digestivi.",
+                "Image": "tt5"
+            }
+        ]
+    },
     {
+        "first" : [ "Cosa imparerai?",
+            "Igiene  e sicurezza sul lavoro",
+            "principi fondamentali dell’ HACCP",
+            "regole di primo soccorso"
+        ],
         "module": {
             "Number":3,
             "Text": "Igiene e Sicurezza e HACCP"
@@ -134,7 +149,7 @@
                 "Image": "6"
             },
             {"id": 7,
-                            "Text": "E' importante l'HACCP (Hazard Analysis Critical Control Points) che è un sistema basato su sette principi ed è determinato dalla Direttiva Europea 852/2004 per l'igiene dei prodotti alimentari.I pericoli possono essere di tre tipi: fisici (insetti, rischi metallici, ... ), chimici (additivi non intenzionali, residui di lavaggio, ... ), biologici (presenza di parassiti, contaminazione batterica)",
+                    "Text": "E' importante l'HACCP (Hazard Analysis Critical Control Points) che è un sistema basato su sette principi ed è determinato dalla Direttiva Europea 852/2004 per l'igiene dei prodotti alimentari.I pericoli possono essere di tre tipi: fisici (insetti, rischi metallici, ... ), chimici (additivi non intenzionali, residui di lavaggio, ... ), biologici (presenza di parassiti, contaminazione batterica)",
                             "Image": "tt6"
                         },
             {"id": 8,
@@ -152,4 +167,3 @@
                                             ]
                     },
             ]
-

@@ -12,10 +12,20 @@ struct ViewEnd: View {
             VStack{
                 ZStack{
                     Image ("immaginebadge")
-                    Text(" Ottieni badge e personalizza la tua bacheca! ")
+                    if(saveData.cacao.language == 1){Text(" Ottieni badge e personalizza la tua bacheca! ")
                         .font(.custom("SFPro",size: 17))
                         .font(.body)
-                        .multilineTextAlignment(.center)
+                    .multilineTextAlignment(.center)}
+                    else if(saveData.cacao.language == 0){Text(" Earn badges and customize your board! ")
+                            .font(.custom("SFPro",size: 17))
+                            .font(.body)
+                        .multilineTextAlignment(.center)}
+                    else{
+                        Text(" Ganhe distintivos e personalize seu quadro! ")
+                                .font(.custom("SFPro",size: 17))
+                                .font(.body)
+                            .multilineTextAlignment(.center)
+                    }
                     NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true)){
                         ZStack{
                             Rectangle()

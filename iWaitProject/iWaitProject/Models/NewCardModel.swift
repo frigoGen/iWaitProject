@@ -8,6 +8,7 @@
 import Foundation
 
 public struct CardModelUp: Decodable {
+    let first: [String]
     let module: module
     let Card: [Card]
 }
