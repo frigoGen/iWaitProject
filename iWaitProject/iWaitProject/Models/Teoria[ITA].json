@@ -21,31 +21,31 @@
                 "Image": "t3"
             },
             {"id": 4,
-                "Text": "PRIMO MAITRE D'HOTEL \n Gestisce il servizio in camera e determina l'organico. Definisce i turni del personale in collaborazione con il direttore. Prende le comande, mantiene i rapporti con gli ospiti. È responsabile delle attrezzature e si occupa dell'inventario",
+                "Text": "PRIMO MAITRE D'HOTEL \nGestisce il servizio in camera e determina l'organico. Definisce i turni del personale in collaborazione con il direttore. Prende le comande, mantiene i rapporti con gli ospiti. È responsabile delle attrezzature e si occupa dell'inventario",
                 "Image": "t4"
             },
             {"id": 5,
-                "Text": "SECONDO MAITRE D'HOTEL \n Assiste il primo maître d'hotel. Coordina e supervisiona il servizio, gli orari del personale e la pulizia della sala e delle attrezzature. Riceve gli ospiti, prende le ordinazioni; in mancanza di personale, prepara anche i piatti alla lampada",
+                "Text": "SECONDO MAITRE D'HOTEL \nAssiste il primo maître d'hotel. Coordina e supervisiona il servizio, gli orari del personale e la pulizia della sala e delle attrezzature. Riceve gli ospiti, prende le ordinazioni; in mancanza di personale, prepara anche i piatti alla lampada",
                 "Image": "t5"
             },
             {"id": 6,
-                "Text": "MAITRE AI BANCHETTI \n Si occupa dell'organizzazione e del servizio dei banchetti secondo le direttive del banquet manager.\n MAITRE AI PIANI \n È responsabile del servizio dei pasti nelle camere. La sua postazione di lavoro si trova vicino all'ufficio ai piani, a diretto contatto telefonico con gli ospiti. Risponde al direttore dell'albergo o al maître d'hôtel",
+                "Text": "MAITRE AI BANCHETTI \nSi occupa dell'organizzazione e del servizio dei banchetti secondo le direttive del banquet manager.\n MAITRE AI PIANI \nÈ responsabile del servizio dei pasti nelle camere. La sua postazione di lavoro si trova vicino all'ufficio ai piani, a diretto contatto telefonico con gli ospiti. Risponde al direttore dell'albergo o al maître d'hôtel",
                 "Image": "t6"
             },
             {"id": 7,
-                "Text": "SOMMELIER (chef del vino) \n Si occupa di scegliere i vini, di servirli, di selezionarli e di abbinarli al cibo. \n COMMIS SOMMELIER \n Lavora a stretto contatto con il sommelier",
+                "Text": "SOMMELIER (chef del vino) \n Si occupa di scegliere i vini, di servirli, di selezionarli e di abbinarli al cibo. \n COMMIS SOMMELIER \nLavora a stretto contatto con il sommelier",
                 "Image": "t7"
             },
             {"id": 8,
-                "Text": "SALON HOSTESS \n Svolge mansioni di accoglienza clienti. Riceve le prenotazioni e le comunicazioni telefoniche. Contribuisce al servizio di guardaroba e aiuta il maitre accompagnando gli ospiti ai loro tavoli, se necessario.",
+                "Text": "SALON HOSTESS \nSvolge mansioni di accoglienza clienti. Riceve le prenotazioni e le comunicazioni telefoniche. Contribuisce al servizio di guardaroba e aiuta il maitre accompagnando gli ospiti ai loro tavoli, se necessario.",
                 "Image": "t8"
             },
             {"id": 9,
-                "Text": "CHEF DE RANG \n Si occupa dell'adattamento del servizio del suo rango e partecipa sia alla mise en place della sala da pranzo che alla pulizia del suo reparto. Se necessario, serve anche i piatti e prende le ordinazioni. Collabora con il commis, guidandolo nella distribuzione e nella consegna delle comande",
+                "Text": "CHEF DE RANG \nSi occupa dell'adattamento del servizio del suo rango e partecipa sia alla mise en place della sala da pranzo che alla pulizia del suo reparto. Se necessario, serve anche i piatti e prende le ordinazioni. Collabora con il commis, guidandolo nella distribuzione e nella consegna delle comande",
                 "Image": "t9"
             },
             {"id": 10,
-                "Text": "COMMIS DE RANG \n Prende gli ordini dallo chef de rang. Raccoglie i piatti dalla cucina e li dispone sul tavolo di servizio, si occupa della mise en place, dispone il materiale in ufficio, pulisce i tavoli e mantiene pulite le attrezzature e le aree di lavoro.\n \n COMMIS D'ETAGE (commis ai piani) \n Collabora con il maître ai piani nella preparazione dei carrelli e dei vassoi di servizio. Si occupa dell'ordine e della pulizia dell'ufficio ai piani",
+                "Text": "COMMIS DE RANG \nPrende gli ordini dallo chef de rang. Raccoglie i piatti dalla cucina e li dispone sul tavolo di servizio, si occupa della mise en place, dispone il materiale in ufficio, pulisce i tavoli e mantiene pulite le attrezzature e le aree di lavoro.\n \n COMMIS D'ETAGE (commis ai piani) \nCollabora con il maître ai piani nella preparazione dei carrelli e dei vassoi di servizio. Si occupa dell'ordine e della pulizia dell'ufficio ai piani",
                 "Image": "t10"
             }
         ]
@@ -58,7 +58,7 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place. \n In un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place",
+                "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place. \nIn un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place",
                 "Image": "tt2"
             },
             {
@@ -67,7 +67,7 @@
                 "Image": "tt2"
             },
             {"id": 3,
-                "Text": "Tovagliolo/n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande/n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
+                "Text": "Tovagliolo\n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande\n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
                 "Image": "miseenplace"
             },
             {"id": 4,

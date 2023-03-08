@@ -12,10 +12,10 @@ struct ViewHello: View {
         ZStack{
             Image("immaginesalve")
             
-            Text("Salve")
+            Text("")
                 .font(.custom("SFPro",size: 25))
                 .bold()
-                .position(x: 250,y: 162)
+                .position(x: 170,y: 180)
             
             VStack(alignment: .center){
                 Spacer()
