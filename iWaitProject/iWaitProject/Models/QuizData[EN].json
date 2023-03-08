@@ -9,7 +9,7 @@
   "questions": [
     {
       "number": 1,
-      "question": "what do you wear under your waistcoat?",
+      "question": "What do you wear under your waistcoat?",
       "answers": [
         "a white shirt",
         "any shirt also black",
@@ -42,7 +42,7 @@
     },
     {
       "number": 4,
-      "question": "he chef de rang is responsible for :",
+      "question": "He chef de rang is responsible for :",
       "answers": [
         "pouring the wine",
         "taking orders at the tables",
@@ -118,7 +118,7 @@
     },
     {
       "number": 11,
-      "question": "what does a waiter wear: a tie or a bow tie?",
+      "question": "What does a waiter wear: a tie or a bow tie?",
       "answers": [
         "tie",
         "bow tie",
@@ -309,7 +309,7 @@
     },
     {
       "number": 3,
-      "question": "what is not a rule to improve personal care:",
+      "question": "What is not a rule to improve personal care:",
       "answers": [
         "exercise",
         "choose shoes carefully",

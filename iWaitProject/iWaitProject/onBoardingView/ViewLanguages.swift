@@ -27,6 +27,7 @@ struct ViewLanguages: View {
                 .cornerRadius(20)
                 .padding(.top, 18)
                 .padding(.bottom, 18)
+                .multilineTextAlignment(.center)
                 
                 
                 VStack(alignment: .center){

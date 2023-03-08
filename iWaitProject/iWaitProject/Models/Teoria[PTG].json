@@ -12,7 +12,7 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "O uniforme do garçom envolve sapatos clássicos, calças longas e cortadas de forma inteligente e uma camisa com um visual refinado e tradicional. Em certos contextos, o uniforme também inclui um colete, gravata e - mas isto é bastante raro - luvas brancas.",
+                "Text": "O uniforme do garçom envolve sapatos clássicos, calças longas e cortadas de forma inteligente e uma camisa com um visual refinado e tradicional. Em certos contextos, o uniforme também inclui um colete, gravata e mas isto é bastante raro luvas brancas.",
                 "Image": "t1"
             },
             {
@@ -84,7 +84,7 @@
                 "Image": "tt2"
             },
             {"id": 3,
-                "Text": "** Guardanapo** a meia polegada da borda da mesa, à esquerda dos garfos dobrados liso. Faca grande à direita da placa inferior com a lâmina voltada para dentro. Segunda faca à direita junto à primeira. Garfo grande à esquerda da placa inferior. Segundo garfo à esquerda da primeira forquilha, um pouco mais alto que o primeiro",
+                "Text": " Guardanapo a meia polegada da borda da mesa, à esquerda dos garfos dobrados liso. Faca grande à direita da placa inferior com a lâmina voltada para dentro. Segunda faca à direita junto à primeira. Garfo grande à esquerda da placa inferior. Segundo garfo à esquerda da primeira forquilha, um pouco mais alto que o primeiro",
                 "Image": "miseenplace"
             },
             {"id": 4,
@@ -96,11 +96,11 @@
                 "Image": "miseenplace"
             },
             {"id": 6,
-                "Text": "**A taxa de capa reservada** Se o cliente reservou e encomendou o menu, a taxa de capa depende do Number e do tipo de cursos. **Não*** mais de quatro pares de talheres*** (incluindo talheres de sobremesa) **e três copos de cada vez** devem ser ajustados, no entanto. Outros talheres ou copos necessários devem ser colocados separadamente durante o serviço. **A seqüência de pratos determina a dos talheres***",
+                "Text": "A taxa de capa reservada Se o cliente reservou e encomendou o menu, a taxa de capa depende do Number e do tipo de cursos. Não* mais de quatro pares de talheres* (incluindo talheres de sobremesa) e três copos de cada vez devem ser ajustados, no entanto. Outros talheres ou copos necessários devem ser colocados separadamente durante o serviço. A seqüência de pratos determina a dos talheres*",
                 "Image": "miseenplace"
             },
             {"id": 7,
-                "Text": "**spoon** à direita, fora ou entre as facas, dependendo da sucessão de alimentos.**Cutelaria de sobremesa** se houver uma sobremesa no menu, ela está disposta acima da placa inferior, paralela à borda da mesa.**MENUITS****Menu e Card (teoria )** ",
+                "Text": "spoon à direita, fora ou entre as facas, dependendo da sucessão de alimentos.Cutelaria de sobremesa se houver uma sobremesa no menu, ela está disposta acima da placa inferior, paralela à borda da mesa.",
                 "Image": "miseenplace"
             },
             {"id": 8,
@@ -129,7 +129,7 @@
         },
         "Card": [
             {"id": 1,
-                "Text": "**Hygiene** A higiene pessoal e os cuidados com o corpo são importantes para o garçom: O garçom deve ter uma aparência agradável, fresca e bem cuidada e deve despertar admiração e estima tanto nos clientes quanto na administração dos colegas",
+                "Text": "Hygiene A higiene pessoal e os cuidados com o corpo são importantes para o garçom: O garçom deve ter uma aparência agradável, fresca e bem cuidada e deve despertar admiração e estima tanto nos clientes quanto na administração dos colegas",
                 "Image": "1"
             },
             {
@@ -150,7 +150,7 @@
                 "Image": "5"
             },
             {"id": 6,
-                "Text": "***N.B.** Também é recomendável:\não usar pulseiras ou anéis ou pulseiras em caso de ferimentos, usar curativos apropriados - pegar talheres pelo cabo vidros pela haste e placas pela borda / remover os resíduos das áreas de trabalho o mais rápido possível - limpar as superfícies de trabalho quando terminar de usá-los",
+                "Text": "*N.B. Também é recomendável:\não usar pulseiras ou anéis ou pulseiras em caso de ferimentos, usar curativos apropriados - pegar talheres pelo cabo vidros pela haste e placas pela borda / remover os resíduos das áreas de trabalho o mais rápido possível - limpar as superfícies de trabalho quando terminar de usá-los",
                 "Image": "6"
             },
             {"id": 7,
