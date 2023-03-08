@@ -134,7 +134,7 @@
             },
             {
                 "id": 2,
-                "Text": "O garçom tem que ficar de pé por muitas horas e tem que se mover constantemente de ambientes quentes como a cozinha para ambientes frios como a sala. Além disso, seu trabalho envolve fadiga e estresse, portanto ele também tem que cuidar de sua saúde física e mental...",
+                "Text": "O garçom tem que ficar de pé por muitas horas e tem que se mover constantemente de ambientes quentes como a cozinha para ambientes frios como a sala. Além disso, seu trabalho envolve fadiga e estresse, portanto ele também tem que cuidar de sua saúde física e mental",
                 "Image": "2"
             },
             {"id": 3,
@@ -150,7 +150,7 @@
                 "Image": "5"
             },
             {"id": 6,
-                "Text": "***N.B.** Também é recomendável:/não usar pulseiras ou anéis ou pulseiras em caso de ferimentos, usar curativos apropriados - pegar talheres pelo cabo vidros pela haste e placas pela borda / remover os resíduos das áreas de trabalho o mais rápido possível - limpar as superfícies de trabalho quando terminar de usá-los",
+                "Text": "***N.B.** Também é recomendável:\não usar pulseiras ou anéis ou pulseiras em caso de ferimentos, usar curativos apropriados - pegar talheres pelo cabo vidros pela haste e placas pela borda / remover os resíduos das áreas de trabalho o mais rápido possível - limpar as superfícies de trabalho quando terminar de usá-los",
                 "Image": "6"
             },
             {"id": 7,
@@ -162,7 +162,7 @@
                 "Image": "tt6"
             },
             {"id": 9,
-                "Text": "*Primeiro socorro/não-desaperte roupas apertadas em caso de sangramento/não comprimir a montante/chamada 118",
+                "Text": "*Primeiro socorro\não-desaperte roupas apertadas em caso de sangramento\não comprimir a montante/chamada 118",
                 "Image": "9"
             },
             {"id": 10,

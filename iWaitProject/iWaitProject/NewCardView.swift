@@ -84,7 +84,7 @@ struct NewCardView: View {
                                 .font(.body)
                                 .padding(.bottom,50)
                                 .scaledToFill()
-                                .multilineTextAlignment(.trailing)
+                                .multilineTextAlignment(.leading)
                             Spacer()
                         }
                         .padding()

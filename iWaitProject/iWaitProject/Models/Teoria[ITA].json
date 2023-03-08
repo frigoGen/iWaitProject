@@ -68,7 +68,7 @@
         "Card": [
             {
                 "id": 1,
-                "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place. \n In un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place",
+                "Text": "Curare i tavoli, apparecchiandoli e sistemandoli, e rendere il locale pulito, pulendolo, sono solo due delle attività necessarie per svolgere il servizio in sala. Tutto questo lavoro si chiama mise en place. \nIn un ristorante, sono possibili due tipi di mise en place: la mise en place à la carte e la mise en place",
                 "Image": "tt2"
 
             },
@@ -78,7 +78,7 @@
                 "Image": "tt2"
             },
             {"id": 3,
-                "Text": "Tovagliolo/n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande/n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
+                "Text": "Tovagliolo\n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande\n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
                 "Image": "miseenplace"
 
             },
