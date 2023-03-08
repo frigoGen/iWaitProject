@@ -31,7 +31,7 @@ func load<T: Decodable>(_ filename: String) -> T {
 
 struct QuizView: View {
     //aggiunto per contare le immagini nei Quiz
-    @State var imageQuiz: [[String]] = [["La Divisa","card6","card10","card9","card6","card1","card4","card2","card2","card9","La Divisa","la divisa"],["Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image"],["card40","card40","card32","card36","card39","card39","card31","card32","card31","card40","card31","card33"]]
+    @State var imageQuiz: [[String]] = [["t1","t7","t11","t10","t11","t2","t5","t3","t3","t10","t1","t1"],["Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image"],["card40","card40","card32","card36","card39","card39","card31","card32","card31","card40","card31","card33"]]
     //------------
     @State var blocker: Int = -1
     var tex: Int
@@ -65,20 +65,20 @@ struct QuizView: View {
                         .bold()
                         .foregroundColor(Color.black)
                     //image of the question
-                    
-                    ZStack{
-                        /* HStack{
-                         Spacer()
-                         Text("\(self.score)")
-                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                         }*/
-                        //-------Image view random
-                        Image(imageQuiz[tex][zest] ) // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
-                            .resizable()
-                            .scaledToFit()
-                            .padding()
-                    }
-                    
+
+                  ZStack{
+                     /* HStack{
+                          Spacer()
+                          Text("\(self.score)")
+                              .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                      }*/
+                      //-------Image view random
+                      Image(imageQuiz[tex][zest] ) // mostra un'immagine casuale, o un'immagine predefinita se non ci sono elementi nell'array
+                          .resizable()
+                          .scaledToFit()
+                          .padding()
+
+                            }
                     //text of the question
                     
                     //spazio tra loro:14 tutoil blocco: t:325 l:173 r:39 s:39

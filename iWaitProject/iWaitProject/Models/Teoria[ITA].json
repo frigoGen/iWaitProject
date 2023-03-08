@@ -9,44 +9,44 @@
             {
                 "id": 1,
                 "Text": "La divisa del cameriere di sala prevede scarpe classiche, pantaloni lunghi e dal taglio elegante e camicia che abbiano un aspetto raffinato e tradizionale. In determinati contesti, la divisa prevede anche gilet, cravatta e - ma è piuttosto raro - guanti bianchi.",
-                "Image": "La Divisa"
+                "Image": "t1"
             },
             {
                 "id": 2,
                 "Text": "La brigata in generale può essere schematizzata gerarchicamente. In primo luogo abbiamo il Maitre d'hotel, dopodiché ci sono lo chef de rang e lo chef ai vini, e infine il commis de rang.",
-                "Image": "card1"
+                "Image": "t2"
             },
             {"id": 3,
                 "Text": "DIRETTORE DI RISTORANTE \n Si occupa dell'organizzazione e dell'amministrazione del servizio di ristorazione. Coaudiuvato dal maître d'hotel, stabilisce anche i turni di servizio e i periodi di riposo del personale. Inoltre, è responsabile del food and beverage manager.\n \n DIRETTORE AI BANCHETTI \n Gestisce il servizio banchetti e sovrintende a tutti gli aspetti organizzativi: prepara il buffet, ne cura l'estetica, si occupa del menu e della scelta delle bevande)",
-                "Image": "card2"
+                "Image": "t3"
             },
             {"id": 4,
                 "Text": "PRIMO MAITRE D'HOTEL \n Gestisce il servizio in camera e determina l'organico. Definisce i turni del personale in collaborazione con il direttore. Prende le comande, mantiene i rapporti con gli ospiti. È responsabile delle attrezzature e si occupa dell'inventario",
-                "Image": "card3"
+                "Image": "t4"
             },
             {"id": 5,
                 "Text": "SECONDO MAITRE D'HOTEL \n Assiste il primo maître d'hotel. Coordina e supervisiona il servizio, gli orari del personale e la pulizia della sala e delle attrezzature. Riceve gli ospiti, prende le ordinazioni; in mancanza di personale, prepara anche i piatti alla lampada",
-                "Image": "card4"
+                "Image": "t5"
             },
             {"id": 6,
                 "Text": "MAITRE AI BANCHETTI \n Si occupa dell'organizzazione e del servizio dei banchetti secondo le direttive del banquet manager.\n MAITRE AI PIANI \n È responsabile del servizio dei pasti nelle camere. La sua postazione di lavoro si trova vicino all'ufficio ai piani, a diretto contatto telefonico con gli ospiti. Risponde al direttore dell'albergo o al maître d'hôtel",
-                "Image": "card5"
+                "Image": "t6"
             },
             {"id": 7,
                 "Text": "SOMMELIER (chef del vino) \n Si occupa di scegliere i vini, di servirli, di selezionarli e di abbinarli al cibo. \n COMMIS SOMMELIER \n Lavora a stretto contatto con il sommelier",
-                "Image": "card6"
+                "Image": "t7"
             },
             {"id": 8,
                 "Text": "SALON HOSTESS \n Svolge mansioni di accoglienza clienti. Riceve le prenotazioni e le comunicazioni telefoniche. Contribuisce al servizio di guardaroba e aiuta il maitre accompagnando gli ospiti ai loro tavoli, se necessario.",
-                "Image": "card7"
+                "Image": "t8"
             },
             {"id": 9,
                 "Text": "CHEF DE RANG \n Si occupa dell'adattamento del servizio del suo rango e partecipa sia alla mise en place della sala da pranzo che alla pulizia del suo reparto. Se necessario, serve anche i piatti e prende le ordinazioni. Collabora con il commis, guidandolo nella distribuzione e nella consegna delle comande",
-                "Image": "card8"
+                "Image": "t9"
             },
             {"id": 10,
                 "Text": "COMMIS DE RANG \n Prende gli ordini dallo chef de rang. Raccoglie i piatti dalla cucina e li dispone sul tavolo di servizio, si occupa della mise en place, dispone il materiale in ufficio, pulisce i tavoli e mantiene pulite le attrezzature e le aree di lavoro.\n \n COMMIS D'ETAGE (commis ai piani) \n Collabora con il maître ai piani nella preparazione dei carrelli e dei vassoi di servizio. Si occupa dell'ordine e della pulizia dell'ufficio ai piani",
-                "Image": "card9"
+                "Image": "t10"
             }
         ]
         },
@@ -64,11 +64,11 @@
             {
                 "id": 2,
                 "Text": "Nel primo caso, il cliente sceglie i suoi piatti al momento e quindi il menu non è noto; il personale provvede a sistemare i coperti man mano. Nel secondo caso, invece, il menu è noto in anticipo e tutte le posate necessarie per il servizio vengono preparate prima. In entrambi i casi, comunque, è necessario essere in grado di disporre correttamente il materiale su un tavolo.",
-                "Image": "card22"
+                "Image": "tt2"
             },
             {"id": 3,
                 "Text": "Tovagliolo/n posto a mezzo centimetro dal bordo del tavolo, a sinistra delle forchette piegato in modo semplice.Coltello grande/n a destra del sottopiatto con la lama rivolta verso l'interno.Secondo coltello a destra accanto al primo.Forchetta grande a sinistra del sottopiatto. Seconda forchetta a sinistra della prima, un po' più alta della prima",
-                "Image": "miseenplace"
+                "Image": "tt3"
             },
             {"id": 4,
                 "Text": "Bicchieri il bicchiere per il vino rosso va posto sopra la punta del coltello, a circa 1 cm di distanza il bicchiere per l'acqua va posto in diagonale, un po' più in alto di quello per il vino rossoil bicchiere per il vino bianco va posto in diagonale, un po' più in basso di quello per il vino rosso Se oltre a questi bicchieri è necessario anche il flûte, va posto in diagonale sopra il bicchiere per l'acqua.",
@@ -89,15 +89,15 @@
                         },
                         {"id": 8,
                             "Text": "Il menu è un insieme di preparazioni culinarie che rappresentano i piatti dall'antipasto al dolce che si possono avere. Viene presentato con prezzo fisso al cliente.Ogni dipendente deve conoscere il menu e gli ingredienti dei piatti.I piatti sono divisi in categorie: gli antipasti, i primi, il pesce, la carne, i contorni e il dessert",
-                            "Image": "card28"
+                            "Image": "tt4"
                         },
                         {"id": 9,
                             "Text": "In un menù è necessario inserire tutte le componenti nutrizionali: lipidi, glucosio ecc.Deve essere adeguato alla stagione con le giuste dosi di nutrienti.Contenere I prodotti tipici del paese Un budget adeguato alla preparazione",
-                            "Image": "card29"
+                            "Image": "tt5"
                         },
                         {"id": 10,
                             "Text": "La carta presenta una selezione di piatti ciascuno con un prezzo assegnato. La carta comprende: antipasti, pasti (primo, secondo, dessert), vini e bevande. Possono esserci diversi tipi di carte: la carta degli aperitivi, la carta dei pasti, dei vini e delle bevande, della caffetteria, dei dessert e dei digestivi.",
-                            "Image": "card30"
+                            "Image": "tt5"
                         }
                     ]
                     },
