@@ -60,6 +60,7 @@ struct HomeView: View {
                                         .foregroundColor(.black)
                                         .font(.body)
                                         .bold()
+                                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                                 }
                                 
                             }
@@ -73,6 +74,7 @@ struct HomeView: View {
                                         .foregroundColor(.black)
                                         .font(.body)
                                         .bold()
+                                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                                 }
                                 
                             }
@@ -86,6 +88,7 @@ struct HomeView: View {
                                         .foregroundColor(.black)
                                         .font(.body)
                                         .bold()
+                                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                                     
                                     
                                 }
@@ -98,7 +101,7 @@ struct HomeView: View {
                 VStack{
                     Spacer(minLength: 60)
                     
-                    NavigationLink(destination: ProfileView(selectedLan: tempotest)){
+                    NavigationLink(destination: ProfileView(selectedLan: .eng, percent1:CGFloat(saveData.score[0]),percent2: CGFloat(10))){
                         ZStack{
                             Image("bollapic")
                             Image("id")

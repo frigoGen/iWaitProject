@@ -1,5 +1,10 @@
 [
     {
+        "first" : [ "O que você vai aprender?",
+            "O uniforme de trabalho",
+            "Como a brigada da sala de jantar é estruturada",
+            "Os deveres dos papéis individuais"
+            ],
         "module": {
             "Number":1,
             "Text": "Uniforme e Brigada"
@@ -57,6 +62,11 @@
         ]
     },
     {
+        "first" : [ "O que você vai aprender?",
+            "Definition of the mîse en place",
+            "Definição do mîse en place",
+            "Diferenças entre os tipos demîse en place"
+        ],
         "module": {
             "Number":2,
             "Text": "Mise en place e menù"
@@ -108,6 +118,11 @@
         ]
     },
     {
+        "first" : [ "O que você vai aprender?",
+            "Higiene e segurança no trabalho",
+            "Princípios básicos do HACCP",
+            "Regras de primeiros socorros"
+        ],
         "module": {
             "Number":3,
             "Text":"Higiene e Segurança e HACCP"

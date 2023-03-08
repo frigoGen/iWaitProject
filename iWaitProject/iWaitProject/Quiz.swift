@@ -198,7 +198,7 @@ struct QuizView: View {
             }
         }
         .onAppear{
-            quiz = load(quizData[tex])
+            quiz = load(quizData[saveData.cacao.language])
         }
     }
         

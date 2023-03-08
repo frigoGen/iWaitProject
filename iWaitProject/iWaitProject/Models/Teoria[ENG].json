@@ -1,5 +1,10 @@
 [
     {
+        "first" : [ "What will you learn?",
+            "The working uniform",
+            "How the dining room brigade is structured",
+            "The duties of the individual roles"
+            ],
         "module": {
             "Number": 1,
             "Text": "Uniform and Brigade"
@@ -50,6 +55,11 @@
         ]
     },
     {
+        "first" : [ "What will you learn? ",
+            "Definition of the mîse en place",
+            "Mîse en place arrangement",
+            "Differences between types ofmîse en place"
+        ],
         "module": {
             "Number": 2,
             "Text": "Mise en place and menù"
@@ -100,6 +110,11 @@
         ]
     },
     {
+        "first" : [ "What will you learn? ",
+            "Hygiene and safety at work",
+            "Fundamental principles of HACCP",
+            "First Aid Rules"
+        ],
         "module": {
             "Number": 3,
             "Text": "Hygiene and Safety and HACCP"
