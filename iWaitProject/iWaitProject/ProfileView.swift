@@ -45,13 +45,15 @@ struct ProfileView: View {
                         Spacer()
                         Image("profile2")
                         
-                                            VStack(spacing:5) {
-                                                Text(saveData.cacao.name)
-                                                    .font(.title)
-                                                    .foregroundColor(.black)
-                                                    .fontWeight(.bold)
-                                                    .padding(.top, 40.0)
-                                                    
+                        VStack(spacing:5) {
+                            ZStack{
+                                //Image("rekkit")
+                                Text(saveData.cacao.name)
+                                .font(.title)
+                                .foregroundColor(.black)
+                                .fontWeight(.bold)
+                                .padding(.top, 40.0)
+                        }
                                                     
                                                 if(selectedLan == .eng){
                                                     Text("Theory")
