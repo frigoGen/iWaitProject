@@ -20,7 +20,7 @@ struct ProfileView: View {
     @State var percent1: CGFloat
     @State var percent2: CGFloat
     enum Language: String, CaseIterable, Identifiable {
-        case ita, bra, eng, nul
+        case ita, bra, eng
         var id: Self { self }
     }
     
@@ -28,15 +28,17 @@ struct ProfileView: View {
     var body: some View {
         let multiplier = width/100
 
-            
-            
-            
-           // GeometryReader{ geometry in
                 VStack{
                     Picker("Seleziona Lingua",selection: $selectedLan) {
-                        Image("ita").tag(Language.ita)
-                        Image("bra").tag(Language.bra)
-                        Image("eng").tag(Language.eng)
+                        HStack{
+                            Text("  English ")
+                            Image("eng")}.tag(Language.eng)
+                        HStack{
+                            Text("  Italiano ")
+                            Image("ita")}.tag(Language.ita)
+                        HStack{
+                            Text("  Português ")
+                            Image("bra")}.tag(Language.bra)
                     }
                 
                     ZStack{
@@ -44,15 +46,24 @@ struct ProfileView: View {
                         Image("profile2")
                         
                                             VStack(spacing:5) {
-                                                //Image("a caso")
                                                 Text(saveData.cacao.name)
                                                     .font(.title)
+                                                    .foregroundColor(.black)
                                                     .fontWeight(.bold)
                                                     .padding()
-                                                Text("Teoria")
-                                                    .font(.title)
-                                                    .fontWeight(.bold)
-                                                    .padding()
+                                                    
+                                                if(selectedLan == .eng){
+                                                    Text("Theory")
+                                                        .font(.title)
+                                                        .fontWeight(.bold)
+                                                        .padding()
+                                                }
+                                                else{
+                                                    Text("Teoria")
+                                                        .font(.title)
+                                                        .fontWeight(.bold)
+                                                        .padding()
+                                                }
                                                 ZStack (alignment: .leading)
                                                 {
                                                     RoundedRectangle(cornerRadius: height, style: .continuous)
@@ -85,65 +96,39 @@ struct ProfileView: View {
                                                             .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
                                                         )
                                                     .foregroundColor(.clear)}
-                                                /*Text("Game")
-                                                    .font(.title)
-                                                    .fontWeight(.bold)
-                                                    .padding()
-                                                ZStack (alignment: .leading)
+                                                //Spacer()
+                                                NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true))
                                                 {
-                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
-                                                        .frame(width: width, height: height)
-                                                        .foregroundColor(Color.black.opacity(0.1))
-                                                    RoundedRectangle(cornerRadius: height, style: .continuous)
-                                                        .frame(width: percent * multiplier, height: height)
-                                                        .background(
-                                                            LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]),
-                                                                           startPoint: .leading, endPoint: .trailing)
-                                                            .clipShape(RoundedRectangle(cornerRadius: height, style: .continuous))
-                                                        )
-                                                    .foregroundColor(.clear)}*/
+                                                    ZStack{
+                                                        Text("Salva")
+                                                            .font(.headline)
+                                                            .fontWeight(.bold)
+                                                            .foregroundColor(Color.black)
+                                                            
+                                                        Image("GETREKT")
+                                                            
+                                                    }.padding(.top,50)
+                                                    
+                                                }.simultaneousGesture(TapGesture().onEnded {
+                                                    if(selectedLan == .bra){saveData.cacao.language = 2}
+                                                    else if(selectedLan == .eng){saveData.cacao.language = 0}
+                                                    else if (selectedLan == .ita){saveData.cacao.language = 1}
+                                                    let encoder = JSONEncoder()
+                                                    if let encoded = try? encoder.encode(saveData) {
+                                                        UserDefaults.standard.set(encoded, forKey: "saves")
+                                                    }
+                                                    print(saveData.cacao.language)
+                                                    card = load(CardArray[saveData.cacao.language])
+                                                })
+                                        
                                             }
-
-                        
-                        //   Image("back")
-                        // .padding(.leading, -150.0)
-                        //ZStack{
-                        
-                       
-                        /*TextField("Name" , text: $textfieldText)
-                        
-                            .padding(.top, 450.0)
-                            .padding(.horizontal, 90.0)
-                            .foregroundColor(.black)*/
-                        
-                        
-                       // Button("Save")
-                        
-                       // {
-                        //    if !textfieldText.isEmpty
-                          //  {
-                         //       print("Text: \(textfieldText)")
-                          //  }
-                            //Button (action: {
-                            // Qui puoi aggiungere il codice per cambiare la lingua dell'applicazione
-                            // })
-                            // {
-                            //  Text("Cambia lingua")
-                            
-                      //  }
-                      //  .padding(.bottom, 100.0)
-                      //  .padding(.horizontal, 70.0)
                         
                     }
-                    //.frame(width: 303, height: 404)
                    Spacer()
                 }
-                Spacer()
+                //
             }
-
-        
     }
-//}
 
     struct ProfileView_Previews: PreviewProvider {
         static var previews: some View {

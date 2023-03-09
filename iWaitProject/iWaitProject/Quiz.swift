@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 let quizData : [String] = ["QuizData[EN]","QuizData[IT]","QuizData[PT]"]
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
@@ -34,6 +35,8 @@ struct QuizView: View {
     @State var imageQuiz: [[String]] = [["t1","t7","t11","t10","t11","t2","t5","t3","t3","t10","t1","t1"],["Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image","Image"],["t12","t12","2","5","9","9","1","2","1","t12","t12","t12"]]
     //------------
     @State var blocker: Int = -1
+    @State var audioPlayer:AVAudioPlayer?
+    @State var isPlaying : Bool = false
     var tex: Int
     @State var zest = 0
         //number of question
@@ -222,14 +225,47 @@ struct QuizView: View {
                 if(isWrong[n-1] == -1){self.score = self.score + 1}
                 isWrong[n-1] = 0
                 blocker = 1
+                if let path = Bundle.main.path(forResource: "correct", ofType: "wav") {
+
+                             self.audioPlayer = AVAudioPlayer()
+
+                             self.isPlaying.toggle()
+
+                             let url = URL(fileURLWithPath: path)
+
+                             do {
+                                 self.audioPlayer = try AVAudioPlayer(contentsOf: url)
+                                 self.audioPlayer?.prepareToPlay()
+                                 self.audioPlayer?.play()
+                             }catch {
+                                 print("Error")
+                             }
+                         }
             }
             else{
                 print("IM")
                 blocker = 0
                 isWrong[n-1] = 1
+                if let path = Bundle.main.path(forResource: "incorrect", ofType: ".wav") {
+
+                             self.audioPlayer = AVAudioPlayer()
+
+                             self.isPlaying.toggle()
+
+                             let url = URL(fileURLWithPath: path)
+
+                             do {
+                                 self.audioPlayer = try AVAudioPlayer(contentsOf: url)
+                                 self.audioPlayer?.prepareToPlay()
+                                 self.audioPlayer?.play()
+                             }catch {
+                                 print("Error")
+                             }
+                         }
                 
             }
             //GO TO NEXT QUESTION
+         
          
 
          if(self.i<12){print("i:\(i) n:\(n) correct: \(quiz[tex].questions[i-1].correct_answer) blocker:\(blocker)")}

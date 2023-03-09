@@ -19,7 +19,7 @@ struct ViewLanguages: View {
                 
                 
                 TextField(
-                    "  Nickname",
+                    "Nickname/Nome",
                     text: $username
                 )
                 .frame(width: 301,height: 65)
@@ -28,7 +28,6 @@ struct ViewLanguages: View {
                 .padding(.top, 18)
                 .padding(.bottom, 18)
                 .multilineTextAlignment(.center)
-                
                 
                 VStack(alignment: .center){
                     HStack{
@@ -40,9 +39,12 @@ struct ViewLanguages: View {
                                     .foregroundColor(Color(red: 0.85, green: 0.85, blue: 0.85))
                                 Image("bra")}
                         }.simultaneousGesture(TapGesture().onEnded{
-                        saveData.cacao.language = 2
-                            UserDefaults.standard.set(try? PropertyListEncoder().encode(saveData), forKey:"saves")
-                    })
+                            saveData.cacao.language = 2
+                            saveData.cacao.name = username
+                            let encoder = JSONEncoder()
+                            if let encoded = try? encoder.encode(saveData) {
+                                UserDefaults.standard.set(encoded, forKey: "saves")
+                            }})
                     NavigationLink(destination:resocontoView().navigationBarBackButtonHidden(true)){
                                 ZStack{
                                 Rectangle()
@@ -54,8 +56,11 @@ struct ViewLanguages: View {
                             }
                         }.simultaneousGesture(TapGesture().onEnded{
                             saveData.cacao.language = 1
-                            UserDefaults.standard.set(try? PropertyListEncoder().encode(saveData), forKey:"saves")
-                        })
+                            saveData.cacao.name = username
+                            let encoder = JSONEncoder()
+                            if let encoded = try? encoder.encode(saveData) {
+                                UserDefaults.standard.set(encoded, forKey: "saves")
+                            }})
                     NavigationLink(destination: resocontoView().navigationBarBackButtonHidden(true)){
                             ZStack{
                                 Rectangle()
@@ -70,8 +75,10 @@ struct ViewLanguages: View {
                             saveData.cacao.language = 0
                             saveData.cacao.name = username
                             print("Lan: \(saveData.cacao.language) Name: \(saveData.cacao.name)")
-                            UserDefaults.standard.set(try? PropertyListEncoder().encode(saveData), forKey:"saves")
-                        })
+                            let encoder = JSONEncoder()
+                            if let encoded = try? encoder.encode(saveData) {
+                                UserDefaults.standard.set(encoded, forKey: "saves")
+                            }})
                     }
                     HStack{
                         

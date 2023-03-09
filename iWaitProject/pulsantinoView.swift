@@ -48,7 +48,10 @@ struct pulsantinoView: View {
                 }
                 
             }.simultaneousGesture(TapGesture().onEnded{
-                UserDefaults.standard.set(try? PropertyListEncoder().encode(saveData), forKey:"saves")
+                let encoder = JSONEncoder()
+                if let encoded = try? encoder.encode(saveData) {
+                    UserDefaults.standard.set(encoded, forKey: "saves")
+                }
             })
         }
         

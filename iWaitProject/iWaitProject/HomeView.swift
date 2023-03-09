@@ -33,19 +33,19 @@ struct HomeView: View {
             scene2.scaleMode = .fill
             return scene2
         }
+    
     var body: some View {
-        var tempotest: ProfileView.Language = .nul
+        var tempotest: ProfileView.Language = saveData.cacao.language == 1  ? .ita : saveData.cacao.language == 2 ? .bra : .eng
+        
         NavigationView {
-            
             ZStack{
-                
                 Image("home")
                     .resizable()
                     .padding(.bottom)
                     .scaledToFill()
-                
-                /*Color(uiColor: UIColor(red: 0.98, green: 0.95, blue: 0.87, alpha: 1.00))*/
-                
+                    .onAppear{
+                        print("lan\(tempotest)  cacao: \(saveData.cacao.language)")
+                    }
                 ScrollView{
                     LazyVGrid(columns: [GridItem(.fixed(200))]) {
                         VStack{
@@ -62,7 +62,6 @@ struct HomeView: View {
                                         .bold()
                                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                                 }
-                                
                             }
                             NavigationLink(destination: Buttons(tex: 1,mode: false)){
                                 ZStack{
@@ -101,32 +100,18 @@ struct HomeView: View {
                 VStack{
                     Spacer(minLength: 60)
                     
-                    NavigationLink(destination: ProfileView(selectedLan: .eng, percent1:CGFloat(saveData.score[0]),percent2: CGFloat(10))){
+                    NavigationLink(destination: ProfileView(selectedLan: tempotest, percent1:CGFloat(saveData.score[0]),percent2: CGFloat(10))){
                         ZStack{
                             Image("bollapic")
                             Image("id")
                         }
-                        
                     }
-                    // NavigationLink(destination: Text("Toggle Music")){
-                    //   Image("bollapic")
-                    
-                    //  }
                 }
                 .padding(.all)
                 .frame(width: 100.0, height: 100.0)
                 .position(x:340,y: 40)
-                
             }
-            
-            // .background(Color(UIColor(red: 0.44, green: 0.09, blue: 0.13, alpha: 1.00)
-            //  ))
-            
         }
-        //.foregroundColor(.black)
-   
-
-        
     }
 }
 

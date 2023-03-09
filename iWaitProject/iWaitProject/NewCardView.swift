@@ -7,9 +7,10 @@
 
 
 import SwiftUI
+import Foundation
 
 var markdownText: AttributedString = ""
-var CardArray: [String] = ["Teoria[ENG]","Teoria[ITA]","Teoria[PTG]"]
+public var CardArray: [String] = ["Teoria[ENG]","Teoria[ITA]","Teoria[PTG]"]
 public var card: [CardModelUp] = load(CardArray[saveData.cacao.language])
 public let colors: [UIColor] = [UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.65),UIColor(red: 0.71, green: 0.94, blue: 0.81, alpha: 0.65)]
 // i bottoni indietro alla view si mette in automaticivo dalla view parent
@@ -23,7 +24,7 @@ struct NewCardView: View {
                 .edgesIgnoringSafeArea(.all)
             TabView {
                 VStack{
-                    Text("Cosa Imparerai?")
+                    Text(card[tex].first[0])
                         .font(.custom("SFPro-Medium",size: 17))
                         .bold()
                         .font(.body)
@@ -77,7 +78,8 @@ struct NewCardView: View {
                                 .scaledToFit()
                                 .frame(width: 355,height: 370)
                                 .padding(.top,50)
-                            Text(try! AttributedString(markdown: cards.Text ))
+                            Text(.init(cards.Text))
+                           // Text(try! AttributedString(markdown: cards.Text, options: .inlineOnlyPreservingWhitespace))
                                 .frame(width: 300,height: 300)
                                 .font(.custom("SFPro-Medium",size: 17))
                                 .fontWeight(.heavy)
@@ -94,11 +96,24 @@ struct NewCardView: View {
                 NavigationLink(destination: Buttons(tex: tex, mode: true).navigationBarBackButtonHidden(true)) {
                     ZStack{
                         Image("Question")
+                        if(saveData.cacao.language == 1){
                         Text("Sblocca il Quiz")
                             .foregroundColor(Color.black)
                             .font(.custom("SFPro-Medium",size: 17))
                             .fontWeight(.heavy)
-                        .font(.body)
+                        .font(.body)}
+                        else if(saveData.cacao.language == 0){
+                            Text("Unlock the Quiz")
+                                .foregroundColor(Color.black)
+                                .font(.custom("SFPro-Medium",size: 17))
+                                .fontWeight(.heavy)
+                            .font(.body)}
+                        else{
+                        Text("Desbloquear o questionário")
+                            .foregroundColor(Color.black)
+                            .font(.custom("SFPro-Medium",size: 17))
+                            .fontWeight(.heavy)
+                        .font(.body)}
                         
                     }
                 }

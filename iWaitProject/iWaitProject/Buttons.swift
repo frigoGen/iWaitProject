@@ -49,12 +49,20 @@ struct Buttons: View {
                 ZStack{
                     Image("Etichetta")
                     .padding(.vertical,15)
-
-                    Text("Teoria")
-                        .fontWeight(.heavy)
-                        .foregroundColor(.black)
-                        .font(.custom("SFPro",size: 17))
-                        .bold()
+                    if(saveData.cacao.language == 0){
+                        Text("Theory")
+                            .fontWeight(.heavy)
+                            .foregroundColor(.black)
+                            .font(.custom("SFPro",size: 17))
+                            .bold()
+                    }
+                    else {
+                        Text("Teoria")
+                            .fontWeight(.heavy)
+                            .foregroundColor(.black)
+                            .font(.custom("SFPro",size: 17))
+                            .bold()
+                    }
                 }
 
             }
