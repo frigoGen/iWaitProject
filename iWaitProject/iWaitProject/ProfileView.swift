@@ -50,7 +50,8 @@ struct ProfileView: View {
                                                     .font(.title)
                                                     .foregroundColor(.black)
                                                     .fontWeight(.bold)
-                                                    .padding()
+                                                    .padding(.top, 40.0)
+                                                    
                                                     
                                                 if(selectedLan == .eng){
                                                     Text("Theory")

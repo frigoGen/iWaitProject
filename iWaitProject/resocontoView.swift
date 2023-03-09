@@ -14,6 +14,7 @@ struct resocontoView: View {
                 ViewEnd()
             
         } .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+            .background(Color(uiColor: UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.85)))
     }
 }
 

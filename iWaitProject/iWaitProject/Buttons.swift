@@ -15,7 +15,7 @@ struct Buttons: View {
     var body: some View {
         
         ZStack{
-            Color(.systemGray5)
+            Color(uiColor: colors[tex])
             if(mode){
                 
                 NavigationLink(destination: HomeView().navigationBarBackButtonHidden(true)//.withAnimation(nil, )

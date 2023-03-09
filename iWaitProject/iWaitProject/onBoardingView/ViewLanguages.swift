@@ -11,6 +11,8 @@ struct ViewLanguages: View {
     @State private var username: String = ""
     var body: some View {
         NavigationView{
+            ZStack{
+                Color(uiColor: UIColor(red: 0.93, green: 0.89, blue: 0.64, alpha: 0.85))
             VStack(alignment: .center){
                 Image("clochepallini")
                     .resizable()
@@ -45,8 +47,8 @@ struct ViewLanguages: View {
                             if let encoded = try? encoder.encode(saveData) {
                                 UserDefaults.standard.set(encoded, forKey: "saves")
                             }})
-                    NavigationLink(destination:resocontoView().navigationBarBackButtonHidden(true)){
-                                ZStack{
+                        NavigationLink(destination:resocontoView().navigationBarBackButtonHidden(true)){
+                            ZStack{
                                 Rectangle()
                                     .frame(width: 52,height: 34)
                                     .cornerRadius(10)
@@ -61,7 +63,7 @@ struct ViewLanguages: View {
                             if let encoded = try? encoder.encode(saveData) {
                                 UserDefaults.standard.set(encoded, forKey: "saves")
                             }})
-                    NavigationLink(destination: resocontoView().navigationBarBackButtonHidden(true)){
+                        NavigationLink(destination: resocontoView().navigationBarBackButtonHidden(true)){
                             ZStack{
                                 Rectangle()
                                     .frame(width: 52,height: 34)
@@ -94,6 +96,8 @@ struct ViewLanguages: View {
                 
             }
         }.ignoresSafeArea()
+        
+    }
             
     }
 }
